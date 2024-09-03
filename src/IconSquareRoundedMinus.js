@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgIcon2Fa = (props) => (
+const SvgIconSquareRoundedMinus = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -13,8 +13,8 @@ const SvgIcon2Fa = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M7 16H3l3.47-4.66A2 2 0 1 0 3 9.8m7 6.2V8h4m-4 4h3m4 4v-6a2 2 0 1 1 4 0v6m-4-3h4"
+      d="M9 12h6m-3-9c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9"
     />
   </svg>
 );
-export default SvgIcon2Fa;
+export default SvgIconSquareRoundedMinus;

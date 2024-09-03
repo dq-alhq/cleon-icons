@@ -23,96 +23,6 @@
 
   var React__namespace = /*#__PURE__*/_interopNamespaceDefault(React);
 
-  const SvgIcon2Fa = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 24,
-    height: 24,
-    fill: "none",
-    viewBox: "0 0 24 24"
-  }, props, {
-    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
-    "data-slot": "icon",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React__namespace.createElement("path", {
-    stroke: "currentColor",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    strokeWidth: 2,
-    d: "M7 16H3l3.47-4.66A2 2 0 1 0 3 9.8m7 6.2V8h4m-4 4h3m4 4v-6a2 2 0 1 1 4 0v6m-4-3h4"
-  }));
-
-  const SvgIcon360View = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 24,
-    height: 24,
-    fill: "none",
-    viewBox: "0 0 24 24"
-  }, props, {
-    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
-    "data-slot": "icon",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React__namespace.createElement("path", {
-    stroke: "currentColor",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    strokeWidth: 2,
-    d: "M14 6a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-3M3 5h2.5A1.5 1.5 0 0 1 7 6.5v1A1.5 1.5 0 0 1 5.5 9m0 0H4m1.5 0A1.5 1.5 0 0 1 7 10.5v1A1.5 1.5 0 0 1 5.5 13H3m0 3c0 1.657 4.03 3 9 3s9-1.343 9-3m-4-9v4a2 2 0 0 0 4 0V7a2 2 0 1 0-4 0"
-  }));
-
-  const SvgIcon360 = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 24,
-    height: 24,
-    fill: "none",
-    viewBox: "0 0 24 24"
-  }, props, {
-    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
-    "data-slot": "icon",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React__namespace.createElement("path", {
-    stroke: "currentColor",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    strokeWidth: 2,
-    d: "M17 15.328c2.414-.718 4-1.94 4-3.328 0-2.21-4.03-4-9-4s-9 1.79-9 4 4.03 4 9 4m0 0-3-3m3 3-3 3"
-  }));
-
-  const SvgIcon3DCubeSphere = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 24,
-    height: 24,
-    fill: "none",
-    viewBox: "0 0 24 24"
-  }, props, {
-    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
-    "data-slot": "icon",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React__namespace.createElement("path", {
-    stroke: "currentColor",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    strokeWidth: 2,
-    d: "m6 17.6-2-1.1V14m0-4V7.5m0 0 2-1.1M4 7.5l2 1.1m4-4.5L12 3l2 1.1m4 2.3 2 1.1m0 0V10m0-2.5-2 1.1m2 5.4v2.5l-2 1.12m-4 2.28L12 21m0 0-2-1.1m2 1.1v-2.5m0-6.5 2-1.1M12 12v2.5m0-2.5-2-1.12"
-  }));
-
-  const SvgIcon3DRotate = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 24,
-    height: 24,
-    fill: "none",
-    viewBox: "0 0 24 24"
-  }, props, {
-    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
-    "data-slot": "icon",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React__namespace.createElement("path", {
-    stroke: "currentColor",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    strokeWidth: 2,
-    d: "M12 3a7 7 0 0 1 7 7v4m0 0-3-3m3 3 3-3M3 12.5l5 3V21m-5-8.5 5-3 5 3V18l-5 3m-5-8.5V18l5 3m0-5.455 5-3.03"
-  }));
-
   const SvgIconAccessPoint = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
@@ -6487,6 +6397,42 @@
     clipRule: "evenodd"
   }));
 
+  const SvgIconCircleMinus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M9 12h6M3 12a9 9 0 1 0 18.001 0A9 9 0 0 0 3 12"
+  }));
+
+  const SvgIconCirclePlus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M9.172 12h5.656M12 9.172v5.656m-6.364 3.536A9 9 0 1 0 18.364 5.635 9 9 0 0 0 5.636 18.364"
+  }));
+
   const SvgIconCircleX = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
@@ -7391,6 +7337,24 @@
     strokeLinejoin: "round",
     strokeWidth: 2,
     d: "m12 6 4 6 5-4-2 10H5L3 8l5 4z"
+  }));
+
+  const SvgIconCubeSphere = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "m6 17.6-2-1.1V14m0-4V7.5m0 0 2-1.1M4 7.5l2 1.1m4-4.5L12 3l2 1.1m4 2.3 2 1.1m0 0V10m0-2.5-2 1.1m2 5.4v2.5l-2 1.12m-4 2.28L12 21m0 0-2-1.1m2 1.1v-2.5m0-6.5 2-1.1M12 12v2.5m0-2.5-2-1.12"
   }));
 
   const SvgIconCup = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -12139,7 +12103,7 @@
     d: "M14 7a3 3 0 0 1 3 3v10a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V10a3 3 0 0 1 3-3m4 0h-4m4 0V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3m0 7h4m-2-2v4"
   }));
 
-  const SvgIconMenu2 = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  const SvgIconMenu = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
     height: 24,
@@ -12381,6 +12345,24 @@
     strokeLinejoin: "round",
     strokeWidth: 2,
     d: "M17 10a5 5 0 0 0-5-5m5 5H7m10 0a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1m-5-8a5 5 0 0 0-5 5m5-5V3m-5 7a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1m10 0H7m10 0-1.81 7.243a1 1 0 0 1-.97.757H9.78a1 1 0 0 1-.97-.757L7 13"
+  }));
+
+  const SvgIconMinus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M5 12h14"
   }));
 
   const SvgIconMist = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -13454,6 +13436,24 @@
     d: "m4 20 3.5-3.5M15 4l-3.5 3.5M20 9l-3.5 3.5M9.785 6 18 14.215l-2.054 2.054a5.809 5.809 0 1 1-8.215-8.215z"
   }));
 
+  const SvgIconPlus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M12 5v14m-7-7h14"
+  }));
+
   const SvgIconPodium = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
@@ -13992,6 +13992,42 @@
     strokeLinejoin: "round",
     strokeWidth: 2,
     d: "M5 7.2A2.2 2.2 0 0 1 7.2 5h1a2.2 2.2 0 0 0 1.55-.64l.7-.7a2.2 2.2 0 0 1 3.12 0l.7.7c.412.41.97.64 1.55.64h1a2.2 2.2 0 0 1 2.2 2.2v1c0 .58.23 1.138.64 1.55l.7.7a2.2 2.2 0 0 1 0 3.12l-.7.7a2.2 2.2 0 0 0-.64 1.55v1a2.2 2.2 0 0 1-2.2 2.2h-1a2.2 2.2 0 0 0-1.55.64l-.7.7a2.2 2.2 0 0 1-3.12 0l-.7-.7a2.2 2.2 0 0 0-1.55-.64h-1a2.2 2.2 0 0 1-2.2-2.2v-1a2.2 2.2 0 0 0-.64-1.55l-.7-.7a2.2 2.2 0 0 1 0-3.12l.7-.7A2.2 2.2 0 0 0 5 8.2z"
+  }));
+
+  const SvgIconRotate360 = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M17 15.328c2.414-.718 4-1.94 4-3.328 0-2.21-4.03-4-9-4s-9 1.79-9 4 4.03 4 9 4m0 0-3-3m3 3-3 3"
+  }));
+
+  const SvgIconRotate3D = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M12 3a7 7 0 0 1 7 7v4m0 0-3-3m3 3 3-3M3 12.5l5 3V21m-5-8.5 5-3 5 3V18l-5 3m-5-8.5V18l5 3m0-5.455 5-3.03"
   }));
 
   const SvgIconRotate = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -15416,6 +15452,42 @@
     d: "M12 4v16m0-7 7.5-7.5M12 18l8-8m-5 10 5-5m-8-7 4-4M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
   }));
 
+  const SvgIconSquareMinus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M9 12h6M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+  }));
+
+  const SvgIconSquarePlus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M9 12h5.657m-2.829-2.828v5.656M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+  }));
+
   const SvgIconSquareRoundedCheck = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
@@ -15432,6 +15504,42 @@
     strokeLinejoin: "round",
     strokeWidth: 2,
     d: "m9 12 2 2 4-4m-3-7c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9"
+  }));
+
+  const SvgIconSquareRoundedMinus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M9 12h6m-3-9c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9"
+  }));
+
+  const SvgIconSquareRoundedPlus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M9.172 12h5.656M12 9.172v5.656M12 3c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9"
   }));
 
   const SvgIconSquareRoundedX = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -16853,6 +16961,24 @@
     d: "M5 17a2 2 0 0 0 4 0m-4 0a2 2 0 0 1 4 0m-4 0H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m0 0a2 2 0 0 0 4 0m-4 0a2 2 0 0 1 4 0m0 0h2v-6m0 0h-8m8 0-3-5h-5"
   }));
 
+  const SvgIconTwoFa = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M7 16H3l3.47-4.66A2 2 0 1 0 3 9.8m7 6.2V8h4m-4 4h3m4 4v-6a2 2 0 1 1 4 0v6m-4-3h4"
+  }));
+
   const SvgIconTypographyOff = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
@@ -17175,6 +17301,24 @@
     strokeLinejoin: "round",
     strokeWidth: 2,
     d: "m15 10 4.553-2.276A1 1 0 0 1 21 8.618v6.764a1 1 0 0 1-1.447.894L15 14zM3 8a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+  }));
+
+  const SvgIconView360 = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, props, {
+    className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "M14 6a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-3M3 5h2.5A1.5 1.5 0 0 1 7 6.5v1A1.5 1.5 0 0 1 5.5 9m0 0H4m1.5 0A1.5 1.5 0 0 1 7 10.5v1A1.5 1.5 0 0 1 5.5 13H3m0 3c0 1.657 4.03 3 9 3s9-1.343 9-3m-4-9v4a2 2 0 0 0 4 0V7a2 2 0 1 0-4 0"
   }));
 
   const SvgIconViewportNarrow = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -17831,11 +17975,619 @@
     d: "M4 12h6l-6 8h6m4-16h6l-6 8h6"
   }));
 
-  exports.Icon2Fa = SvgIcon2Fa;
-  exports.Icon360 = SvgIcon360;
-  exports.Icon360View = SvgIcon360View;
-  exports.Icon3DCubeSphere = SvgIcon3DCubeSphere;
-  exports.Icon3DRotate = SvgIcon3DRotate;
+  exports.AccessPoint = SvgIconAccessPoint;
+  exports.Accessible = SvgIconAccessible;
+  exports.Activity = SvgIconActivity;
+  exports.ActivityHeartbeat = SvgIconActivityHeartbeat;
+  exports.AddressBook = SvgIconAddressBook;
+  exports.Adjustments = SvgIconAdjustments;
+  exports.AerialLift = SvgIconAerialLift;
+  exports.AirBalloon = SvgIconAirBalloon;
+  exports.AirConditioningDisabled = SvgIconAirConditioningDisabled;
+  exports.Alarm = SvgIconAlarm;
+  exports.Album = SvgIconAlbum;
+  exports.AlertCircle = SvgIconAlertCircle;
+  exports.AlertSquare = SvgIconAlertSquare;
+  exports.AlertTriangle = SvgIconAlertTriangle;
+  exports.AlignCenter = SvgIconAlignCenter;
+  exports.AlignJustified = SvgIconAlignJustified;
+  exports.AlignLeft = SvgIconAlignLeft;
+  exports.AlignRight = SvgIconAlignRight;
+  exports.Ambulance = SvgIconAmbulance;
+  exports.Anchor = SvgIconAnchor;
+  exports.Antenna = SvgIconAntenna;
+  exports.AntennaBars5 = SvgIconAntennaBars5;
+  exports.Aperture = SvgIconAperture;
+  exports.AppWindow = SvgIconAppWindow;
+  exports.Apple = SvgIconApple;
+  exports.Archive = SvgIconArchive;
+  exports.Armchair = SvgIconArmchair;
+  exports.ArrowBadgeDown = SvgIconArrowBadgeDown;
+  exports.ArrowBadgeLeft = SvgIconArrowBadgeLeft;
+  exports.ArrowBadgeRight = SvgIconArrowBadgeRight;
+  exports.ArrowBadgeUp = SvgIconArrowBadgeUp;
+  exports.ArrowBarDown = SvgIconArrowBarDown;
+  exports.ArrowBarLeft = SvgIconArrowBarLeft;
+  exports.ArrowBarRight = SvgIconArrowBarRight;
+  exports.ArrowBarToDown = SvgIconArrowBarToDown;
+  exports.ArrowBarToLeft = SvgIconArrowBarToLeft;
+  exports.ArrowBarToRight = SvgIconArrowBarToRight;
+  exports.ArrowBarToUp = SvgIconArrowBarToUp;
+  exports.ArrowBarUp = SvgIconArrowBarUp;
+  exports.ArrowBearLeft = SvgIconArrowBearLeft;
+  exports.ArrowBearRight = SvgIconArrowBearRight;
+  exports.ArrowBigDown = SvgIconArrowBigDown;
+  exports.ArrowBigDownLine = SvgIconArrowBigDownLine;
+  exports.ArrowBigLeft = SvgIconArrowBigLeft;
+  exports.ArrowBigLeftLine = SvgIconArrowBigLeftLine;
+  exports.ArrowBigRight = SvgIconArrowBigRight;
+  exports.ArrowBigRightLine = SvgIconArrowBigRightLine;
+  exports.ArrowBigUp = SvgIconArrowBigUp;
+  exports.ArrowBigUpLine = SvgIconArrowBigUpLine;
+  exports.ArrowCurveLeft = SvgIconArrowCurveLeft;
+  exports.ArrowCurveRight = SvgIconArrowCurveRight;
+  exports.ArrowDown = SvgIconArrowDown;
+  exports.ArrowGuide = SvgIconArrowGuide;
+  exports.ArrowLeft = SvgIconArrowLeft;
+  exports.ArrowLeftRight = SvgIconArrowLeftRight;
+  exports.ArrowRight = SvgIconArrowRight;
+  exports.ArrowUp = SvgIconArrowUp;
+  exports.ArrowsCross = SvgIconArrowsCross;
+  exports.ArrowsDiff = SvgIconArrowsDiff;
+  exports.ArrowsDownUp = SvgIconArrowsDownUp;
+  exports.ArrowsExchange = SvgIconArrowsExchange;
+  exports.ArrowsHorizontal = SvgIconArrowsHorizontal;
+  exports.ArrowsMaximize = SvgIconArrowsMaximize;
+  exports.ArrowsMinimize = SvgIconArrowsMinimize;
+  exports.ArrowsMoveHorizontal = SvgIconArrowsMoveHorizontal;
+  exports.ArrowsMoveVertical = SvgIconArrowsMoveVertical;
+  exports.ArrowsVertical = SvgIconArrowsVertical;
+  exports.Article = SvgIconArticle;
+  exports.AspectRatio = SvgIconAspectRatio;
+  exports.AsteriskSimple = SvgIconAsteriskSimple;
+  exports.At = SvgIconAt;
+  exports.Atom = SvgIconAtom;
+  exports.Award = SvgIconAward;
+  exports.Axe = SvgIconAxe;
+  exports.BabyBottle = SvgIconBabyBottle;
+  exports.BabyCarriage = SvgIconBabyCarriage;
+  exports.Backhoe = SvgIconBackhoe;
+  exports.Backpack = SvgIconBackpack;
+  exports.Backspace = SvgIconBackspace;
+  exports.Badge3D = SvgIconBadge3D;
+  exports.Badge4K = SvgIconBadge4K;
+  exports.Badge8K = SvgIconBadge8K;
+  exports.BadgeAd = SvgIconBadgeAd;
+  exports.BadgeAr = SvgIconBadgeAr;
+  exports.BadgeCc = SvgIconBadgeCc;
+  exports.BadgeHd = SvgIconBadgeHd;
+  exports.BadgeSd = SvgIconBadgeSd;
+  exports.BadgeTm = SvgIconBadgeTm;
+  exports.BadgeVo = SvgIconBadgeVo;
+  exports.BadgeVr = SvgIconBadgeVr;
+  exports.BadgeWc = SvgIconBadgeWc;
+  exports.Baguette = SvgIconBaguette;
+  exports.Balloon = SvgIconBalloon;
+  exports.Ban = SvgIconBan;
+  exports.Banana = SvgIconBanana;
+  exports.Barrel = SvgIconBarrel;
+  exports.BarrierBlock = SvgIconBarrierBlock;
+  exports.Basket = SvgIconBasket;
+  exports.Bath = SvgIconBath;
+  exports.Battery = SvgIconBattery;
+  exports.Battery4 = SvgIconBattery4;
+  exports.Beach = SvgIconBeach;
+  exports.Bed = SvgIconBed;
+  exports.Beer = SvgIconBeer;
+  exports.Bell = SvgIconBell;
+  exports.BellSchool = SvgIconBellSchool;
+  exports.Bible = SvgIconBible;
+  exports.Bike = SvgIconBike;
+  exports.Blockquote = SvgIconBlockquote;
+  exports.Bluetooth = SvgIconBluetooth;
+  exports.Bold = SvgIconBold;
+  exports.Bolt = SvgIconBolt;
+  exports.Bomb = SvgIconBomb;
+  exports.Bone = SvgIconBone;
+  exports.Bong = SvgIconBong;
+  exports.Book = SvgIconBook;
+  exports.Book2 = SvgIconBook2;
+  exports.BookUser = SvgIconBookUser;
+  exports.Bookmark = SvgIconBookmark;
+  exports.Books = SvgIconBooks;
+  exports.Bottle = SvgIconBottle;
+  exports.Bowl = SvgIconBowl;
+  exports.Box = SvgIconBox;
+  exports.BoxModel = SvgIconBoxModel;
+  exports.BoxPadding = SvgIconBoxPadding;
+  exports.Brain = SvgIconBrain;
+  exports.BrandAdobe = SvgIconBrandAdobe;
+  exports.BrandAlgolia = SvgIconBrandAlgolia;
+  exports.BrandAlpineJs = SvgIconBrandAlpineJs;
+  exports.BrandAmd = SvgIconBrandAmd;
+  exports.BrandAndroid = SvgIconBrandAndroid;
+  exports.BrandAngular = SvgIconBrandAngular;
+  exports.BrandApache = SvgIconBrandApache;
+  exports.BrandApple = SvgIconBrandApple;
+  exports.BrandAppstore = SvgIconBrandAppstore;
+  exports.BrandArch = SvgIconBrandArch;
+  exports.BrandAstro = SvgIconBrandAstro;
+  exports.BrandAws = SvgIconBrandAws;
+  exports.BrandBehance = SvgIconBrandBehance;
+  exports.BrandBing = SvgIconBrandBing;
+  exports.BrandBootstrap = SvgIconBrandBootstrap;
+  exports.BrandBrave = SvgIconBrandBrave;
+  exports.BrandBun = SvgIconBrandBun;
+  exports.BrandCSharp = SvgIconBrandCSharp;
+  exports.BrandChrome = SvgIconBrandChrome;
+  exports.BrandCleon = SvgIconBrandCleon;
+  exports.BrandCodeigniter = SvgIconBrandCodeigniter;
+  exports.BrandCpp = SvgIconBrandCpp;
+  exports.BrandCss = SvgIconBrandCss;
+  exports.BrandDebian = SvgIconBrandDebian;
+  exports.BrandDeno = SvgIconBrandDeno;
+  exports.BrandDeviantart = SvgIconBrandDeviantart;
+  exports.BrandDiscord = SvgIconBrandDiscord;
+  exports.BrandDocker = SvgIconBrandDocker;
+  exports.BrandDribbble = SvgIconBrandDribbble;
+  exports.BrandEdge = SvgIconBrandEdge;
+  exports.BrandEnvato = SvgIconBrandEnvato;
+  exports.BrandFacebook = SvgIconBrandFacebook;
+  exports.BrandFedora = SvgIconBrandFedora;
+  exports.BrandFigma = SvgIconBrandFigma;
+  exports.BrandFirebase = SvgIconBrandFirebase;
+  exports.BrandFirefox = SvgIconBrandFirefox;
+  exports.BrandFiverr = SvgIconBrandFiverr;
+  exports.BrandFlutter = SvgIconBrandFlutter;
+  exports.BrandFramer = SvgIconBrandFramer;
+  exports.BrandGatsby = SvgIconBrandGatsby;
+  exports.BrandGit = SvgIconBrandGit;
+  exports.BrandGithub = SvgIconBrandGithub;
+  exports.BrandGithubCopilot = SvgIconBrandGithubCopilot;
+  exports.BrandGitlab = SvgIconBrandGitlab;
+  exports.BrandGmail = SvgIconBrandGmail;
+  exports.BrandGojek = SvgIconBrandGojek;
+  exports.BrandGolang = SvgIconBrandGolang;
+  exports.BrandGoogle = SvgIconBrandGoogle;
+  exports.BrandGoogleDrive = SvgIconBrandGoogleDrive;
+  exports.BrandGooglePlay = SvgIconBrandGooglePlay;
+  exports.BrandHtml = SvgIconBrandHtml;
+  exports.BrandInertia = SvgIconBrandInertia;
+  exports.BrandInstagram = SvgIconBrandInstagram;
+  exports.BrandIntel = SvgIconBrandIntel;
+  exports.BrandJava = SvgIconBrandJava;
+  exports.BrandJavascript = SvgIconBrandJavascript;
+  exports.BrandJetbrains = SvgIconBrandJetbrains;
+  exports.BrandKotlin = SvgIconBrandKotlin;
+  exports.BrandLaravel = SvgIconBrandLaravel;
+  exports.BrandLinkedin = SvgIconBrandLinkedin;
+  exports.BrandLinktree = SvgIconBrandLinktree;
+  exports.BrandLinux = SvgIconBrandLinux;
+  exports.BrandMeta = SvgIconBrandMeta;
+  exports.BrandMint = SvgIconBrandMint;
+  exports.BrandMysql = SvgIconBrandMysql;
+  exports.BrandNeovim = SvgIconBrandNeovim;
+  exports.BrandNetflix = SvgIconBrandNetflix;
+  exports.BrandNetlify = SvgIconBrandNetlify;
+  exports.BrandNextjs = SvgIconBrandNextjs;
+  exports.BrandNginx = SvgIconBrandNginx;
+  exports.BrandNix = SvgIconBrandNix;
+  exports.BrandNpm = SvgIconBrandNpm;
+  exports.BrandNuxt = SvgIconBrandNuxt;
+  exports.BrandNvidia = SvgIconBrandNvidia;
+  exports.BrandOpenai = SvgIconBrandOpenai;
+  exports.BrandPaypal = SvgIconBrandPaypal;
+  exports.BrandPhp = SvgIconBrandPhp;
+  exports.BrandPicsart = SvgIconBrandPicsart;
+  exports.BrandPinterest = SvgIconBrandPinterest;
+  exports.BrandPnpm = SvgIconBrandPnpm;
+  exports.BrandPowershell = SvgIconBrandPowershell;
+  exports.BrandPrisma = SvgIconBrandPrisma;
+  exports.BrandPython = SvgIconBrandPython;
+  exports.BrandReactNative = SvgIconBrandReactNative;
+  exports.BrandReddit = SvgIconBrandReddit;
+  exports.BrandRedhat = SvgIconBrandRedhat;
+  exports.BrandRedux = SvgIconBrandRedux;
+  exports.BrandRemix = SvgIconBrandRemix;
+  exports.BrandSafari = SvgIconBrandSafari;
+  exports.BrandSass = SvgIconBrandSass;
+  exports.BrandShopee = SvgIconBrandShopee;
+  exports.BrandSkype = SvgIconBrandSkype;
+  exports.BrandSlack = SvgIconBrandSlack;
+  exports.BrandSolidjs = SvgIconBrandSolidjs;
+  exports.BrandSpotify = SvgIconBrandSpotify;
+  exports.BrandSteam = SvgIconBrandSteam;
+  exports.BrandSublimeText = SvgIconBrandSublimeText;
+  exports.BrandSupabase = SvgIconBrandSupabase;
+  exports.BrandSvelte = SvgIconBrandSvelte;
+  exports.BrandSymfony = SvgIconBrandSymfony;
+  exports.BrandTabler = SvgIconBrandTabler;
+  exports.BrandTailwind = SvgIconBrandTailwind;
+  exports.BrandTelegram = SvgIconBrandTelegram;
+  exports.BrandThreads = SvgIconBrandThreads;
+  exports.BrandTiktok = SvgIconBrandTiktok;
+  exports.BrandTokopedia = SvgIconBrandTokopedia;
+  exports.BrandTumblr = SvgIconBrandTumblr;
+  exports.BrandTwitter = SvgIconBrandTwitter;
+  exports.BrandTypescript = SvgIconBrandTypescript;
+  exports.BrandUbuntu = SvgIconBrandUbuntu;
+  exports.BrandUnity = SvgIconBrandUnity;
+  exports.BrandUnsplash = SvgIconBrandUnsplash;
+  exports.BrandVercel = SvgIconBrandVercel;
+  exports.BrandVim = SvgIconBrandVim;
+  exports.BrandVimeo = SvgIconBrandVimeo;
+  exports.BrandVite = SvgIconBrandVite;
+  exports.BrandVk = SvgIconBrandVk;
+  exports.BrandVscode = SvgIconBrandVscode;
+  exports.BrandVue = SvgIconBrandVue;
+  exports.BrandWhatsapp = SvgIconBrandWhatsapp;
+  exports.BrandWindows = SvgIconBrandWindows;
+  exports.BrandWordpress = SvgIconBrandWordpress;
+  exports.BrandX = SvgIconBrandX;
+  exports.BrandXbox = SvgIconBrandXbox;
+  exports.BrandYahoo = SvgIconBrandYahoo;
+  exports.BrandYarn = SvgIconBrandYarn;
+  exports.BrandYoutube = SvgIconBrandYoutube;
+  exports.BrandZoom = SvgIconBrandZoom;
+  exports.Briefcase = SvgIconBriefcase;
+  exports.Brightness = SvgIconBrightness;
+  exports.Broadcast = SvgIconBroadcast;
+  exports.Browser = SvgIconBrowser;
+  exports.Brush = SvgIconBrush;
+  exports.Bucket = SvgIconBucket;
+  exports.BucketDroplet = SvgIconBucketDroplet;
+  exports.Building = SvgIconBuilding;
+  exports.BuildingArch = SvgIconBuildingArch;
+  exports.BuildingBank = SvgIconBuildingBank;
+  exports.BuildingBridge = SvgIconBuildingBridge;
+  exports.BuildingBridge2 = SvgIconBuildingBridge2;
+  exports.BuildingBroadcastTower = SvgIconBuildingBroadcastTower;
+  exports.BuildingCarousel = SvgIconBuildingCarousel;
+  exports.BuildingCastle = SvgIconBuildingCastle;
+  exports.BuildingChurch = SvgIconBuildingChurch;
+  exports.BuildingCircus = SvgIconBuildingCircus;
+  exports.BuildingCommunity = SvgIconBuildingCommunity;
+  exports.BuildingCottage = SvgIconBuildingCottage;
+  exports.BuildingEstate = SvgIconBuildingEstate;
+  exports.BuildingFactory = SvgIconBuildingFactory;
+  exports.BuildingHospital = SvgIconBuildingHospital;
+  exports.BuildingLighthouse = SvgIconBuildingLighthouse;
+  exports.BuildingMonument = SvgIconBuildingMonument;
+  exports.BuildingPavilion = SvgIconBuildingPavilion;
+  exports.BuildingSchool = SvgIconBuildingSchool;
+  exports.BuildingSkyscraper = SvgIconBuildingSkyscraper;
+  exports.BuildingStadium = SvgIconBuildingStadium;
+  exports.BuildingStore = SvgIconBuildingStore;
+  exports.BuildingTunnel = SvgIconBuildingTunnel;
+  exports.BuildingUniversity = SvgIconBuildingUniversity;
+  exports.BuildingWarehouse = SvgIconBuildingWarehouse;
+  exports.BuildingWindTurbine = SvgIconBuildingWindTurbine;
+  exports.Bulb = SvgIconBulb;
+  exports.Bulldozer = SvgIconBulldozer;
+  exports.Bus = SvgIconBus;
+  exports.BusStop = SvgIconBusStop;
+  exports.Businessplan = SvgIconBusinessplan;
+  exports.Butterfly = SvgIconButterfly;
+  exports.Cactus = SvgIconCactus;
+  exports.Cake = SvgIconCake;
+  exports.Calculator = SvgIconCalculator;
+  exports.Calendar = SvgIconCalendar;
+  exports.CalendarDays = SvgIconCalendarDays;
+  exports.CalendarSearch = SvgIconCalendarSearch;
+  exports.CalendarTime = SvgIconCalendarTime;
+  exports.Camera = SvgIconCamera;
+  exports.Candle = SvgIconCandle;
+  exports.Candy = SvgIconCandy;
+  exports.Cannabis = SvgIconCannabis;
+  exports.Capture = SvgIconCapture;
+  exports.Car = SvgIconCar;
+  exports.CarCrane = SvgIconCarCrane;
+  exports.Caravan = SvgIconCaravan;
+  exports.Cardboards = SvgIconCardboards;
+  exports.Cards = SvgIconCards;
+  exports.CarouselHorizontal = SvgIconCarouselHorizontal;
+  exports.Carrot = SvgIconCarrot;
+  exports.Cash = SvgIconCash;
+  exports.CashBanknote = SvgIconCashBanknote;
+  exports.Cast = SvgIconCast;
+  exports.Category = SvgIconCategory;
+  exports.Certificate = SvgIconCertificate;
+  exports.Certificate2 = SvgIconCertificate2;
+  exports.ChairDirector = SvgIconChairDirector;
+  exports.Chalkboard = SvgIconChalkboard;
+  exports.ChargingPile = SvgIconChargingPile;
+  exports.ChartArcs = SvgIconChartArcs;
+  exports.ChartArea = SvgIconChartArea;
+  exports.ChartAreaLine = SvgIconChartAreaLine;
+  exports.ChartArrows = SvgIconChartArrows;
+  exports.ChartArrowsVertical = SvgIconChartArrowsVertical;
+  exports.ChartBar = SvgIconChartBar;
+  exports.ChartBubble = SvgIconChartBubble;
+  exports.ChartCandle = SvgIconChartCandle;
+  exports.ChartCircles = SvgIconChartCircles;
+  exports.ChartDonut = SvgIconChartDonut;
+  exports.ChartDots = SvgIconChartDots;
+  exports.ChartGridDots = SvgIconChartGridDots;
+  exports.ChartHistogram = SvgIconChartHistogram;
+  exports.ChartInfographic = SvgIconChartInfographic;
+  exports.ChartLine = SvgIconChartLine;
+  exports.ChartPie = SvgIconChartPie;
+  exports.ChartRadar = SvgIconChartRadar;
+  exports.ChartSankey = SvgIconChartSankey;
+  exports.ChartTreemap = SvgIconChartTreemap;
+  exports.Check = SvgIconCheck;
+  exports.Checkbox = SvgIconCheckbox;
+  exports.Checklist = SvgIconChecklist;
+  exports.Checks = SvgIconChecks;
+  exports.CheckupList = SvgIconCheckupList;
+  exports.Cheese = SvgIconCheese;
+  exports.ChefHat = SvgIconChefHat;
+  exports.Cherry = SvgIconCherry;
+  exports.ChevronDown = SvgIconChevronDown;
+  exports.ChevronLeft = SvgIconChevronLeft;
+  exports.ChevronRight = SvgIconChevronRight;
+  exports.ChevronUp = SvgIconChevronUp;
+  exports.ChevronsDown = SvgIconChevronsDown;
+  exports.ChevronsLeft = SvgIconChevronsLeft;
+  exports.ChevronsRight = SvgIconChevronsRight;
+  exports.ChevronsUp = SvgIconChevronsUp;
+  exports.ChevronsUpDown = SvgIconChevronsUpDown;
+  exports.ChristmasTree = SvgIconChristmasTree;
+  exports.Circle = SvgIconCircle;
+  exports.CircleArrowDown = SvgIconCircleArrowDown;
+  exports.CircleArrowLeft = SvgIconCircleArrowLeft;
+  exports.CircleArrowRight = SvgIconCircleArrowRight;
+  exports.CircleArrowUp = SvgIconCircleArrowUp;
+  exports.CircleCheck = SvgIconCircleCheck;
+  exports.CircleHalf = SvgIconCircleHalf;
+  exports.CircleMinus = SvgIconCircleMinus;
+  exports.CirclePlus = SvgIconCirclePlus;
+  exports.CircleX = SvgIconCircleX;
+  exports.Circles = SvgIconCircles;
+  exports.CirlceXTri = SvgIconCirlceXTri;
+  exports.Click = SvgIconClick;
+  exports.Clipboard = SvgIconClipboard;
+  exports.ClipboardCheck = SvgIconClipboardCheck;
+  exports.ClipboardText = SvgIconClipboardText;
+  exports.Clock = SvgIconClock;
+  exports.ClockSquare = SvgIconClockSquare;
+  exports.Cloud = SvgIconCloud;
+  exports.CloudDownload = SvgIconCloudDownload;
+  exports.CloudRain = SvgIconCloudRain;
+  exports.CloudSnow = SvgIconCloudSnow;
+  exports.CloudThunder = SvgIconCloudThunder;
+  exports.CloudUpload = SvgIconCloudUpload;
+  exports.Clover = SvgIconClover;
+  exports.Clover2 = SvgIconClover2;
+  exports.Clubs = SvgIconClubs;
+  exports.Code = SvgIconCode;
+  exports.CodeCircle2 = SvgIconCodeCircle2;
+  exports.Coffee = SvgIconCoffee;
+  exports.Coffin = SvgIconCoffin;
+  exports.Coin = SvgIconCoin;
+  exports.CoinBitcoin = SvgIconCoinBitcoin;
+  exports.CoinEuro = SvgIconCoinEuro;
+  exports.CoinMonero = SvgIconCoinMonero;
+  exports.CoinPound = SvgIconCoinPound;
+  exports.CoinRupee = SvgIconCoinRupee;
+  exports.CoinYen = SvgIconCoinYen;
+  exports.CoinYuan = SvgIconCoinYuan;
+  exports.Coins = SvgIconCoins;
+  exports.ColorFilter = SvgIconColorFilter;
+  exports.ColorPicker = SvgIconColorPicker;
+  exports.ColorSwatch = SvgIconColorSwatch;
+  exports.ColumnInsertLeft = SvgIconColumnInsertLeft;
+  exports.ColumnInsertRight = SvgIconColumnInsertRight;
+  exports.Columns = SvgIconColumns;
+  exports.Comet = SvgIconComet;
+  exports.Command = SvgIconCommand;
+  exports.Compass = SvgIconCompass;
+  exports.Cone = SvgIconCone;
+  exports.Contrast = SvgIconContrast;
+  exports.Cooker = SvgIconCooker;
+  exports.Cookie = SvgIconCookie;
+  exports.Copy = SvgIconCopy;
+  exports.Cpu = SvgIconCpu;
+  exports.CreditCard = SvgIconCreditCard;
+  exports.Crop = SvgIconCrop;
+  exports.Crown = SvgIconCrown;
+  exports.CubeSphere = SvgIconCubeSphere;
+  exports.Cup = SvgIconCup;
+  exports.CurrencyAfghani = SvgIconCurrencyAfghani;
+  exports.CurrencyBahraini = SvgIconCurrencyBahraini;
+  exports.CurrencyBaht = SvgIconCurrencyBaht;
+  exports.CurrencyBitcoin = SvgIconCurrencyBitcoin;
+  exports.CurrencyCent = SvgIconCurrencyCent;
+  exports.CurrencyDinar = SvgIconCurrencyDinar;
+  exports.CurrencyDirham = SvgIconCurrencyDirham;
+  exports.CurrencyDogecoin = SvgIconCurrencyDogecoin;
+  exports.CurrencyDollar = SvgIconCurrencyDollar;
+  exports.CurrencyDong = SvgIconCurrencyDong;
+  exports.CurrencyDram = SvgIconCurrencyDram;
+  exports.CurrencyEthereum = SvgIconCurrencyEthereum;
+  exports.CurrencyEuro = SvgIconCurrencyEuro;
+  exports.CurrencyForint = SvgIconCurrencyForint;
+  exports.CurrencyFrank = SvgIconCurrencyFrank;
+  exports.CurrencyGuarani = SvgIconCurrencyGuarani;
+  exports.CurrencyHryvnia = SvgIconCurrencyHryvnia;
+  exports.CurrencyKip = SvgIconCurrencyKip;
+  exports.CurrencyKroneCzech = SvgIconCurrencyKroneCzech;
+  exports.CurrencyKroneSwedish = SvgIconCurrencyKroneSwedish;
+  exports.CurrencyLari = SvgIconCurrencyLari;
+  exports.CurrencyLeu = SvgIconCurrencyLeu;
+  exports.CurrencyLira = SvgIconCurrencyLira;
+  exports.CurrencyLitecoin = SvgIconCurrencyLitecoin;
+  exports.CurrencyLyd = SvgIconCurrencyLyd;
+  exports.CurrencyManat = SvgIconCurrencyManat;
+  exports.CurrencyMonero = SvgIconCurrencyMonero;
+  exports.CurrencyNaira = SvgIconCurrencyNaira;
+  exports.CurrencyNano = SvgIconCurrencyNano;
+  exports.CurrencyPaanga = SvgIconCurrencyPaanga;
+  exports.CurrencyPeso = SvgIconCurrencyPeso;
+  exports.CurrencyPound = SvgIconCurrencyPound;
+  exports.CurrencyQuetzal = SvgIconCurrencyQuetzal;
+  exports.CurrencyReal = SvgIconCurrencyReal;
+  exports.CurrencyRenminbi = SvgIconCurrencyRenminbi;
+  exports.CurrencyRipple = SvgIconCurrencyRipple;
+  exports.CurrencyRiyal = SvgIconCurrencyRiyal;
+  exports.CurrencyRubel = SvgIconCurrencyRubel;
+  exports.CurrencyRufiyaa = SvgIconCurrencyRufiyaa;
+  exports.CurrencyRupee = SvgIconCurrencyRupee;
+  exports.CurrencyRupeeNepalese = SvgIconCurrencyRupeeNepalese;
+  exports.CurrencyRupiah = SvgIconCurrencyRupiah;
+  exports.CurrencyShekel = SvgIconCurrencyShekel;
+  exports.CurrencySolana = SvgIconCurrencySolana;
+  exports.CurrencySom = SvgIconCurrencySom;
+  exports.CurrencyTaka = SvgIconCurrencyTaka;
+  exports.CurrencyTenge = SvgIconCurrencyTenge;
+  exports.CurrencyTugrik = SvgIconCurrencyTugrik;
+  exports.CurrencyWon = SvgIconCurrencyWon;
+  exports.CurrencyYen = SvgIconCurrencyYen;
+  exports.CurrencyYuan = SvgIconCurrencyYuan;
+  exports.CurrencyZloty = SvgIconCurrencyZloty;
+  exports.Cut = SvgIconCut;
+  exports.Cylinder = SvgIconCylinder;
+  exports.Dashboard = SvgIconDashboard;
+  exports.Database = SvgIconDatabase;
+  exports.DeviceAirpods = SvgIconDeviceAirpods;
+  exports.DeviceAirpodsCase = SvgIconDeviceAirpodsCase;
+  exports.DeviceAnalytics = SvgIconDeviceAnalytics;
+  exports.DeviceAudioTape = SvgIconDeviceAudioTape;
+  exports.DeviceCctv = SvgIconDeviceCctv;
+  exports.DeviceComputerCamera = SvgIconDeviceComputerCamera;
+  exports.DeviceDesktop = SvgIconDeviceDesktop;
+  exports.DeviceFloppy = SvgIconDeviceFloppy;
+  exports.DeviceGamepad2 = SvgIconDeviceGamepad2;
+  exports.DeviceImac = SvgIconDeviceImac;
+  exports.DeviceIpad = SvgIconDeviceIpad;
+  exports.DeviceLandlinePhone = SvgIconDeviceLandlinePhone;
+  exports.DeviceLaptop = SvgIconDeviceLaptop;
+  exports.DeviceMobile = SvgIconDeviceMobile;
+  exports.DeviceRemote = SvgIconDeviceRemote;
+  exports.DeviceSdCard = SvgIconDeviceSdCard;
+  exports.DeviceTablet = SvgIconDeviceTablet;
+  exports.DeviceTv = SvgIconDeviceTv;
+  exports.DeviceWatch = SvgIconDeviceWatch;
+  exports.DevicesPc = SvgIconDevicesPc;
+  exports.Diamond = SvgIconDiamond;
+  exports.Diamonds = SvgIconDiamonds;
+  exports.Directions = SvgIconDirections;
+  exports.Disability = SvgIconDisability;
+  exports.Disc = SvgIconDisc;
+  exports.Discount = SvgIconDiscount;
+  exports.Dna = SvgIconDna;
+  exports.Donut = SvgIconDonut;
+  exports.Door = SvgIconDoor;
+  exports.DotsHorizontal = SvgIconDotsHorizontal;
+  exports.DotsVertical = SvgIconDotsVertical;
+  exports.Download = SvgIconDownload;
+  exports.Droplet = SvgIconDroplet;
+  exports.DropletFilled = SvgIconDropletFilled;
+  exports.EPassport = SvgIconEPassport;
+  exports.Ear = SvgIconEar;
+  exports.Edit = SvgIconEdit;
+  exports.EditCircle = SvgIconEditCircle;
+  exports.Egg = SvgIconEgg;
+  exports.Engine = SvgIconEngine;
+  exports.Eraser = SvgIconEraser;
+  exports.ExternalLink = SvgIconExternalLink;
+  exports.Eye = SvgIconEye;
+  exports.Eyeglass = SvgIconEyeglass;
+  exports.Eyeglass2 = SvgIconEyeglass2;
+  exports.FaceMask = SvgIconFaceMask;
+  exports.Fall = SvgIconFall;
+  exports.Feather = SvgIconFeather;
+  exports.Fence = SvgIconFence;
+  exports.File = SvgIconFile;
+  exports.FileAlert = SvgIconFileAlert;
+  exports.FileAnalytics = SvgIconFileAnalytics;
+  exports.FileDescription = SvgIconFileDescription;
+  exports.FileMusic = SvgIconFileMusic;
+  exports.FilePhone = SvgIconFilePhone;
+  exports.Filter = SvgIconFilter;
+  exports.Fingerprint = SvgIconFingerprint;
+  exports.Firetruck = SvgIconFiretruck;
+  exports.FirstAidKit = SvgIconFirstAidKit;
+  exports.Fish = SvgIconFish;
+  exports.FishHook = SvgIconFishHook;
+  exports.Flag = SvgIconFlag;
+  exports.Flame = SvgIconFlame;
+  exports.Flask = SvgIconFlask;
+  exports.Flask2 = SvgIconFlask2;
+  exports.FlipFlops = SvgIconFlipFlops;
+  exports.Flower = SvgIconFlower;
+  exports.Folder = SvgIconFolder;
+  exports.FolderSymlink = SvgIconFolderSymlink;
+  exports.Folders = SvgIconFolders;
+  exports.Forklift = SvgIconForklift;
+  exports.Forms = SvgIconForms;
+  exports.Fridge = SvgIconFridge;
+  exports.Friends = SvgIconFriends;
+  exports.GardenCart = SvgIconGardenCart;
+  exports.Gauge = SvgIconGauge;
+  exports.Gavel = SvgIconGavel;
+  exports.GenderFemale = SvgIconGenderFemale;
+  exports.GenderMale = SvgIconGenderMale;
+  exports.Ghost = SvgIconGhost;
+  exports.Gift = SvgIconGift;
+  exports.GitBranch = SvgIconGitBranch;
+  exports.GitBranchDeleted = SvgIconGitBranchDeleted;
+  exports.GitCherryPick = SvgIconGitCherryPick;
+  exports.GitCommit = SvgIconGitCommit;
+  exports.GitCompare = SvgIconGitCompare;
+  exports.GitFork = SvgIconGitFork;
+  exports.GitMerge = SvgIconGitMerge;
+  exports.GitPullRequest = SvgIconGitPullRequest;
+  exports.GitPullRequestClosed = SvgIconGitPullRequestClosed;
+  exports.GitPullRequestDraft = SvgIconGitPullRequestDraft;
+  exports.Glass = SvgIconGlass;
+  exports.Gps = SvgIconGps;
+  exports.Grape = SvgIconGrape;
+  exports.Graph = SvgIconGraph;
+  exports.Grave = SvgIconGrave;
+  exports.Grave2 = SvgIconGrave2;
+  exports.GridDots = SvgIconGridDots;
+  exports.Grill = SvgIconGrill;
+  exports.GrillFork = SvgIconGrillFork;
+  exports.GrillSpatula = SvgIconGrillSpatula;
+  exports.GripHorizontal = SvgIconGripHorizontal;
+  exports.GripVertical = SvgIconGripVertical;
+  exports.Growth = SvgIconGrowth;
+  exports.GuitarPick = SvgIconGuitarPick;
+  exports.H1 = SvgIconH1;
+  exports.H2 = SvgIconH2;
+  exports.H3 = SvgIconH3;
+  exports.H4 = SvgIconH4;
+  exports.H5 = SvgIconH5;
+  exports.H6 = SvgIconH6;
+  exports.Hammer = SvgIconHammer;
+  exports.HandMetal = SvgIconHandMetal;
+  exports.HandPoint = SvgIconHandPoint;
+  exports.HandSanitizer = SvgIconHandSanitizer;
+  exports.HandStop = SvgIconHandStop;
+  exports.Handshake = SvgIconHandshake;
+  exports.Hanger = SvgIconHanger;
+  exports.Hash = SvgIconHash;
+  exports.Heading = SvgIconHeading;
+  exports.Headphones = SvgIconHeadphones;
+  exports.Heart = SvgIconHeart;
+  exports.HeartBroken = SvgIconHeartBroken;
+  exports.HeartRateMonitor = SvgIconHeartRateMonitor;
+  exports.Heartbeat = SvgIconHeartbeat;
+  exports.Helicopter = SvgIconHelicopter;
+  exports.HelpCircle = SvgIconHelpCircle;
+  exports.HelpSquare = SvgIconHelpSquare;
+  exports.HelpTriangle = SvgIconHelpTriangle;
+  exports.Hexagon = SvgIconHexagon;
+  exports.Hexagons = SvgIconHexagons;
+  exports.Highlight = SvgIconHighlight;
+  exports.HistoryToggle = SvgIconHistoryToggle;
+  exports.Home = SvgIconHome;
+  exports.Home2 = SvgIconHome2;
+  exports.HorseToy = SvgIconHorseToy;
+  exports.Hourglass = SvgIconHourglass;
+  exports.IceCream = SvgIconIceCream;
+  exports.IceCream2 = SvgIconIceCream2;
   exports.IconAccessPoint = SvgIconAccessPoint;
   exports.IconAccessible = SvgIconAccessible;
   exports.IconActivity = SvgIconActivity;
@@ -18201,6 +18953,8 @@
   exports.IconCircleArrowUp = SvgIconCircleArrowUp;
   exports.IconCircleCheck = SvgIconCircleCheck;
   exports.IconCircleHalf = SvgIconCircleHalf;
+  exports.IconCircleMinus = SvgIconCircleMinus;
+  exports.IconCirclePlus = SvgIconCirclePlus;
   exports.IconCircleX = SvgIconCircleX;
   exports.IconCircles = SvgIconCircles;
   exports.IconCirlceXTri = SvgIconCirlceXTri;
@@ -18250,6 +19004,7 @@
   exports.IconCreditCard = SvgIconCreditCard;
   exports.IconCrop = SvgIconCrop;
   exports.IconCrown = SvgIconCrown;
+  exports.IconCubeSphere = SvgIconCubeSphere;
   exports.IconCup = SvgIconCup;
   exports.IconCurrencyAfghani = SvgIconCurrencyAfghani;
   exports.IconCurrencyBahraini = SvgIconCurrencyBahraini;
@@ -18511,7 +19266,7 @@
   exports.IconMeat = SvgIconMeat;
   exports.IconMedal = SvgIconMedal;
   exports.IconMedicineSyrup = SvgIconMedicineSyrup;
-  exports.IconMenu2 = SvgIconMenu2;
+  exports.IconMenu = SvgIconMenu;
   exports.IconMessage = SvgIconMessage;
   exports.IconMessage2 = SvgIconMessage2;
   exports.IconMessageCircle = SvgIconMessageCircle;
@@ -18524,6 +19279,7 @@
   exports.IconMicrowave = SvgIconMicrowave;
   exports.IconMilk = SvgIconMilk;
   exports.IconMilkshake = SvgIconMilkshake;
+  exports.IconMinus = SvgIconMinus;
   exports.IconMist = SvgIconMist;
   exports.IconMoneybag = SvgIconMoneybag;
   exports.IconMoon = SvgIconMoon;
@@ -18582,6 +19338,7 @@
   exports.IconPlaylist = SvgIconPlaylist;
   exports.IconPlug = SvgIconPlug;
   exports.IconPlugConnected = SvgIconPlugConnected;
+  exports.IconPlus = SvgIconPlus;
   exports.IconPodium = SvgIconPodium;
   exports.IconPoint = SvgIconPoint;
   exports.IconPointer = SvgIconPointer;
@@ -18613,6 +19370,8 @@
   exports.IconRocket = SvgIconRocket;
   exports.IconRosette = SvgIconRosette;
   exports.IconRotate = SvgIconRotate;
+  exports.IconRotate360 = SvgIconRotate360;
+  exports.IconRotate3D = SvgIconRotate3D;
   exports.IconRouter = SvgIconRouter;
   exports.IconRowInsertBottom = SvgIconRowInsertBottom;
   exports.IconRowInsertTop = SvgIconRowInsertTop;
@@ -18673,12 +19432,12 @@
   exports.IconSock = SvgIconSock;
   exports.IconSofa = SvgIconSofa;
   exports.IconSolarPanel = SvgIconSolarPanel;
+  exports.IconSortAZ = SvgIconSortAZ;
   exports.IconSortAscending = SvgIconSortAscending;
   exports.IconSortAscendingNumbers = SvgIconSortAscendingNumbers;
-  exports.IconSortAz = SvgIconSortAZ;
   exports.IconSortDescending = SvgIconSortDescending;
   exports.IconSortDescendingNumbers = SvgIconSortDescendingNumbers;
-  exports.IconSortZa = SvgIconSortZA;
+  exports.IconSortZA = SvgIconSortZA;
   exports.IconSoup = SvgIconSoup;
   exports.IconSourceCode = SvgIconSourceCode;
   exports.IconSpade = SvgIconSpade;
@@ -18691,8 +19450,12 @@
   exports.IconSquare = SvgIconSquare;
   exports.IconSquareCheck = SvgIconSquareCheck;
   exports.IconSquareHalf = SvgIconSquareHalf;
+  exports.IconSquareMinus = SvgIconSquareMinus;
+  exports.IconSquarePlus = SvgIconSquarePlus;
   exports.IconSquareRounded = SvgIconSquareRounded;
   exports.IconSquareRoundedCheck = SvgIconSquareRoundedCheck;
+  exports.IconSquareRoundedMinus = SvgIconSquareRoundedMinus;
+  exports.IconSquareRoundedPlus = SvgIconSquareRoundedPlus;
   exports.IconSquareRoundedX = SvgIconSquareRoundedX;
   exports.IconSquareX = SvgIconSquareX;
   exports.IconStack = SvgIconStack;
@@ -18769,6 +19532,7 @@
   exports.IconTrowel = SvgIconTrowel;
   exports.IconTruck = SvgIconTruck;
   exports.IconTruckLoading = SvgIconTruckLoading;
+  exports.IconTwoFa = SvgIconTwoFa;
   exports.IconTypography = SvgIconTypography;
   exports.IconTypographyOff = SvgIconTypographyOff;
   exports.IconUfo = SvgIconUfo;
@@ -18787,6 +19551,7 @@
   exports.IconVaccine = SvgIconVaccine;
   exports.IconVaccineBottle = SvgIconVaccineBottle;
   exports.IconVideo = SvgIconVideo;
+  exports.IconView360 = SvgIconView360;
   exports.IconViewportNarrow = SvgIconViewportNarrow;
   exports.IconViewportWide = SvgIconViewportWide;
   exports.IconVirus = SvgIconVirus;
@@ -18823,5 +19588,392 @@
   exports.IconZodiacTaurus = SvgIconZodiacTaurus;
   exports.IconZodiacVirgo = SvgIconZodiacVirgo;
   exports.IconZzz = SvgIconZzz;
+  exports.IdBadge = SvgIconIdBadge;
+  exports.IdCard = SvgIconIdCard;
+  exports.IndentDecrease = SvgIconIndentDecrease;
+  exports.IndentIncrease = SvgIconIndentIncrease;
+  exports.Iron = SvgIconIron;
+  exports.Italic = SvgIconItalic;
+  exports.Jacket = SvgIconJacket;
+  exports.JewishStar = SvgIconJewishStar;
+  exports.Key = SvgIconKey;
+  exports.Keyboard = SvgIconKeyboard;
+  exports.Keyframes = SvgIconKeyframes;
+  exports.Ladder = SvgIconLadder;
+  exports.Lamp = SvgIconLamp;
+  exports.LayoutDashboard = SvgIconLayoutDashboard;
+  exports.LayoutGrid = SvgIconLayoutGrid;
+  exports.LayoutGridAdd = SvgIconLayoutGridAdd;
+  exports.Leaf = SvgIconLeaf;
+  exports.Lemon = SvgIconLemon;
+  exports.Lemon2 = SvgIconLemon2;
+  exports.LetterCamelcase = SvgIconLetterCamelcase;
+  exports.LetterCapitalize = SvgIconLetterCapitalize;
+  exports.LetterLowercase = SvgIconLetterLowercase;
+  exports.LetterSpacing = SvgIconLetterSpacing;
+  exports.LetterUppercase = SvgIconLetterUppercase;
+  exports.License = SvgIconLicense;
+  exports.Lifebuoy = SvgIconLifebuoy;
+  exports.Lighter = SvgIconLighter;
+  exports.LineHeight = SvgIconLineHeight;
+  exports.Link = SvgIconLink;
+  exports.List = SvgIconList;
+  exports.ListCheck = SvgIconListCheck;
+  exports.ListDetails = SvgIconListDetails;
+  exports.ListNumbers = SvgIconListNumbers;
+  exports.ListSearch = SvgIconListSearch;
+  exports.Loader = SvgIconLoader;
+  exports.Loader2 = SvgIconLoader2;
+  exports.Lock = SvgIconLock;
+  exports.LockOpen = SvgIconLockOpen;
+  exports.Login = SvgIconLogin;
+  exports.Logout = SvgIconLogout;
+  exports.Lollipop = SvgIconLollipop;
+  exports.Luggage = SvgIconLuggage;
+  exports.Lungs = SvgIconLungs;
+  exports.Macro = SvgIconMacro;
+  exports.Magnet = SvgIconMagnet;
+  exports.Mail = SvgIconMail;
+  exports.MailCancel = SvgIconMailCancel;
+  exports.MailCheck = SvgIconMailCheck;
+  exports.MailFast = SvgIconMailFast;
+  exports.MailOpened = SvgIconMailOpened;
+  exports.MailPlus = SvgIconMailPlus;
+  exports.MailSearch = SvgIconMailSearch;
+  exports.MailStar = SvgIconMailStar;
+  exports.Mailbox = SvgIconMailbox;
+  exports.Man = SvgIconMan;
+  exports.Map = SvgIconMap;
+  exports.Map2 = SvgIconMap2;
+  exports.MapPin = SvgIconMapPin;
+  exports.Markdown = SvgIconMarkdown;
+  exports.Marquee = SvgIconMarquee;
+  exports.Massage = SvgIconMassage;
+  exports.Matchstick = SvgIconMatchstick;
+  exports.Meat = SvgIconMeat;
+  exports.Medal = SvgIconMedal;
+  exports.MedicineSyrup = SvgIconMedicineSyrup;
+  exports.Menu = SvgIconMenu;
+  exports.Message = SvgIconMessage;
+  exports.Message2 = SvgIconMessage2;
+  exports.MessageCircle = SvgIconMessageCircle;
+  exports.MessageDots = SvgIconMessageDots;
+  exports.Messages = SvgIconMessages;
+  exports.Meteor = SvgIconMeteor;
+  exports.Microphone = SvgIconMicrophone;
+  exports.Microphone2 = SvgIconMicrophone2;
+  exports.Microscope = SvgIconMicroscope;
+  exports.Microwave = SvgIconMicrowave;
+  exports.Milk = SvgIconMilk;
+  exports.Milkshake = SvgIconMilkshake;
+  exports.Minus = SvgIconMinus;
+  exports.Mist = SvgIconMist;
+  exports.Moneybag = SvgIconMoneybag;
+  exports.Moon = SvgIconMoon;
+  exports.MoonStars = SvgIconMoonStars;
+  exports.Moped = SvgIconMoped;
+  exports.Motorbike = SvgIconMotorbike;
+  exports.Mountain = SvgIconMountain;
+  exports.Mouse2 = SvgIconMouse2;
+  exports.Moustache = SvgIconMoustache;
+  exports.Movie = SvgIconMovie;
+  exports.Mug = SvgIconMug;
+  exports.Music = SvgIconMusic;
+  exports.Needle = SvgIconNeedle;
+  exports.NeedleThread = SvgIconNeedleThread;
+  exports.Nfc = SvgIconNfc;
+  exports.NoSmoking = SvgIconNoSmoking;
+  exports.Note = SvgIconNote;
+  exports.Notebook = SvgIconNotebook;
+  exports.Notes = SvgIconNotes;
+  exports.Nut = SvgIconNut;
+  exports.Octagon = SvgIconOctagon;
+  exports.Old = SvgIconOld;
+  exports.Package = SvgIconPackage;
+  exports.Packages = SvgIconPackages;
+  exports.Pacman = SvgIconPacman;
+  exports.Paint = SvgIconPaint;
+  exports.Palette = SvgIconPalette;
+  exports.PaperBag = SvgIconPaperBag;
+  exports.Paperclip = SvgIconPaperclip;
+  exports.Parachute = SvgIconParachute;
+  exports.Pencil = SvgIconPencil;
+  exports.Pentagon = SvgIconPentagon;
+  exports.Pepper = SvgIconPepper;
+  exports.Perfume = SvgIconPerfume;
+  exports.Phone = SvgIconPhone;
+  exports.Photo = SvgIconPhoto;
+  exports.Physotherapist = SvgIconPhysotherapist;
+  exports.PictureInPictureOn = SvgIconPictureInPictureOn;
+  exports.Pill = SvgIconPill;
+  exports.Pin = SvgIconPin;
+  exports.Pinned = SvgIconPinned;
+  exports.Pizza = SvgIconPizza;
+  exports.Pizza1 = SvgIconPizza1;
+  exports.Plane = SvgIconPlane;
+  exports.Plant = SvgIconPlant;
+  exports.Plant2 = SvgIconPlant2;
+  exports.PlayerEject = SvgIconPlayerEject;
+  exports.PlayerPause = SvgIconPlayerPause;
+  exports.PlayerPlay = SvgIconPlayerPlay;
+  exports.PlayerRecord = SvgIconPlayerRecord;
+  exports.PlayerSkipBack = SvgIconPlayerSkipBack;
+  exports.PlayerSkipForward = SvgIconPlayerSkipForward;
+  exports.PlayerStop = SvgIconPlayerStop;
+  exports.PlayerTrackNext = SvgIconPlayerTrackNext;
+  exports.PlayerTrackPrev = SvgIconPlayerTrackPrev;
+  exports.Playlist = SvgIconPlaylist;
+  exports.Plug = SvgIconPlug;
+  exports.PlugConnected = SvgIconPlugConnected;
+  exports.Plus = SvgIconPlus;
+  exports.Podium = SvgIconPodium;
+  exports.Point = SvgIconPoint;
+  exports.Pointer = SvgIconPointer;
+  exports.Polaroid = SvgIconPolaroid;
+  exports.Poo = SvgIconPoo;
+  exports.Power = SvgIconPower;
+  exports.Pray = SvgIconPray;
+  exports.Presentation = SvgIconPresentation;
+  exports.PresentationAnalytics = SvgIconPresentationAnalytics;
+  exports.Printer = SvgIconPrinter;
+  exports.Progress = SvgIconProgress;
+  exports.Prompt = SvgIconPrompt;
+  exports.PumpkinScary = SvgIconPumpkinScary;
+  exports.Pyramid = SvgIconPyramid;
+  exports.Qrcode = SvgIconQrcode;
+  exports.Radio = SvgIconRadio;
+  exports.Rainbow = SvgIconRainbow;
+  exports.Razor = SvgIconRazor;
+  exports.Rectangle = SvgIconRectangle;
+  exports.Recycle = SvgIconRecycle;
+  exports.Refresh = SvgIconRefresh;
+  exports.Refrigator = SvgIconRefrigator;
+  exports.RelationManyToMany = SvgIconRelationManyToMany;
+  exports.RelationOneToMany = SvgIconRelationOneToMany;
+  exports.RelationOneToOne = SvgIconRelationOneToOne;
+  exports.Replace = SvgIconReplace;
+  exports.Ripple = SvgIconRipple;
+  exports.Robot = SvgIconRobot;
+  exports.Rocket = SvgIconRocket;
+  exports.Rosette = SvgIconRosette;
+  exports.Rotate = SvgIconRotate;
+  exports.Rotate360 = SvgIconRotate360;
+  exports.Rotate3D = SvgIconRotate3D;
+  exports.Router = SvgIconRouter;
+  exports.RowInsertBottom = SvgIconRowInsertBottom;
+  exports.RowInsertTop = SvgIconRowInsertTop;
+  exports.Rss = SvgIconRss;
+  exports.RubberStamp = SvgIconRubberStamp;
+  exports.Ruler = SvgIconRuler;
+  exports.Sailboat = SvgIconSailboat;
+  exports.Salad = SvgIconSalad;
+  exports.Salt = SvgIconSalt;
+  exports.Sausage = SvgIconSausage;
+  exports.Scale = SvgIconScale;
+  exports.ScaleOutline = SvgIconScaleOutline;
+  exports.Schema = SvgIconSchema;
+  exports.SchemaOff = SvgIconSchemaOff;
+  exports.SchoolBell = SvgIconSchoolBell;
+  exports.Scooter = SvgIconScooter;
+  exports.Script = SvgIconScript;
+  exports.Search = SvgIconSearch;
+  exports.Seeding = SvgIconSeeding;
+  exports.Send = SvgIconSend;
+  exports.Server = SvgIconServer;
+  exports.Settings = SvgIconSettings;
+  exports.Settings2 = SvgIconSettings2;
+  exports.Shadow = SvgIconShadow;
+  exports.Share = SvgIconShare;
+  exports.Share2 = SvgIconShare2;
+  exports.Share3 = SvgIconShare3;
+  exports.Shield = SvgIconShield;
+  exports.ShieldCheck = SvgIconShieldCheck;
+  exports.ShieldLock = SvgIconShieldLock;
+  exports.Ship = SvgIconShip;
+  exports.Shirt = SvgIconShirt;
+  exports.Shoe = SvgIconShoe;
+  exports.ShoppingBag = SvgIconShoppingBag;
+  exports.ShoppingCart = SvgIconShoppingCart;
+  exports.Shovel = SvgIconShovel;
+  exports.Signal2G = SvgIconSignal2G;
+  exports.Signal3G = SvgIconSignal3G;
+  exports.Signal4G = SvgIconSignal4G;
+  exports.Signal4GPlus = SvgIconSignal4GPlus;
+  exports.Signal5G = SvgIconSignal5G;
+  exports.Signal6G = SvgIconSignal6G;
+  exports.SignalE = SvgIconSignalE;
+  exports.SignalG = SvgIconSignalG;
+  exports.SignalH = SvgIconSignalH;
+  exports.SignalHPlus = SvgIconSignalHPlus;
+  exports.SignalLte = SvgIconSignalLte;
+  exports.Signature = SvgIconSignature;
+  exports.Skull = SvgIconSkull;
+  exports.Slice = SvgIconSlice;
+  exports.Slideshow = SvgIconSlideshow;
+  exports.SmartHome = SvgIconSmartHome;
+  exports.Smoking = SvgIconSmoking;
+  exports.Snail = SvgIconSnail;
+  exports.Snowflake = SvgIconSnowflake;
+  exports.Snowman = SvgIconSnowman;
+  exports.Social = SvgIconSocial;
+  exports.Sock = SvgIconSock;
+  exports.Sofa = SvgIconSofa;
+  exports.SolarPanel = SvgIconSolarPanel;
+  exports.SortAZ = SvgIconSortAZ;
+  exports.SortAscending = SvgIconSortAscending;
+  exports.SortAscendingNumbers = SvgIconSortAscendingNumbers;
+  exports.SortDescending = SvgIconSortDescending;
+  exports.SortDescendingNumbers = SvgIconSortDescendingNumbers;
+  exports.SortZA = SvgIconSortZA;
+  exports.Soup = SvgIconSoup;
+  exports.SourceCode = SvgIconSourceCode;
+  exports.Spade = SvgIconSpade;
+  exports.Sparkles = SvgIconSparkles;
+  exports.Speakerphone = SvgIconSpeakerphone;
+  exports.Speedboat = SvgIconSpeedboat;
+  exports.Spiral = SvgIconSpiral;
+  exports.Spray = SvgIconSpray;
+  exports.Spy = SvgIconSpy;
+  exports.Square = SvgIconSquare;
+  exports.SquareCheck = SvgIconSquareCheck;
+  exports.SquareHalf = SvgIconSquareHalf;
+  exports.SquareMinus = SvgIconSquareMinus;
+  exports.SquarePlus = SvgIconSquarePlus;
+  exports.SquareRounded = SvgIconSquareRounded;
+  exports.SquareRoundedCheck = SvgIconSquareRoundedCheck;
+  exports.SquareRoundedMinus = SvgIconSquareRoundedMinus;
+  exports.SquareRoundedPlus = SvgIconSquareRoundedPlus;
+  exports.SquareRoundedX = SvgIconSquareRoundedX;
+  exports.SquareX = SvgIconSquareX;
+  exports.Stack = SvgIconStack;
+  exports.Stack2 = SvgIconStack2;
+  exports.Star = SvgIconStar;
+  exports.Stars = SvgIconStars;
+  exports.StereoGlasses = SvgIconStereoGlasses;
+  exports.Stethoscope = SvgIconStethoscope;
+  exports.Storm = SvgIconStorm;
+  exports.Strikethrough = SvgIconStrikethrough;
+  exports.Submarine = SvgIconSubmarine;
+  exports.Subscript = SvgIconSubscript;
+  exports.Sun = SvgIconSun;
+  exports.Sunset = SvgIconSunset;
+  exports.Superscript = SvgIconSuperscript;
+  exports.Swipe = SvgIconSwipe;
+  exports.Sword = SvgIconSword;
+  exports.Swords = SvgIconSwords;
+  exports.Table = SvgIconTable;
+  exports.TablePlus = SvgIconTablePlus;
+  exports.Tag = SvgIconTag;
+  exports.Tags = SvgIconTags;
+  exports.Tank = SvgIconTank;
+  exports.Teapot = SvgIconTeapot;
+  exports.Telescope = SvgIconTelescope;
+  exports.Temperature = SvgIconTemperature;
+  exports.TemperatureCelsius = SvgIconTemperatureCelsius;
+  exports.TemperatureFahrenheit = SvgIconTemperatureFahrenheit;
+  exports.Template = SvgIconTemplate;
+  exports.Terminal = SvgIconTerminal;
+  exports.Terminal2 = SvgIconTerminal2;
+  exports.TestPipe = SvgIconTestPipe;
+  exports.Tex = SvgIconTex;
+  exports.TextCaption = SvgIconTextCaption;
+  exports.TextColor = SvgIconTextColor;
+  exports.TextDecrease = SvgIconTextDecrease;
+  exports.TextDirectionLtr = SvgIconTextDirectionLtr;
+  exports.TextDirectionRtl = SvgIconTextDirectionRtl;
+  exports.TextIncrease = SvgIconTextIncrease;
+  exports.TextOrientation = SvgIconTextOrientation;
+  exports.TextPlus = SvgIconTextPlus;
+  exports.TextRecognition = SvgIconTextRecognition;
+  exports.TextSize = SvgIconTextSize;
+  exports.TextSpellcheck = SvgIconTextSpellcheck;
+  exports.TextWrap = SvgIconTextWrap;
+  exports.TextWrapDisabled = SvgIconTextWrapDisabled;
+  exports.Texture = SvgIconTexture;
+  exports.Thermometer = SvgIconThermometer;
+  exports.ThumbDown = SvgIconThumbDown;
+  exports.ThumbUp = SvgIconThumbUp;
+  exports.Ticket = SvgIconTicket;
+  exports.Tie = SvgIconTie;
+  exports.Timeline = SvgIconTimeline;
+  exports.Tir = SvgIconTir;
+  exports.ToiletPaper = SvgIconToiletPaper;
+  exports.Tool = SvgIconTool;
+  exports.Tools = SvgIconTools;
+  exports.ToolsKitchen = SvgIconToolsKitchen;
+  exports.Tooltip = SvgIconTooltip;
+  exports.Tower = SvgIconTower;
+  exports.Tractor = SvgIconTractor;
+  exports.TrafficLights = SvgIconTrafficLights;
+  exports.Train = SvgIconTrain;
+  exports.Trash = SvgIconTrash;
+  exports.TrashX = SvgIconTrashX;
+  exports.Tree = SvgIconTree;
+  exports.Trees = SvgIconTrees;
+  exports.TrendingDown = SvgIconTrendingDown;
+  exports.TrendingUp = SvgIconTrendingUp;
+  exports.Triangle = SvgIconTriangle;
+  exports.TriangleSquareCircle = SvgIconTriangleSquareCircle;
+  exports.Trident = SvgIconTrident;
+  exports.Trophy = SvgIconTrophy;
+  exports.Trowel = SvgIconTrowel;
+  exports.Truck = SvgIconTruck;
+  exports.TruckLoading = SvgIconTruckLoading;
+  exports.TwoFa = SvgIconTwoFa;
+  exports.Typography = SvgIconTypography;
+  exports.TypographyOff = SvgIconTypographyOff;
+  exports.Ufo = SvgIconUfo;
+  exports.Umbrella = SvgIconUmbrella;
+  exports.Underline = SvgIconUnderline;
+  exports.Unlink = SvgIconUnlink;
+  exports.Upload = SvgIconUpload;
+  exports.Urgent = SvgIconUrgent;
+  exports.Usb = SvgIconUsb;
+  exports.User = SvgIconUser;
+  exports.UserCircle = SvgIconUserCircle;
+  exports.UserEdit = SvgIconUserEdit;
+  exports.UserPlus = SvgIconUserPlus;
+  exports.Users = SvgIconUsers;
+  exports.UsersGroup = SvgIconUsersGroup;
+  exports.Vaccine = SvgIconVaccine;
+  exports.VaccineBottle = SvgIconVaccineBottle;
+  exports.Video = SvgIconVideo;
+  exports.View360 = SvgIconView360;
+  exports.ViewportNarrow = SvgIconViewportNarrow;
+  exports.ViewportWide = SvgIconViewportWide;
+  exports.Virus = SvgIconVirus;
+  exports.Volume = SvgIconVolume;
+  exports.Wall = SvgIconWall;
+  exports.Wallet = SvgIconWallet;
+  exports.Wallpaper = SvgIconWallpaper;
+  exports.Wand = SvgIconWand;
+  exports.WaveSawTool = SvgIconWaveSawTool;
+  exports.Weight = SvgIconWeight;
+  exports.Wheat = SvgIconWheat;
+  exports.Whirl = SvgIconWhirl;
+  exports.Wifi = SvgIconWifi;
+  exports.Wind = SvgIconWind;
+  exports.Windmill = SvgIconWindmill;
+  exports.Window = SvgIconWindow;
+  exports.Woman = SvgIconWoman;
+  exports.Wood = SvgIconWood;
+  exports.World = SvgIconWorld;
+  exports.WreckingBall = SvgIconWreckingBall;
+  exports.Writing = SvgIconWriting;
+  exports.X = SvgIconX;
+  exports.Zeppelin = SvgIconZeppelin;
+  exports.ZodiacAquarius = SvgIconZodiacAquarius;
+  exports.ZodiacAries = SvgIconZodiacAries;
+  exports.ZodiacCancer = SvgIconZodiacCancer;
+  exports.ZodiacCapricorn = SvgIconZodiacCapricorn;
+  exports.ZodiacGemini = SvgIconZodiacGemini;
+  exports.ZodiacLeo = SvgIconZodiacLeo;
+  exports.ZodiacLibra = SvgIconZodiacLibra;
+  exports.ZodiacPisces = SvgIconZodiacPisces;
+  exports.ZodiacSagittarius = SvgIconZodiacSagittarius;
+  exports.ZodiacScorpio = SvgIconZodiacScorpio;
+  exports.ZodiacTaurus = SvgIconZodiacTaurus;
+  exports.ZodiacVirgo = SvgIconZodiacVirgo;
+  exports.Zzz = SvgIconZzz;
 
 }));

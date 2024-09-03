@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgIcon360 = (props) => (
+const SvgIconSquareRoundedPlus = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -13,8 +13,8 @@ const SvgIcon360 = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M17 15.328c2.414-.718 4-1.94 4-3.328 0-2.21-4.03-4-9-4s-9 1.79-9 4 4.03 4 9 4m0 0-3-3m3 3-3 3"
+      d="M9.172 12h5.656M12 9.172v5.656M12 3c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9"
     />
   </svg>
 );
-export default SvgIcon360;
+export default SvgIconSquareRoundedPlus;
