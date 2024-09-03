@@ -37,7 +37,7 @@ const SvgIconAccessPoint = props => /*#__PURE__*/React__namespace.createElement(
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 2,
-  d: "M12 12v.01m2.828-2.838a4 4 0 0 1 0 5.656m2.829-8.485a8 8 0 0 1 0 11.314m-8.489-2.829a4 4 0 0 1 0-5.656m-2.831 8.485a8 8 0 0 1 0-11.314"
+  d: "M12 12v.01m2.828-2.838a4 4 0 0 1 0 5.656m2.829-8.485a8 8 0 0 1 0 11.314m-8.49-2.829a4 4 0 0 1 0-5.656m-2.83 8.485a8 8 0 0 1 0-11.314"
 }));
 
 const SvgIconAccessible = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -9012,6 +9012,39 @@ const SvgIconDroplet = props => /*#__PURE__*/React__namespace.createElement("svg
   d: "M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423"
 }));
 
+const SvgIconDrum = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2,
+  d: "m3 3 7.2 7.2M21 3l-7.2 7.2m7.2-.9c0 2.485-4.03 4.5-9 4.5m9-4.5c0-2.485-4.03-4.5-9-4.5S3 6.815 3 9.3m18 0v7.2c0 1.194-.948 2.338-2.636 3.182S14.387 21 12 21m0-7.2c-4.97 0-9-2.015-9-4.5m9 4.5V21M3 9.3v7.2c0 1.194.948 2.338 2.636 3.182S9.613 21 12 21m-4.5-7.74v7.11m9-7.11v7.11"
+}));
+
+const SvgIconDrumkit = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "m5.203 2.733-4.095.019-.029.389 7.94 1.2.084-.38zm14.569.881-.014 1.392.234-.037.23.037-.014-1.392zM4.516 4.35l-.085.61-1.555 1.237.086 5.419.289-1.894.447-.108h.014l-.049-3.047 1.498-1.19.127-.91zm15.476 1.214-3.122.488.028.389h6.188l.028-.39zm-3.094 1.561-.028.39 3.122.487 3.122-.488-.028-.389zm2.827 1.43-.01.975c.132.023.263.056.4.084l.154.038-.01-1.097-.267.042zM6.253 9.994c-.773-.01-1.57.089-2.395.286l-.134.881c1.09-.155 3.56-.323 5.98.684.187-.075.383-.145.58-.201l.057-.375c-1.247-.853-2.616-1.256-4.088-1.275m11.306 0c-1.472.019-2.84.422-4.087 1.275l.056.375c.197.056.394.126.581.201 2.42-1.007 4.89-.839 5.982-.684l-.136-.881a9.8 9.8 0 0 0-2.396-.286M5.461 11.822c-.84 0-1.505.084-1.86.145l-.331 2.17 3.42.52a5.84 5.84 0 0 1 2.085-2.324c-1.19-.399-2.362-.511-3.314-.511m12.89 0c-.951 0-2.123.113-3.313.51a5.84 5.84 0 0 1 2.085 2.326l3.418-.52-.329-2.17a11.4 11.4 0 0 0-1.86-.146m-6.445.469a4.24 4.24 0 0 0-4.237 4.237 4.24 4.24 0 0 0 4.237 4.238 4.24 4.24 0 0 0 4.238-4.238 4.24 4.24 0 0 0-4.238-4.237m-8.893 2.498.063 4.008-2.19 4.078h.888l1.558-2.906.712 2.906h.808l-.994-4.031-.062-3.938zm17.312.07-.666.104-.037 3.473-1.134 2.611.346 1.172 1.158-2.672 1.449 3.328h.853l-1.931-4.439zm-13.11.544a5 5 0 0 0-.338 1.824 5.03 5.03 0 0 0 5.03 5.039c2.774 0 5.029-2.25 5.029-5.04a5 5 0 0 0-.337-1.823c.084.361.13.74.13 1.125 0 2.644-2.16 4.847-4.823 4.847-2.662 0-4.823-2.203-4.823-4.847 0-.384.047-.764.131-1.125m-.845 3.628-.947 3.844h1.205l.553-2.25c-.347-.515-.623-1.031-.81-1.594m11.072 0c-.187.563-.464 1.079-.81 1.594l.552 2.25h1.205z"
+}));
+
 const SvgIconEPassport = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -9612,6 +9645,21 @@ const SvgIconFlower = props => /*#__PURE__*/React__namespace.createElement("svg"
   d: "M9 12a3 3 0 0 0 6 0m-6 0a3 3 0 0 1 6 0m-6 0-2.664.366q-1.285.21-1.846.536a3.01 3.01 0 0 0-.327 4.977 2.97 2.97 0 0 0 3.307.219q.522-.305 1.27-1.205L10.5 15l-.724 1.36Q9 18.157 9 19a3 3 0 0 0 6 0q-.001-.841-.776-2.64L13.5 15l1.76 1.893q.748.902 1.27 1.205A2.97 2.97 0 0 0 20.6 17a3.01 3.01 0 0 0-1.09-4.098c-.412-.239-1.11-.431-2.11-.576L15 12m-6 0-2.4-.325c-1-.145-1.698-.337-2.11-.576a3.01 3.01 0 0 1-.327-4.978A2.97 2.97 0 0 1 7.47 5.9q.522.304 1.27 1.205L10.5 9Q9 5.562 9 5a3 3 0 1 1 6 0q0 .843-.776 2.64L13.5 9l1.76-1.893q.748-.899 1.27-1.205a2.97 2.97 0 0 1 4.07 1.099 3.01 3.01 0 0 1-1.09 4.098q-.561.326-1.846.535L15 12"
 }));
 
+const SvgIconFlute = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M20.42 2c-.235.111-.636.305-1.185.616-.766.434-1.64 1.029-1.998 1.492-.078.101-.217.452-.296.75-.052.196-.06.263-.078.36l1.915 1.915c.096-.017.166-.026.362-.078.3-.079.653-.218.753-.296.461-.357 1.058-1.228 1.489-1.994.313-.55.505-.95.618-1.186zm-.627 1.22.988.985-.557.555-.989-.985zm-3.357 2.677L2.705 19.632c.342.13.682.361.991.67s.539.65.671.989L18.1 7.56zm-.361 1.336h.004a.697.697 0 1 1-.004 0M14.11 9.205a.696.696 0 0 1 .685.695.696.696 0 0 1-1.19.494.7.7 0 0 1 0-.988.7.7 0 0 1 .505-.2m-1.972 1.968a.696.696 0 1 1-.02 1.393.696.696 0 0 1 .02-1.393m-1.972 1.972h.005a.696.696 0 1 1-.005 0M8.2 15.118a.696.696 0 0 1 .69.694.7.7 0 0 1-.433.646.696.696 0 0 1-.914-.378.697.697 0 0 1 .657-.962m-6.08 5.176c-.062 0-.092.017-.098.021-.009.01-.052.1.019.327.074.226.256.527.523.792.268.27.567.453.794.527.225.07.318.026.327.018.01-.01.052-.105-.019-.327-.073-.226-.255-.527-.523-.797-.268-.265-.566-.448-.794-.522a1 1 0 0 0-.2-.04z"
+}));
+
 const SvgIconFolderSymlink = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -10086,6 +10134,21 @@ const SvgIconGps = props => /*#__PURE__*/React__namespace.createElement("svg", _
   d: "m12 17-1-4-4-1 9-4z"
 }));
 
+const SvgIconGrandPiano = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "m17.64 1.434-2.968.141L2.88 10.823 15.136 8.41q.406-.324.722-.614l-1.702-4.251.727-.29 1.58 3.946c2.582-2.822-.957-3.333 1.176-5.766m-.906 6.44-.618.559.45 1.13c-.427-.02-.9-.029-1.43-.033L2.88 11.948l.039.258a1.4 1.4 0 0 1-1.081 1.575l-.779.174.185.993 15.664 1.43 5.906-2.527-.042-2.034c-3.802-.408-.534-1.847-5.344-2.203zM3.927 13.351 16.8 14.39l-.848.755-13.157-1.214zm-.063 2.513.64 4.551-.163.29.017.741.803.075.802-.29v-.62l-.225-.182.426-4.36zm4.761.567v3.539l4.931.422v-3.525l-.782-.07v2.75l-3.366-.28V16.5zm9.834.126-1.378.511-1.162-.094.731 4.66-.183.239.038.844.801.08.746-.348.014-.618-.183-.183zm-9.782 4.2-1.332.445.146.675 4.795.474.984-.347.052-.858z"
+}));
+
 const SvgIconGrape = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -10284,6 +10347,21 @@ const SvgIconGrowth = props => /*#__PURE__*/React__namespace.createElement("svg"
   d: "M16.5 15a4.5 4.5 0 0 0-4.5 4.5c0-2.485-1.79-4.5-4-4.5m8.5-4a4.5 4.5 0 0 0-4.5 4.5c0-2.485-1.79-4.5-4-4.5m8.5-4a4.5 4.5 0 0 0-4.5 4.5C12 9.015 10.21 7 8 7m4-3v6"
 }));
 
+const SvgIconGuitarElectric = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M20.336 2H23v2.23h-1.757l-5.847 5.902-1.559-1.55zm-8.389 6.693c.288 0 .553.111.785.334l2.21 2.231c.2.223.321.48.321.781l-.11.446-4.421 8.924c-.21.39-.597.591-.995.591-.387 0-.785-.2-.984-.591l-2.056-4.127-4.09-2.008a1.132 1.132 0 0 1 0-2.008l8.843-4.462c.155-.111.32-.111.497-.111m-2.929 3.145-.773.759 3.15 3.179.751-.781zM7.46 13.411l-.785.792 3.128 3.157.785-.792z"
+}));
+
 const SvgIconGuitarPick = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -10300,6 +10378,21 @@ const SvgIconGuitarPick = props => /*#__PURE__*/React__namespace.createElement("
   strokeLinejoin: "round",
   strokeWidth: 2,
   d: "M16 18.5C18 16 20 12 20 8c0-2.946-2.084-4.157-4.204-4.654Q14.5 3.001 12 3q-2.5 0-3.796.346C6.084 3.843 4 5.054 4 8c0 3.312 2 8 4 10.5q.445.556.963 1.081l.354.347a3.9 3.9 0 0 0 5.364 0Q15.39 19.26 16 18.5"
+}));
+
+const SvgIconGuitar = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M20.336 2H23v2.222h-1.757l-4.687 4.711a5.5 5.5 0 0 0-1.558-1.566zm-8.389 5.556a4.4 4.4 0 0 1 3.127 1.301A4.46 4.46 0 0 1 16.368 12a4.45 4.45 0 0 1-.924 2.722 4.4 4.4 0 0 1-2.391 1.578v.144a5.57 5.57 0 0 1-1.619 3.929A5.5 5.5 0 0 1 7.526 22a5.5 5.5 0 0 1-3.907-1.627A5.57 5.57 0 0 1 2 16.444a5.57 5.57 0 0 1 1.619-3.928 5.5 5.5 0 0 1 3.907-1.627h.144a4.42 4.42 0 0 1 4.277-3.333m0 2.777c-.44 0-.861.176-1.172.489a1.67 1.67 0 0 0 0 2.357 1.653 1.653 0 0 0 2.345 0 1.67 1.67 0 0 0 0-2.357 1.65 1.65 0 0 0-1.173-.489M6.355 14.49l-.785.778 3.128 3.144.785-.789z"
 }));
 
 const SvgIconH1 = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -11115,7 +11208,7 @@ const SvgIconKeyframes = props => /*#__PURE__*/React__namespace.createElement("s
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 2,
-  d: "m17 5 4.586 5.836a1.844 1.844 0 0 1 0 2.328L17 19M13 5l4.586 5.836a1.844 1.844 0 0 1 0 2.328L13 19m-3.775-.588A1.6 1.6 0 0 1 8 19c-.468 0-.914-.214-1.225-.588l-4.361-5.248a1.844 1.844 0 0 1 0-2.328l4.361-5.248A1.6 1.6 0 0 1 8 5c.468 0 .914.214 1.225.588l4.361 5.248a1.844 1.844 0 0 1 0 2.328z"
+  d: "m17 5 4.586 5.836a1.845 1.845 0 0 1 0 2.328L17 19M13 5l4.586 5.836a1.845 1.845 0 0 1 0 2.328L13 19m-3.775-.588A1.6 1.6 0 0 1 8 19c-.468 0-.914-.214-1.225-.588l-4.36-5.248a1.844 1.844 0 0 1 0-2.328l4.36-5.248A1.6 1.6 0 0 1 8 5c.468 0 .914.214 1.225.588l4.361 5.248a1.845 1.845 0 0 1 0 2.328z"
 }));
 
 const SvgIconLadder = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -12249,7 +12342,7 @@ const SvgIconMicrophone2 = props => /*#__PURE__*/React__namespace.createElement(
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 2,
-  d: "M15 12.9A4.999 4.999 0 1 0 11.098 9M15 12.9 11.098 9l-7.513 8.585a2 2 0 0 0 2.827 2.83z"
+  d: "M15 12.9A5 5 0 1 0 11.098 9M15 12.9l-3.902-3.899-7.513 8.584a2 2 0 0 0 2.827 2.83z"
 }));
 
 const SvgIconMicrophone = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -12458,6 +12551,41 @@ const SvgIconMoped = props => /*#__PURE__*/React__namespace.createElement("svg",
   strokeLinejoin: "round",
   strokeWidth: 2,
   d: "M5 16v1a2 2 0 0 0 4 0v-5H6a3 3 0 0 0-3 3v1h10a6 6 0 0 1 5-4V7a2 2 0 0 0-2-2h-1M6 9h3m7 8a2 2 0 1 0 4 0 2 2 0 0 0-4 0"
+}));
+
+const SvgIconMotherboard = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("mask", {
+  id: "icon-motherboard_svg__a",
+  fill: "#fff"
+}, /*#__PURE__*/React__namespace.createElement("path", {
+  d: "M16.375 4.667c.166 0 .325.07.442.195a.7.7 0 0 1 .183.471v9.334a.7.7 0 0 1-.183.471.6.6 0 0 1-.442.195.6.6 0 0 1-.442-.195.7.7 0 0 1-.183-.471V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195m2.5 0c.166 0 .325.07.442.195a.7.7 0 0 1 .183.471v9.334a.7.7 0 0 1-.183.471.6.6 0 0 1-.442.195.6.6 0 0 1-.442-.195.7.7 0 0 1-.183-.471V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195m-12.5 10.666a.6.6 0 0 0-.442.196.7.7 0 0 0-.183.471.7.7 0 0 0 .183.471.6.6 0 0 0 .442.196h7.5c.166 0 .325-.07.442-.196A.7.7 0 0 0 14.5 16a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.196zm0 2.667a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.472.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195h7.5c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471.7.7 0 0 0-.183-.472.6.6 0 0 0-.442-.195zM8.25 6c-.332 0-.65.14-.884.39A1.38 1.38 0 0 0 7 7.334h-.625a.6.6 0 0 0-.442.196A.7.7 0 0 0 5.75 8a.7.7 0 0 0 .183.471.6.6 0 0 0 .442.196H7V10h-.625a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.472.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195H7c0 .354.132.693.366.943.235.25.552.39.884.39v.667a.7.7 0 0 0 .183.472.6.6 0 0 0 .442.195c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.472v-.666h1.25v.666a.7.7 0 0 0 .183.472.6.6 0 0 0 .442.195c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.472v-.666c.332 0 .65-.14.884-.39s.366-.59.366-.944h.625c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471.7.7 0 0 0-.183-.472.6.6 0 0 0-.442-.195h-.625V8.667h.625c.166 0 .325-.07.442-.196A.7.7 0 0 0 14.5 8a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.196h-.625a1.38 1.38 0 0 0-.366-.942A1.21 1.21 0 0 0 12 6v-.667a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471V6H9.5v-.667a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471zm0 1.333H12v4H8.25zm8.125 9.334a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471v1.334a.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195h2.5c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471v-1.334a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195z"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  d: "M3.25 4.667c0-.708.263-1.386.732-1.886A2.42 2.42 0 0 1 5.75 2H19.5c.663 0 1.299.28 1.768.781.469.5.732 1.178.732 1.886v14.666a2.76 2.76 0 0 1-.732 1.886c-.47.5-1.105.781-1.768.781H5.75a2.42 2.42 0 0 1-1.768-.781 2.76 2.76 0 0 1-.732-1.886v-2.666h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 16v-1.333a.7.7 0 0 1 .183-.472.6.6 0 0 1 .442-.195h.625v-1.333h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 12v-1.333a.7.7 0 0 1 .183-.472.6.6 0 0 1 .442-.195h.625V8.667h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 8V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195zM4.5 19.333c0 .354.132.693.366.943.235.25.552.39.884.39H19.5c.331 0 .65-.14.884-.39s.366-.589.366-.943V4.667a1.38 1.38 0 0 0-.366-.943 1.21 1.21 0 0 0-.884-.39H5.75c-.332 0-.65.14-.884.39a1.38 1.38 0 0 0-.366.943z"
+})), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M16.375 4.667c.166 0 .325.07.442.195a.7.7 0 0 1 .183.471v9.334a.7.7 0 0 1-.183.471.6.6 0 0 1-.442.195.6.6 0 0 1-.442-.195.7.7 0 0 1-.183-.471V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195m2.5 0c.166 0 .325.07.442.195a.7.7 0 0 1 .183.471v9.334a.7.7 0 0 1-.183.471.6.6 0 0 1-.442.195.6.6 0 0 1-.442-.195.7.7 0 0 1-.183-.471V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195m-12.5 10.666a.6.6 0 0 0-.442.196.7.7 0 0 0-.183.471.7.7 0 0 0 .183.471.6.6 0 0 0 .442.196h7.5c.166 0 .325-.07.442-.196A.7.7 0 0 0 14.5 16a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.196zm0 2.667a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.472.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195h7.5c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471.7.7 0 0 0-.183-.472.6.6 0 0 0-.442-.195zM8.25 6c-.332 0-.65.14-.884.39A1.38 1.38 0 0 0 7 7.334h-.625a.6.6 0 0 0-.442.196A.7.7 0 0 0 5.75 8a.7.7 0 0 0 .183.471.6.6 0 0 0 .442.196H7V10h-.625a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.472.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195H7c0 .354.132.693.366.943.235.25.552.39.884.39v.667a.7.7 0 0 0 .183.472.6.6 0 0 0 .442.195c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.472v-.666h1.25v.666a.7.7 0 0 0 .183.472.6.6 0 0 0 .442.195c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.472v-.666c.332 0 .65-.14.884-.39s.366-.59.366-.944h.625c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471.7.7 0 0 0-.183-.472.6.6 0 0 0-.442-.195h-.625V8.667h.625c.166 0 .325-.07.442-.196A.7.7 0 0 0 14.5 8a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.196h-.625a1.38 1.38 0 0 0-.366-.942A1.21 1.21 0 0 0 12 6v-.667a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471V6H9.5v-.667a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471zm0 1.333H12v4H8.25zm8.125 9.334a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471v1.334a.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195h2.5c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471v-1.334a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195z"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M3.25 4.667c0-.708.263-1.386.732-1.886A2.42 2.42 0 0 1 5.75 2H19.5c.663 0 1.299.28 1.768.781.469.5.732 1.178.732 1.886v14.666a2.76 2.76 0 0 1-.732 1.886c-.47.5-1.105.781-1.768.781H5.75a2.42 2.42 0 0 1-1.768-.781 2.76 2.76 0 0 1-.732-1.886v-2.666h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 16v-1.333a.7.7 0 0 1 .183-.472.6.6 0 0 1 .442-.195h.625v-1.333h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 12v-1.333a.7.7 0 0 1 .183-.472.6.6 0 0 1 .442-.195h.625V8.667h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 8V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195zM4.5 19.333c0 .354.132.693.366.943.235.25.552.39.884.39H19.5c.331 0 .65-.14.884-.39s.366-.589.366-.943V4.667a1.38 1.38 0 0 0-.366-.943 1.21 1.21 0 0 0-.884-.39H5.75c-.332 0-.65.14-.884.39a1.38 1.38 0 0 0-.366.943z"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeWidth: 4,
+  d: "M16.375 4.667c.166 0 .325.07.442.195a.7.7 0 0 1 .183.471v9.334a.7.7 0 0 1-.183.471.6.6 0 0 1-.442.195.6.6 0 0 1-.442-.195.7.7 0 0 1-.183-.471V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195Zm2.5 0c.166 0 .325.07.442.195a.7.7 0 0 1 .183.471v9.334a.7.7 0 0 1-.183.471.6.6 0 0 1-.442.195.6.6 0 0 1-.442-.195.7.7 0 0 1-.183-.471V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195Zm-12.5 10.666a.6.6 0 0 0-.442.196.7.7 0 0 0-.183.471.7.7 0 0 0 .183.471.6.6 0 0 0 .442.196h7.5c.166 0 .325-.07.442-.196A.7.7 0 0 0 14.5 16a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.196zm0 2.667a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.472.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195h7.5c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471.7.7 0 0 0-.183-.472.6.6 0 0 0-.442-.195zM8.25 6c-.332 0-.65.14-.884.39A1.38 1.38 0 0 0 7 7.334h-.625a.6.6 0 0 0-.442.196A.7.7 0 0 0 5.75 8a.7.7 0 0 0 .183.471.6.6 0 0 0 .442.196H7V10h-.625a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.472.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195H7c0 .354.132.693.366.943.235.25.552.39.884.39v.667a.7.7 0 0 0 .183.472.6.6 0 0 0 .442.195c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.472v-.666h1.25v.666a.7.7 0 0 0 .183.472.6.6 0 0 0 .442.195c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.472v-.666c.332 0 .65-.14.884-.39s.366-.59.366-.944h.625c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471.7.7 0 0 0-.183-.472.6.6 0 0 0-.442-.195h-.625V8.667h.625c.166 0 .325-.07.442-.196A.7.7 0 0 0 14.5 8a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.196h-.625a1.38 1.38 0 0 0-.366-.942A1.21 1.21 0 0 0 12 6v-.667a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471V6H9.5v-.667a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471zm0 1.333H12v4H8.25zm8.125 9.334a.6.6 0 0 0-.442.195.7.7 0 0 0-.183.471v1.334a.7.7 0 0 0 .183.471.6.6 0 0 0 .442.195h2.5c.166 0 .325-.07.442-.195a.7.7 0 0 0 .183-.471v-1.334a.7.7 0 0 0-.183-.471.6.6 0 0 0-.442-.195z",
+  mask: "url(#icon-motherboard_svg__a)"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeWidth: 4,
+  d: "M3.25 4.667c0-.708.263-1.386.732-1.886A2.42 2.42 0 0 1 5.75 2H19.5c.663 0 1.299.28 1.768.781.469.5.732 1.178.732 1.886v14.666a2.76 2.76 0 0 1-.732 1.886c-.47.5-1.105.781-1.768.781H5.75a2.42 2.42 0 0 1-1.768-.781 2.76 2.76 0 0 1-.732-1.886v-2.666h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 16v-1.333a.7.7 0 0 1 .183-.472.6.6 0 0 1 .442-.195h.625v-1.333h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 12v-1.333a.7.7 0 0 1 .183-.472.6.6 0 0 1 .442-.195h.625V8.667h-.625a.6.6 0 0 1-.442-.196A.7.7 0 0 1 2 8V5.333a.7.7 0 0 1 .183-.471.6.6 0 0 1 .442-.195zM4.5 19.333c0 .354.132.693.366.943.235.25.552.39.884.39H19.5c.331 0 .65-.14.884-.39s.366-.589.366-.943V4.667a1.38 1.38 0 0 0-.366-.943 1.21 1.21 0 0 0-.884-.39H5.75c-.332 0-.65.14-.884.39a1.38 1.38 0 0 0-.366.943z",
+  mask: "url(#icon-motherboard_svg__a)"
 }));
 
 const SvgIconMotorbike = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -13055,6 +13183,24 @@ const SvgIconPhysotherapist = props => /*#__PURE__*/React__namespace.createEleme
   strokeLinejoin: "round",
   strokeWidth: 2,
   d: "m9 15-1-3 4-2m0 0 4 1h3.5M12 10v7m-4 3h7l1-4 4-2m-2 6h3M3 19a1 1 0 1 0 2 0 1 1 0 0 0-2 0m8-13a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
+}));
+
+const SvgIconPiano = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2,
+  d: "M9 19v-6M8 5v8h2V5m5 14v-6m-1-8v8h2V5M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
 }));
 
 const SvgIconPictureInPictureOn = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -13757,6 +13903,21 @@ const SvgIconRainbow = props => /*#__PURE__*/React__namespace.createElement("svg
   strokeLinejoin: "round",
   strokeWidth: 2,
   d: "M22 17c0-5.523-4.477-10-10-10S2 11.477 2 17m16 0a6 6 0 1 0-12 0m8 0a2 2 0 0 0-4 0"
+}));
+
+const SvgIconRam = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M2 6v12h9.286v-.667c0-.37.318-.666.714-.666s.714.296.714.666V18H22V6zm1.429 1.333H20.57v6H3.43zm1.428 1.334V12h4.286V8.667zm5 0V12h4.286V8.667zm5 0V12h4.286V8.667zM6.286 10h1.428v.667H6.286zm5 0h1.428v.667h-1.428zm5 0h1.428v.667h-1.428zM3.429 14.667H20.57v2h-6.718c-.316-.74-.954-1.334-1.853-1.334s-1.537.594-1.853 1.334H3.43z"
 }));
 
 const SvgIconRazor = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -15613,6 +15774,23 @@ const SvgIconSquare = props => /*#__PURE__*/React__namespace.createElement("svg"
   d: "M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
 }));
 
+const SvgIconSsd = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M6.011 3.574C6.558 3.152 7.185 3 7.814 3h8.372c.63 0 1.257.152 1.803.574.54.416.927 1.043 1.188 1.865l.007.021 2.36 9.508a4.2 4.2 0 0 1 .456 1.92C22 19.12 20.267 21 18.047 21H5.953C3.733 21 2 19.12 2 16.887c0-.69.164-1.344.456-1.918l2.36-9.508.007-.022c.26-.822.65-1.449 1.188-1.865M4.35 13.126a3.8 3.8 0 0 1 1.603-.352h12.094c.572 0 1.115.126 1.603.352l-1.81-7.292c-.205-.63-.461-.976-.709-1.168-.244-.19-.547-.281-.945-.281H7.814c-.398 0-.7.092-.945.281-.248.192-.505.537-.709 1.169zm1.603 1.032c-.936 0-1.775.541-2.223 1.38a2.84 2.84 0 0 0-.335 1.349c0 1.545 1.183 2.728 2.558 2.728h12.094c1.375 0 2.558-1.183 2.558-2.728a2.85 2.85 0 0 0-.335-1.349c-.448-.839-1.287-1.38-2.223-1.38zm4.652 1.765a.7.7 0 0 1 .493.203.7.7 0 0 1 .204.49v.922a.7.7 0 0 1-.204.49.7.7 0 0 1-.987 0 .7.7 0 0 1-.204-.49v-.923a.7.7 0 0 1 .204-.49.7.7 0 0 1 .494-.202m2.325 0a.7.7 0 0 1 .494.203.7.7 0 0 1 .204.49v.922a.7.7 0 0 1-.204.49.7.7 0 0 1-.987 0 .7.7 0 0 1-.204-.49v-.923a.7.7 0 0 1 .204-.49.7.7 0 0 1 .493-.202m2.326 0a.7.7 0 0 1 .493.203.7.7 0 0 1 .204.49v.922a.7.7 0 0 1-.204.49.7.7 0 0 1-1.19-.49v-.923a.7.7 0 0 1 .204-.49.7.7 0 0 1 .493-.202m2.325 0a.7.7 0 0 1 .494.203.7.7 0 0 1 .204.49v.922a.7.7 0 0 1-.204.49.7.7 0 0 1-1.191-.49v-.923a.7.7 0 0 1 .204-.49.7.7 0 0 1 .493-.202",
+  clipRule: "evenodd"
+}));
+
 const SvgIconStack2 = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -17356,6 +17534,21 @@ const SvgIconViewportWide = props => /*#__PURE__*/React__namespace.createElement
   d: "M10 12H3m0 0 3-3m-3 3 3 3m8-3h7m0 0-3-3m3 3-3 3M3 6V3h18v3M3 18v3h18v-3"
 }));
 
+const SvgIconViolin = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "m21.168 3.678.18-.27.207.207.445-.64-.22-.22.22-.331-.424-.423-.33.219-.22-.22-.642.444.208.208-.27.18-.075.421-.178.118-.447-.446.188-.188-.61-.28-.315.317.28.609.187-.188.391.392-.614.409-.733-.733-.271.271.835.837-3.93 3.65c-.676-.633-1.692-1.434-2.754-1.434-.87 0-1.598.52-2.165 1.542-.1.18-.167.39-.232.593-.192.6-.358.982-.955 1.035L3.96 4.793l-1.632.674.479.48.289.289.384.384 4.912 4.912a1.1 1.1 0 0 1-.32.372c-.454.34-.834.512-1.132.512-.16 0-.396-.045-.585-.433-.09-.18-.275-.373-.53-.373-.553 0-.671.822-.71 1.091-.022.151-.157.507-.936.56-.946.063-1.675.596-2 1.46-.439 1.171-.172 3.159 1.896 5.226C5.399 21.271 6.86 22 8.193 22c1.412 0 2.443-.863 2.566-2.147.08-.815.45-.93.56-.946.433-.062 1.017-.195 1.087-.635.037-.239-.106-.477-.368-.605-.236-.116-.372-.259-.416-.438q-.113-.461.5-1.285.146-.2.365-.317l4.143 4.143.748.749.675.674.479.48.674-1.633-4.941-4.941c.056-.641.495-.783 1.034-.955.203-.065.413-.132.593-.232.906-.503 1.418-1.135 1.522-1.88.165-1.179-.737-2.32-1.434-3.06l3.732-4.021.143.143.259-.39.438.437-.187.188.609.28.315-.317-.28-.609-.187.187-.492-.493.268-.404 1.005 1.006.271-.272-.98-.98zM10.503 8.922c.058-.18.113-.35.18-.474.45-.81.972-1.205 1.593-1.205.815 0 1.672.67 2.271 1.226l-3.583 3.329-1.499-1.499c.676-.264.89-.911 1.038-1.377m1.976 6.009-1.086-1.087.27-.272.024.023.186-.2 1.5 1.502a2 2 0 0 0-.39-.039q-.257 0-.504.073m-4.47 1.557 2.67-2.67.245.247-2.668 2.668zm1.598-3.581a.6.6 0 0 0 .027-.132l.18.18-.153.152a.24.24 0 0 0-.054-.2m.331.172.245.245-2.667 2.669-.246-.245zm.861-.37-.27.27-.246-.245.271-.271zm.741.74-.271.271-.246-.246.271-.271zm-.641-.099-.247-.246.272-.272.246.247zm-.591.098.246.247-2.668 2.668-.246-.245zm.74.74.18.18a.6.6 0 0 0-.133.028.24.24 0 0 0-.2-.054zm-.64-1.873.022.023-.271.272-1.07-1.069a2 2 0 0 0 .043-.886l1.475 1.475zM4.29 5.812l3.918 3.919-.177-.013.28.524c.013.024.176.338.195.716l-4.68-4.682zm-1.495 9.142c.233-.623.741-.992 1.43-1.038 1.29-.087 1.505-.878 1.54-1.12.025-.172.053-.295.08-.38.32.538.767.657 1.097.657.666 0 1.311-.484 1.53-.647.169-.127.296-.268.397-.416l.348.348c-.87-.06-2.042 2.147-2.552 1.637-.127-.128-.094-.24-.06-.301a.237.237 0 0 0 .203-.406.24.24 0 0 0-.341 0 .24.24 0 0 0-.031.295c-.07.102-.204.363.038.604.827.828 2.374-2.014 2.9-1.487.035.034.038.085.033.13a.233.233 0 0 0-.22.236.236.236 0 0 0 .284.233l-2.325 2.325-.217-.217s-.412.689-.506.938c-.084.224-.098.723-.213.932-.285.515-1.404 1.512-1.914 1.953-1.623-1.754-1.836-3.385-1.501-4.276m8.793.61c-.195.262-.788 1.059-.603 1.82.08.33.29.598.622.796a3 3 0 0 1-.381.08c-.231.033-.995.241-1.12 1.531-.091.96-.825 1.555-1.912 1.555-.637 0-1.905-.222-3.42-1.637.44-.509 1.438-1.63 1.952-1.915.21-.116.709-.129.932-.214.25-.093.938-.506.938-.506l-.216-.216 2.324-2.325a.237.237 0 0 0 .326.265.234.234 0 0 0 .144-.201c.043-.006.094-.002.128.031.528.527-2.313 2.075-1.486 2.903.241.242.502.107.604.037a.236.236 0 0 0 .347-.11.24.24 0 0 0-.393-.262.24.24 0 0 0-.065.202c-.061.036-.173.069-.3-.06-.51-.51 1.696-1.681 1.636-2.552l.367.366a1.8 1.8 0 0 0-.424.412m1.479-.045c.247.018.49.084.713.193l.526.286-.013-.182 3.895 3.895-.465.464-.749-.748zm3.698-3.578c-.074.53-.475 1-1.19 1.397-.124.069-.295.123-.476.181-.47.15-1.114.363-1.376 1.038l-1.519-1.52 3.329-3.584c.61.652 1.356 1.606 1.232 2.488"
+}));
+
 const SvgIconVirus = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -17462,6 +17655,24 @@ const SvgIconWand = props => /*#__PURE__*/React__namespace.createElement("svg", 
   strokeLinejoin: "round",
   strokeWidth: 2,
   d: "m15 6 3 3M6 21 21 6l-3-3L3 18zM9 3a2 2 0 0 0 2 2 2 2 0 0 0-2 2 2 2 0 0 0-2-2 2 2 0 0 0 2-2m10 10a2 2 0 0 0 2 2 2 2 0 0 0-2 2 2 2 0 0 0-2-2 2 2 0 0 0 2-2"
+}));
+
+const SvgIconWashingMachine = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 24"
+}, props, {
+  className: `cleon-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2,
+  d: "m18 5.01.01-.011M12 16a3 3 0 0 1-3-3m12-9v16a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2m-9 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12"
 }));
 
 const SvgIconWaveSawTool = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -18482,6 +18693,8 @@ exports.DotsVertical = SvgIconDotsVertical;
 exports.Download = SvgIconDownload;
 exports.Droplet = SvgIconDroplet;
 exports.DropletFilled = SvgIconDropletFilled;
+exports.Drum = SvgIconDrum;
+exports.Drumkit = SvgIconDrumkit;
 exports.EPassport = SvgIconEPassport;
 exports.Ear = SvgIconEar;
 exports.Edit = SvgIconEdit;
@@ -18515,6 +18728,7 @@ exports.Flask = SvgIconFlask;
 exports.Flask2 = SvgIconFlask2;
 exports.FlipFlops = SvgIconFlipFlops;
 exports.Flower = SvgIconFlower;
+exports.Flute = SvgIconFlute;
 exports.Folder = SvgIconFolder;
 exports.FolderSymlink = SvgIconFolderSymlink;
 exports.Folders = SvgIconFolders;
@@ -18541,6 +18755,7 @@ exports.GitPullRequestClosed = SvgIconGitPullRequestClosed;
 exports.GitPullRequestDraft = SvgIconGitPullRequestDraft;
 exports.Glass = SvgIconGlass;
 exports.Gps = SvgIconGps;
+exports.GrandPiano = SvgIconGrandPiano;
 exports.Grape = SvgIconGrape;
 exports.Graph = SvgIconGraph;
 exports.Grave = SvgIconGrave;
@@ -18552,6 +18767,8 @@ exports.GrillSpatula = SvgIconGrillSpatula;
 exports.GripHorizontal = SvgIconGripHorizontal;
 exports.GripVertical = SvgIconGripVertical;
 exports.Growth = SvgIconGrowth;
+exports.Guitar = SvgIconGuitar;
+exports.GuitarElectric = SvgIconGuitarElectric;
 exports.GuitarPick = SvgIconGuitarPick;
 exports.H1 = SvgIconH1;
 exports.H2 = SvgIconH2;
@@ -19095,6 +19312,8 @@ exports.IconDotsVertical = SvgIconDotsVertical;
 exports.IconDownload = SvgIconDownload;
 exports.IconDroplet = SvgIconDroplet;
 exports.IconDropletFilled = SvgIconDropletFilled;
+exports.IconDrum = SvgIconDrum;
+exports.IconDrumkit = SvgIconDrumkit;
 exports.IconEPassport = SvgIconEPassport;
 exports.IconEar = SvgIconEar;
 exports.IconEdit = SvgIconEdit;
@@ -19128,6 +19347,7 @@ exports.IconFlask = SvgIconFlask;
 exports.IconFlask2 = SvgIconFlask2;
 exports.IconFlipFlops = SvgIconFlipFlops;
 exports.IconFlower = SvgIconFlower;
+exports.IconFlute = SvgIconFlute;
 exports.IconFolder = SvgIconFolder;
 exports.IconFolderSymlink = SvgIconFolderSymlink;
 exports.IconFolders = SvgIconFolders;
@@ -19154,6 +19374,7 @@ exports.IconGitPullRequestClosed = SvgIconGitPullRequestClosed;
 exports.IconGitPullRequestDraft = SvgIconGitPullRequestDraft;
 exports.IconGlass = SvgIconGlass;
 exports.IconGps = SvgIconGps;
+exports.IconGrandPiano = SvgIconGrandPiano;
 exports.IconGrape = SvgIconGrape;
 exports.IconGraph = SvgIconGraph;
 exports.IconGrave = SvgIconGrave;
@@ -19165,6 +19386,8 @@ exports.IconGrillSpatula = SvgIconGrillSpatula;
 exports.IconGripHorizontal = SvgIconGripHorizontal;
 exports.IconGripVertical = SvgIconGripVertical;
 exports.IconGrowth = SvgIconGrowth;
+exports.IconGuitar = SvgIconGuitar;
+exports.IconGuitarElectric = SvgIconGuitarElectric;
 exports.IconGuitarPick = SvgIconGuitarPick;
 exports.IconH1 = SvgIconH1;
 exports.IconH2 = SvgIconH2;
@@ -19284,6 +19507,7 @@ exports.IconMoneybag = SvgIconMoneybag;
 exports.IconMoon = SvgIconMoon;
 exports.IconMoonStars = SvgIconMoonStars;
 exports.IconMoped = SvgIconMoped;
+exports.IconMotherboard = SvgIconMotherboard;
 exports.IconMotorbike = SvgIconMotorbike;
 exports.IconMountain = SvgIconMountain;
 exports.IconMouse2 = SvgIconMouse2;
@@ -19316,6 +19540,7 @@ exports.IconPerfume = SvgIconPerfume;
 exports.IconPhone = SvgIconPhone;
 exports.IconPhoto = SvgIconPhoto;
 exports.IconPhysotherapist = SvgIconPhysotherapist;
+exports.IconPiano = SvgIconPiano;
 exports.IconPictureInPictureOn = SvgIconPictureInPictureOn;
 exports.IconPill = SvgIconPill;
 exports.IconPin = SvgIconPin;
@@ -19355,6 +19580,7 @@ exports.IconPyramid = SvgIconPyramid;
 exports.IconQrcode = SvgIconQrcode;
 exports.IconRadio = SvgIconRadio;
 exports.IconRainbow = SvgIconRainbow;
+exports.IconRam = SvgIconRam;
 exports.IconRazor = SvgIconRazor;
 exports.IconRectangle = SvgIconRectangle;
 exports.IconRecycle = SvgIconRecycle;
@@ -19457,6 +19683,7 @@ exports.IconSquareRoundedMinus = SvgIconSquareRoundedMinus;
 exports.IconSquareRoundedPlus = SvgIconSquareRoundedPlus;
 exports.IconSquareRoundedX = SvgIconSquareRoundedX;
 exports.IconSquareX = SvgIconSquareX;
+exports.IconSsd = SvgIconSsd;
 exports.IconStack = SvgIconStack;
 exports.IconStack2 = SvgIconStack2;
 exports.IconStar = SvgIconStar;
@@ -19553,12 +19780,14 @@ exports.IconVideo = SvgIconVideo;
 exports.IconView360 = SvgIconView360;
 exports.IconViewportNarrow = SvgIconViewportNarrow;
 exports.IconViewportWide = SvgIconViewportWide;
+exports.IconViolin = SvgIconViolin;
 exports.IconVirus = SvgIconVirus;
 exports.IconVolume = SvgIconVolume;
 exports.IconWall = SvgIconWall;
 exports.IconWallet = SvgIconWallet;
 exports.IconWallpaper = SvgIconWallpaper;
 exports.IconWand = SvgIconWand;
+exports.IconWashingMachine = SvgIconWashingMachine;
 exports.IconWaveSawTool = SvgIconWaveSawTool;
 exports.IconWeight = SvgIconWeight;
 exports.IconWheat = SvgIconWheat;
@@ -19671,6 +19900,7 @@ exports.Moneybag = SvgIconMoneybag;
 exports.Moon = SvgIconMoon;
 exports.MoonStars = SvgIconMoonStars;
 exports.Moped = SvgIconMoped;
+exports.Motherboard = SvgIconMotherboard;
 exports.Motorbike = SvgIconMotorbike;
 exports.Mountain = SvgIconMountain;
 exports.Mouse2 = SvgIconMouse2;
@@ -19703,6 +19933,7 @@ exports.Perfume = SvgIconPerfume;
 exports.Phone = SvgIconPhone;
 exports.Photo = SvgIconPhoto;
 exports.Physotherapist = SvgIconPhysotherapist;
+exports.Piano = SvgIconPiano;
 exports.PictureInPictureOn = SvgIconPictureInPictureOn;
 exports.Pill = SvgIconPill;
 exports.Pin = SvgIconPin;
@@ -19742,6 +19973,7 @@ exports.Pyramid = SvgIconPyramid;
 exports.Qrcode = SvgIconQrcode;
 exports.Radio = SvgIconRadio;
 exports.Rainbow = SvgIconRainbow;
+exports.Ram = SvgIconRam;
 exports.Razor = SvgIconRazor;
 exports.Rectangle = SvgIconRectangle;
 exports.Recycle = SvgIconRecycle;
@@ -19844,6 +20076,7 @@ exports.SquareRoundedMinus = SvgIconSquareRoundedMinus;
 exports.SquareRoundedPlus = SvgIconSquareRoundedPlus;
 exports.SquareRoundedX = SvgIconSquareRoundedX;
 exports.SquareX = SvgIconSquareX;
+exports.Ssd = SvgIconSsd;
 exports.Stack = SvgIconStack;
 exports.Stack2 = SvgIconStack2;
 exports.Star = SvgIconStar;
@@ -19940,12 +20173,14 @@ exports.Video = SvgIconVideo;
 exports.View360 = SvgIconView360;
 exports.ViewportNarrow = SvgIconViewportNarrow;
 exports.ViewportWide = SvgIconViewportWide;
+exports.Violin = SvgIconViolin;
 exports.Virus = SvgIconVirus;
 exports.Volume = SvgIconVolume;
 exports.Wall = SvgIconWall;
 exports.Wallet = SvgIconWallet;
 exports.Wallpaper = SvgIconWallpaper;
 exports.Wand = SvgIconWand;
+exports.WashingMachine = SvgIconWashingMachine;
 exports.WaveSawTool = SvgIconWaveSawTool;
 exports.Weight = SvgIconWeight;
 exports.Wheat = SvgIconWheat;
