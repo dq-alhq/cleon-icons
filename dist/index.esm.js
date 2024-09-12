@@ -2520,6 +2520,33 @@ const SvgBadgeWc = (props) =>
     }),
   )
 
+const SvgBag = (props) =>
+  /*#__PURE__*/ React.createElement(
+    'svg',
+    _extends(
+      {
+        xmlns: 'http://www.w3.org/2000/svg',
+        width: 24,
+        height: 24,
+        fill: 'none',
+        viewBox: '0 0 24 24',
+      },
+      props,
+      {
+        className: `cleon-icons ${props.className ? props.className : 'size-4'}`,
+        'data-slot': 'icon',
+        'aria-hidden': 'true',
+      },
+    ),
+    /*#__PURE__*/ React.createElement('path', {
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      strokeWidth: 2,
+      d: 'M15 8a3 3 0 0 1-6 0M4.693 4.69l-.879 14.5a1 1 0 0 0 1 1.06h14.374a1 1 0 0 0 .998-1.06l-.879-14.5a1 1 0 0 0-.998-.94H5.69a1 1 0 0 0-.997.94',
+    }),
+  )
+
 const SvgBaguette = (props) =>
   /*#__PURE__*/ React.createElement(
     'svg',
@@ -7214,6 +7241,33 @@ const SvgBrowser = (props) =>
     }),
   )
 
+const SvgBrushMakeup = (props) =>
+  /*#__PURE__*/ React.createElement(
+    'svg',
+    _extends(
+      {
+        xmlns: 'http://www.w3.org/2000/svg',
+        width: 24,
+        height: 24,
+        fill: 'none',
+        viewBox: '0 0 24 24',
+      },
+      props,
+      {
+        className: `cleon-icons ${props.className ? props.className : 'size-4'}`,
+        'data-slot': 'icon',
+        'aria-hidden': 'true',
+      },
+    ),
+    /*#__PURE__*/ React.createElement('path', {
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      strokeWidth: 2,
+      d: 'm9.26 9.374 5.366 5.366M9.259 9.374l-.001-.002-5.147 5.15a3.795 3.795 0 0 0 5.367 5.367l5.148-5.149M9.259 9.374l2.592-5.552a1.424 1.424 0 0 1 2.297-.406l6.436 6.437a1.423 1.423 0 0 1-.406 2.296l-5.552 2.591m-7.448-3.285 5.367 5.366m3.06-11.95-1.698 2.683m4.985.604-2.684 1.697',
+    }),
+  )
+
 const SvgBrush = (props) =>
   /*#__PURE__*/ React.createElement(
     'svg',
@@ -9732,6 +9786,33 @@ const SvgCircus = (props) =>
     }),
   )
 
+const SvgClapperboard = (props) =>
+  /*#__PURE__*/ React.createElement(
+    'svg',
+    _extends(
+      {
+        xmlns: 'http://www.w3.org/2000/svg',
+        width: 24,
+        height: 24,
+        fill: 'none',
+        viewBox: '0 0 24 24',
+      },
+      props,
+      {
+        className: `cleon-icons ${props.className ? props.className : 'size-4'}`,
+        'data-slot': 'icon',
+        'aria-hidden': 'true',
+      },
+    ),
+    /*#__PURE__*/ React.createElement('path', {
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      strokeWidth: 2,
+      d: 'm3.876 11.042 15.407-4.479-.716-2.329c-.269-.896-1.254-1.433-2.24-1.165L4.234 6.653c-.896.268-1.433 1.254-1.165 2.24zm0 0H20v7.166A1.79 1.79 0 0 1 18.208 20H5.668a1.79 1.79 0 0 1-1.792-1.792zm2.866-5.106L9.52 9.43m2.777-5.196 2.777 3.583',
+    }),
+  )
+
 const SvgClick = (props) =>
   /*#__PURE__*/ React.createElement(
     'svg',
@@ -10897,6 +10978,33 @@ const SvgCopy = (props) =>
       strokeLinejoin: 'round',
       strokeWidth: 2,
       d: 'M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2m0-6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2z',
+    }),
+  )
+
+const SvgCosmetic = (props) =>
+  /*#__PURE__*/ React.createElement(
+    'svg',
+    _extends(
+      {
+        xmlns: 'http://www.w3.org/2000/svg',
+        width: 24,
+        height: 24,
+        fill: 'none',
+        viewBox: '0 0 24 24',
+      },
+      props,
+      {
+        className: `cleon-icons ${props.className ? props.className : 'size-4'}`,
+        'data-slot': 'icon',
+        'aria-hidden': 'true',
+      },
+    ),
+    /*#__PURE__*/ React.createElement('path', {
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      strokeWidth: 2,
+      d: 'M16.5 16a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11m0 0v4m0 0H13m3.5 0H20M3 11H2v6.5A2.5 2.5 0 0 0 4.5 20h1A2.5 2.5 0 0 0 8 17.5V11H7m-4 0V6l4-2v7m-4 0h4',
     }),
   )
 
@@ -12984,6 +13092,33 @@ const SvgDownload = (props) =>
       strokeLinejoin: 'round',
       strokeWidth: 2,
       d: 'M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2M7 11l5 5m0 0 5-5m-5 5V4',
+    }),
+  )
+
+const SvgDress = (props) =>
+  /*#__PURE__*/ React.createElement(
+    'svg',
+    _extends(
+      {
+        xmlns: 'http://www.w3.org/2000/svg',
+        width: 24,
+        height: 24,
+        fill: 'none',
+        viewBox: '0 0 24 24',
+      },
+      props,
+      {
+        className: `cleon-icons ${props.className ? props.className : 'size-4'}`,
+        'data-slot': 'icon',
+        'aria-hidden': 'true',
+      },
+    ),
+    /*#__PURE__*/ React.createElement('path', {
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      strokeWidth: 2,
+      d: 'M16 2v3m0 0a5.14 5.14 0 0 1 .7 4.8l-.2.5a7.64 7.64 0 0 0 .4 6.3C17.7 17.9 19 20 19 20s-3.1 2-7 2-7-2-7-2 1.3-2.1 2.1-3.5a7.64 7.64 0 0 0 .4-6.2l-.2-.5A5.66 5.66 0 0 1 8 5m8 0c-1.8 0-3.3 1-4 2.5C11.3 6 9.8 5 8 5m0 0V2',
     }),
   )
 
@@ -27761,6 +27896,7 @@ export {
   SvgBadgeVo as BadgeVo,
   SvgBadgeVr as BadgeVr,
   SvgBadgeWc as BadgeWc,
+  SvgBag as Bag,
   SvgBaguette as Baguette,
   SvgBalloon as Balloon,
   SvgBan as Ban,
@@ -27944,6 +28080,7 @@ export {
   SvgBroadcastTower as BroadcastTower,
   SvgBrowser as Browser,
   SvgBrush as Brush,
+  SvgBrushMakeup as BrushMakeup,
   SvgBucket as Bucket,
   SvgBucketDroplet as BucketDroplet,
   SvgBuilding as Building,
@@ -28035,6 +28172,7 @@ export {
   SvgCircleX as CircleX,
   SvgCircles as Circles,
   SvgCircus as Circus,
+  SvgClapperboard as Clapperboard,
   SvgClick as Click,
   SvgClipboard as Clipboard,
   SvgClipboardCheck as ClipboardCheck,
@@ -28078,6 +28216,7 @@ export {
   SvgCooker as Cooker,
   SvgCookie as Cookie,
   SvgCopy as Copy,
+  SvgCosmetic as Cosmetic,
   SvgCottage as Cottage,
   SvgCpu as Cpu,
   SvgCreditCard as CreditCard,
@@ -28155,6 +28294,7 @@ export {
   SvgDotsHorizontal as DotsHorizontal,
   SvgDotsVertical as DotsVertical,
   SvgDownload as Download,
+  SvgDress as Dress,
   SvgDroplet as Droplet,
   SvgDropletFilled as DropletFilled,
   SvgDrum as Drum,
@@ -28368,6 +28508,7 @@ export {
   SvgBadgeVo as IconBadgeVo,
   SvgBadgeVr as IconBadgeVr,
   SvgBadgeWc as IconBadgeWc,
+  SvgBag as IconBag,
   SvgBaguette as IconBaguette,
   SvgBalloon as IconBalloon,
   SvgBan as IconBan,
@@ -28551,6 +28692,7 @@ export {
   SvgBroadcastTower as IconBroadcastTower,
   SvgBrowser as IconBrowser,
   SvgBrush as IconBrush,
+  SvgBrushMakeup as IconBrushMakeup,
   SvgBucket as IconBucket,
   SvgBucketDroplet as IconBucketDroplet,
   SvgBuilding as IconBuilding,
@@ -28642,6 +28784,7 @@ export {
   SvgCircleX as IconCircleX,
   SvgCircles as IconCircles,
   SvgCircus as IconCircus,
+  SvgClapperboard as IconClapperboard,
   SvgClick as IconClick,
   SvgClipboard as IconClipboard,
   SvgClipboardCheck as IconClipboardCheck,
@@ -28685,6 +28828,7 @@ export {
   SvgCooker as IconCooker,
   SvgCookie as IconCookie,
   SvgCopy as IconCopy,
+  SvgCosmetic as IconCosmetic,
   SvgCottage as IconCottage,
   SvgCpu as IconCpu,
   SvgCreditCard as IconCreditCard,
@@ -28762,6 +28906,7 @@ export {
   SvgDotsHorizontal as IconDotsHorizontal,
   SvgDotsVertical as IconDotsVertical,
   SvgDownload as IconDownload,
+  SvgDress as IconDress,
   SvgDroplet as IconDroplet,
   SvgDropletFilled as IconDropletFilled,
   SvgDrum as IconDrum,
