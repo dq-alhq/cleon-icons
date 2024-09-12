@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
+const svgIconsDir = path.join(__dirname, '../cleon-svg')
 const iconsDir = path.join(__dirname, '../src')
 const outputDir = path.join(__dirname, '../dist')
 const outputFile = path.join(outputDir, 'index.d.ts')
@@ -13,16 +14,32 @@ fs.readdir(iconsDir, (err, files) => {
 
   const exports = files
     .filter((file) => file.endsWith('.js'))
+    .filter((file) => file !== 'index.js')
     .map((file) => {
       const iconName = path.basename(file, '.js')
-      return `export declare const ${iconName}: React.FC<React.SVGProps<SVGSVGElement>>;`
-    })
+      const svgName =
+        iconName
+          .replace(/([a-z])([A-Z])/g, '$1-$2') // Insert hyphen between lowercase and uppercase letters
+          .replace(/([A-Z])([A-Z])/g, '$1-$2') // insert hyphen between uppercase letters
+          .replace(/([a-zA-Z])(\d)/g, '$1-$2') // Insert hyphen between letters and numbers
+          .toLowerCase() + '.svg'
 
-  const exportWithoutPrefix = files
-    .filter((file) => file.endsWith('.js'))
-    .map((file) => {
-      const iconName = path.basename(file, '.js').replace('Icon', '')
-      return `export declare const ${iconName}: React.FC<React.SVGProps<SVGSVGElement>>;`
+      const fileContent = fs
+        .readFileSync(path.join(svgIconsDir, svgName), 'utf8')
+        .replace(
+          /<svg/,
+          `<svg style="background-color: #fff; border-radius: 2px;"`,
+        )
+
+      return `
+            /**
+             * @preview ![img](data:image/svg+xml;base64,${Buffer.from(fileContent).toString('base64')})
+             */
+            export declare const ${iconName}: React.FC<React.SVGProps<SVGSVGElement>>;
+            /**
+             * @preview ![img](data:image/svg+xml;base64,${Buffer.from(fileContent).toString('base64')})
+            */
+            export declare const Icon${iconName}: React.FC<React.SVGProps<SVGSVGElement>>;`
     })
 
   if (!fs.existsSync(outputDir)) {
@@ -32,7 +49,7 @@ fs.readdir(iconsDir, (err, files) => {
   const content = [
     "import React from 'react';",
     ...exports,
-    ...exportWithoutPrefix,
+    'export declare const index: React.FC<React.SVGProps<SVGSVGElement>>;',
   ].join('\n')
 
   fs.writeFileSync(outputFile, content, 'utf8')
