@@ -7,7 +7,10 @@ const SvgBrandVscode = (props) => (
     fill="none"
     viewBox="0 0 24 24"
     {...props}
-   className={`cleon-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+    className={`cleon-icons ${props.className ? props.className : 'size-4'}`}
+    data-slot="icon"
+    aria-hidden="true"
+  >
     <path
       fill="currentColor"
       d="M2.19 8.903s-.486-.352.098-.82l1.362-1.22a.58.58 0 0 1 .8-.051l12.567 9.519v4.566s0 .716-.927.636z"

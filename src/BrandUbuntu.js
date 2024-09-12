@@ -7,7 +7,10 @@ const SvgBrandUbuntu = (props) => (
     fill="none"
     viewBox="0 0 24 24"
     {...props}
-   className={`cleon-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+    className={`cleon-icons ${props.className ? props.className : 'size-4'}`}
+    data-slot="icon"
+    aria-hidden="true"
+  >
     <path
       fill="currentColor"
       d="M3.974 13.409c1.09 0 1.974-.827 1.974-1.847s-.883-1.847-1.974-1.847S2 10.54 2 11.562s.883 1.847 1.974 1.847m13.812 7.71c1.09 0 1.974-.825 1.974-1.847 0-1.02-.883-1.847-1.974-1.847s-1.975.828-1.975 1.847.885 1.847 1.975 1.847M13.182 6.952c2.398 0 4.388 1.722 4.717 3.955H21.2a7.6 7.6 0 0 0-2.16-4.68 2.84 2.84 0 0 1-2.637-.065 2.66 2.66 0 0 1-1.377-2.18 8.37 8.37 0 0 0-5.27.533l1.652 2.768a4.9 4.9 0 0 1 1.774-.331"

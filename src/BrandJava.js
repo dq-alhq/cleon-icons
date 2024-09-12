@@ -7,7 +7,10 @@ const SvgBrandJava = (props) => (
     fill="none"
     viewBox="0 0 24 24"
     {...props}
-   className={`cleon-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+    className={`cleon-icons ${props.className ? props.className : 'size-4'}`}
+    data-slot="icon"
+    aria-hidden="true"
+  >
     <path
       fill="currentColor"
       d="M8.964 17.469c-3.538.857 2.14 2.633 6.64.997a8.6 8.6 0 0 1-1.259-.538c-1.562.31-3.176.37-4.763.18-1.5-.15-.618-.64-.618-.64m6.102-1.676a21.4 21.4 0 0 1-6.137.26c-1.5-.14-.515-.768-.515-.768-3.893 1.117 2.164 2.393 7.603.997a2.7 2.7 0 0 1-.95-.489M17.15 6.09s-7.866 1.706-4.11 5.476c.146.152.255.33.32.52.066.192.086.392.059.59s-.1.39-.214.562a1.6 1.6 0 0 1-.451.442s2.816-1.267 1.522-2.853c-1.293-1.585-2.13-2.214 2.874-4.737"

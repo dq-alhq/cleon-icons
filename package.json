@@ -37,7 +37,7 @@
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && node scripts/add-custom-attr.js && node scripts/generate-declarations.js && rollup -c",
     "svgr": "svgr --icon --replace-attr-values '#000=currentColor' --replace-attr-values '1em={24}' --index-template index-template.js -d src -- ./cleon-svg",
-    "pr": "npm run build && git add . && git commit -a",
+    "pr": "npm run build && npm run format && git add . && git commit -a",
     "release": "export GITHUB_TOKEN=$(cat .github_token) && release-it"
   },
   "files": [

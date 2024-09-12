@@ -7,7 +7,10 @@ const SvgBrandGoogle = (props) => (
     fill="none"
     viewBox="0 0 24 24"
     {...props}
-   className={`cleon-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+    className={`cleon-icons ${props.className ? props.className : 'size-4'}`}
+    data-slot="icon"
+    aria-hidden="true"
+  >
     <path
       fill="currentColor"
       d="M21.816 11.818q-.002-1.02-.175-1.963H12.6v3.718h5.167a4.42 4.42 0 0 1-1.93 2.888v2.418h3.116c1.816-1.676 2.863-4.138 2.863-7.061"
