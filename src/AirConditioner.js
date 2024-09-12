@@ -1,5 +1,5 @@
 import * as React from 'react'
-const SvgAirConditioningDisabled = (props) => (
+const SvgAirConditioner = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -17,4 +17,4 @@ const SvgAirConditioningDisabled = (props) => (
     />
   </svg>
 )
-export default SvgAirConditioningDisabled
+export default SvgAirConditioner
