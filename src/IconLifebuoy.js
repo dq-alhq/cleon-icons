@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconLifebuoy = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconLifebuoy = (props) => (
       d="m15 15 3.35 3.35M9 15l-3.35 3.35m0-12.7L9 9m9.35-3.35L15 9m-7 3a4 4 0 1 0 8 0 4 4 0 0 0-8 0m-5 0a9 9 0 1 0 18.001 0A9 9 0 0 0 3 12"
     />
   </svg>
-);
-export default SvgIconLifebuoy;
+)
+export default SvgIconLifebuoy

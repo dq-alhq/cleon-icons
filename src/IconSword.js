@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconSword = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconSword = (props) => (
       d="m6.5 11.5 6 6M20 4v5l-9 7-4 4-3-3 4-4 7-9z"
     />
   </svg>
-);
-export default SvgIconSword;
+)
+export default SvgIconSword

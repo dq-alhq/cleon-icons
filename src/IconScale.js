@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconScale = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconScale = (props) => (
       d="M7 20h10M6 6l6-1 6 1M6 6l3 6a3 3 0 0 1-6 0zm12 0 3 6a3 3 0 0 1-6 0zm-6-3v17"
     />
   </svg>
-);
-export default SvgIconScale;
+)
+export default SvgIconScale

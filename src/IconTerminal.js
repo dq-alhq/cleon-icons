@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconTerminal = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -13,8 +13,8 @@ const SvgIconTerminal = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m5 7 5 5-5 5m7 2h7"
+      d="m8 9 3 3-3 3m5 0h3M3 6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
     />
   </svg>
-);
-export default SvgIconTerminal;
+)
+export default SvgIconTerminal

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconCrown = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconCrown = (props) => (
       d="m12 6 4 6 5-4-2 10H5L3 8l5 4z"
     />
   </svg>
-);
-export default SvgIconCrown;
+)
+export default SvgIconCrown

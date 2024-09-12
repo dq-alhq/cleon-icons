@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconChairDirector = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconChairDirector = (props) => (
       d="m6 21 12-9V3m0 18L6 12V3m-1 9h14M6 8h12M6 5h12"
     />
   </svg>
-);
-export default SvgIconChairDirector;
+)
+export default SvgIconChairDirector

@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const folderPath = path.join(__dirname, '../../cleon-svg')
+const folderPath = path.join(__dirname, '../cleon-svg')
 const newFileNamePrefix = 'icon-'
 
 fs.readdir(folderPath, (err, files) => {

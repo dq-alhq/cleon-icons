@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconWeight = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -23,5 +23,5 @@ const SvgIconWeight = (props) => (
       d="M6.835 9h10.33a1 1 0 0 1 .984.821l1.637 9A1 1 0 0 1 18.802 20H5.198a1 1 0 0 1-.984-1.179l1.637-9A1 1 0 0 1 6.835 9"
     />
   </svg>
-);
-export default SvgIconWeight;
+)
+export default SvgIconWeight

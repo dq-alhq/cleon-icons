@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconLighter = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -23,5 +23,5 @@ const SvgIconLighter = (props) => (
       d="m16 4 1.465 1.638a2 2 0 1 1-3.015.099z"
     />
   </svg>
-);
-export default SvgIconLighter;
+)
+export default SvgIconLighter

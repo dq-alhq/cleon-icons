@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconPacman = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -24,5 +24,5 @@ const SvgIconPacman = (props) => (
       d="M11.5 8.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
     />
   </svg>
-);
-export default SvgIconPacman;
+)
+export default SvgIconPacman

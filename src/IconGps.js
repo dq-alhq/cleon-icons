@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconGps = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -23,5 +23,5 @@ const SvgIconGps = (props) => (
       d="m12 17-1-4-4-1 9-4z"
     />
   </svg>
-);
-export default SvgIconGps;
+)
+export default SvgIconGps

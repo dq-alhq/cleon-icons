@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconWaveSawTool = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconWaveSawTool = (props) => (
       d="M3 12h5l4 8V4l4 8h5"
     />
   </svg>
-);
-export default SvgIconWaveSawTool;
+)
+export default SvgIconWaveSawTool

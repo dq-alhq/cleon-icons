@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconMoneybag = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -23,5 +23,5 @@ const SvgIconMoneybag = (props) => (
       d="M4 17v-1a8 8 0 0 1 16 0v1a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4"
     />
   </svg>
-);
-export default SvgIconMoneybag;
+)
+export default SvgIconMoneybag

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconCompass = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconCompass = (props) => (
       d="M3 12a9 9 0 0 0 9 9m-9-9a9 9 0 0 1 9-9m-9 9h2m7 9a9 9 0 0 0 9-9m-9 9v-2m9-7a9 9 0 0 0-9-9m9 9h-2m-7-9v2M8 16l2-6 6-2-2 6z"
     />
   </svg>
-);
-export default SvgIconCompass;
+)
+export default SvgIconCompass

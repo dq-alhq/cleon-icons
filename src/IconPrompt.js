@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconPrompt = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconPrompt = (props) => (
       d="m5 7 5 5-5 5m8 0h6"
     />
   </svg>
-);
-export default SvgIconPrompt;
+)
+export default SvgIconPrompt

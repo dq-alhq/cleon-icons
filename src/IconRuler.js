@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconRuler = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconRuler = (props) => (
       d="m16 7-1.5-1.5M13 10l-1.5-1.5M10 13l-1.5-1.5M7 16l-1.5-1.5M17 3l4 4L7 21l-4-4z"
     />
   </svg>
-);
-export default SvgIconRuler;
+)
+export default SvgIconRuler

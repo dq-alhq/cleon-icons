@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconTrafficLights = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -23,5 +23,5 @@ const SvgIconTrafficLights = (props) => (
       d="M11 7a1 1 0 1 0 2 0 1 1 0 0 0-2 0M11 12a1 1 0 1 0 2 0 1 1 0 0 0-2 0M11 17a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
     />
   </svg>
-);
-export default SvgIconTrafficLights;
+)
+export default SvgIconTrafficLights

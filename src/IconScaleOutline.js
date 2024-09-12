@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconScaleOutline = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -23,5 +23,5 @@ const SvgIconScaleOutline = (props) => (
       d="M12 7c1.956 0 3.724.802 5 2.095l-2.956 2.904a3 3 0 0 0-4.076-.001L7.012 9.095a6.98 6.98 0 0 1 5-2.095z"
     />
   </svg>
-);
-export default SvgIconScaleOutline;
+)
+export default SvgIconScaleOutline

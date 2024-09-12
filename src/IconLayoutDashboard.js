@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconLayoutDashboard = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconLayoutDashboard = (props) => (
       d="M4 4h6v8H4zM4 16h6v4H4zM14 12h6v8h-6zM14 4h6v4h-6z"
     />
   </svg>
-);
-export default SvgIconLayoutDashboard;
+)
+export default SvgIconLayoutDashboard

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconTimeline = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconTimeline = (props) => (
       d="m4 16 6-7 5 5 5-6m-6 6a1 1 0 1 0 2 0 1 1 0 0 0-2 0M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0m-6 7a1 1 0 1 0 2 0 1 1 0 0 0-2 0m16-8a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
     />
   </svg>
-);
-export default SvgIconTimeline;
+)
+export default SvgIconTimeline

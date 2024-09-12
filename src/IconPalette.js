@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconPalette = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -23,5 +23,5 @@ const SvgIconPalette = (props) => (
       d="M7.5 10.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M11.5 7.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M15.5 10.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
     />
   </svg>
-);
-export default SvgIconPalette;
+)
+export default SvgIconPalette

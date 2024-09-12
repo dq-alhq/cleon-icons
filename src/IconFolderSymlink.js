@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconFolderSymlink = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconFolderSymlink = (props) => (
       d="M3 21v-4a3 3 0 0 1 3-3h5m0 0-3 3m3-3-3-3m-5 0V6a2 2 0 0 1 2-2h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8"
     />
   </svg>
-);
-export default SvgIconFolderSymlink;
+)
+export default SvgIconFolderSymlink

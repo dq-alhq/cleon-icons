@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconLadder = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconLadder = (props) => (
       d="M8 3v18m8-18v18m-8-7h8m-8-4h8M8 6h8M8 18h8"
     />
   </svg>
-);
-export default SvgIconLadder;
+)
+export default SvgIconLadder

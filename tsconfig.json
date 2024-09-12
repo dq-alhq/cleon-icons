@@ -1,16 +1,11 @@
 {
-    "compilerOptions": {
-        "jsx": "react",
-        "declaration": true,
-        "outDir": "dist",
-        "paths": {
-            "@/*": [
-                "./src/*"
-            ]
-        }
-    },
-    "include": [
-        "src/**/*",
-        "rollup.config.js"
-    ]
+  "compilerOptions": {
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "rollup.config.js"]
 }

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconPerfume = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconPerfume = (props) => (
       d="M10 6v3m4-3v3m-9 2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2zm5 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0M9 3h6v3H9z"
     />
   </svg>
-);
-export default SvgIconPerfume;
+)
+export default SvgIconPerfume

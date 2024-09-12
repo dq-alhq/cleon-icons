@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconHash = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconHash = (props) => (
       d="M5 9h14M5 15h14M11 4 7 20M17 4l-4 16"
     />
   </svg>
-);
-export default SvgIconHash;
+)
+export default SvgIconHash

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 const SvgIconGrave2 = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -16,5 +16,5 @@ const SvgIconGrave2 = (props) => (
       d="M7 16.17V7a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v9.171M12 7v5m-2-3h4M5 21v-2a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v2z"
     />
   </svg>
-);
-export default SvgIconGrave2;
+)
+export default SvgIconGrave2
