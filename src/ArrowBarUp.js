@@ -11,13 +11,7 @@ const SvgArrowBarUp = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 4v10m0-10 4 4m-4-4L8 8M4 20h16"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v10m0-10 4 4m-4-4L8 8M4 20h16" />
   </svg>
 )
 export default SvgArrowBarUp

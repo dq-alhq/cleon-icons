@@ -11,13 +11,7 @@ const SvgLetterUppercase = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m3 16 4-8 4 8m-7-2h6m5-2h4.5a2 2 0 0 1 0 4H15V8h4a2 2 0 0 1 0 4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m3 16 4-8 4 8m-7-2h6m5-2h4.5a2 2 0 0 1 0 4H15V8h4a2 2 0 0 1 0 4" />
   </svg>
 )
 export default SvgLetterUppercase

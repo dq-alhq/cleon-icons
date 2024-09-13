@@ -11,13 +11,7 @@ const SvgPyramid = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m12 21-9-4 9-14m0 18 9-4-9-14m0 18V3"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m12 21-9-4 9-14m0 18 9-4-9-14m0 18V3" />
   </svg>
 )
 export default SvgPyramid

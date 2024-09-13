@@ -11,13 +11,7 @@ const SvgArrowBarRight = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M20 12H10m10 0-4 4m4-4-4-4M4 4v16"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 12H10m10 0-4 4m4-4-4-4M4 4v16" />
   </svg>
 )
 export default SvgArrowBarRight

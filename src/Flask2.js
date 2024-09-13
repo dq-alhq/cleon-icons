@@ -11,13 +11,7 @@ const SvgFlask2 = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6.1 15h11.8M9 3h6m-1 0v7.342A6 6 0 0 1 15.318 21H8.683A6 6 0 0 1 10 10.34V3z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6.1 15h11.8M9 3h6m-1 0v7.342A6 6 0 0 1 15.318 21H8.683A6 6 0 0 1 10 10.34V3z" />
   </svg>
 )
 export default SvgFlask2

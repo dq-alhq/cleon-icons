@@ -11,13 +11,7 @@ const SvgEyeglass = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M8 4H6L3 14m0 0v2.5a3.5 3.5 0 1 0 7 0V14zM16 4h2l3 10m0 0h-7v2.5a3.5 3.5 0 1 0 7 0zm-11 2h4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 4H6L3 14m0 0v2.5a3.5 3.5 0 1 0 7 0V14zM16 4h2l3 10m0 0h-7v2.5a3.5 3.5 0 1 0 7 0zm-11 2h4" />
   </svg>
 )
 export default SvgEyeglass

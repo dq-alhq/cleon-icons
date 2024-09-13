@@ -13299,6 +13299,33 @@ const SvgEarth2 = (props) =>
     ),
     /*#__PURE__*/ React.createElement('path', {
       stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      strokeWidth: 2,
+      d: 'M12 21a9 9 0 0 0 9-9m-9 9a9 9 0 0 1-9-9m9 9c1.988 0 3.6-4.03 3.6-9S13.988 3 12 3m0 18c-1.988 0-3.6-4.03-3.6-9s1.612-9 3.6-9m9 9a9 9 0 0 0-9-9m9 9H3m9-9a9 9 0 0 0-9 9m2.636-6.236A8.97 8.97 0 0 0 12 8.4a8.97 8.97 0 0 0 6.364-2.636m0 12.472A8.97 8.97 0 0 0 12 15.6a8.97 8.97 0 0 0-6.364 2.636',
+    }),
+  )
+
+const SvgEarth3 = (props) =>
+  /*#__PURE__*/ React.createElement(
+    'svg',
+    _extends(
+      {
+        xmlns: 'http://www.w3.org/2000/svg',
+        width: 24,
+        height: 24,
+        fill: 'none',
+        viewBox: '0 0 24 24',
+      },
+      props,
+      {
+        className: `cleon-icons ${props.className ? props.className : 'size-4'}`,
+        'data-slot': 'icon',
+        'aria-hidden': 'true',
+      },
+    ),
+    /*#__PURE__*/ React.createElement('path', {
+      stroke: 'currentColor',
       strokeWidth: 2,
       d: 'm6.235 5.089.68.63a2.3 2.3 0 0 1 .54.759c.291.653.29 1.308.29 1.706v.044c0 .123 0 .215.003.291.16.05.364.095.622.15h.004l.048.01c.177.038.392.084.593.14zm0 0A8.96 8.96 0 0 1 12 3c1.063 0 2.082.184 3.028.522M6.235 5.09l8.793-1.567m-1.745 10.62c.644.675 1.172 1.27 1.575 1.778.388.49.708.96.879 1.375v.002c.124.3.46 1.228.303 2.252l-.082.536a9 9 0 0 0 3.08-2.476l-1.762-.82c.047-.233.079-.511.079-.837v-.105c0-.24 0-.407-.009-.546a1 1 0 0 0-.029-.226.6.6 0 0 0-.108-.075 7 7 0 0 0-.564-.283l-.024-.011c-.168-.076-.404-.183-.638-.354a3 3 0 0 1-.689-.738l-.003-.005-.116-.172-.007-.01a4 4 0 0 0-.194-.28 1 1 0 0 0-.044-.049l-.014-.002a1 1 0 0 0-.297.017l-.157-.988c-.439.07-.876.127-1.29.181zm0 0c0-.029.002-.072.008-.137.011-.115.031-.259.062-.463l.038-.256zM9.167 8.865c-.034-.519.018-1.066.163-1.457zm0 0q-.075-.025-.152-.048zm5.861-5.344-.435.294c-.28.188-.629.428-.947.672-.29.223-.653.523-.879.832a1.6 1.6 0 0 0-.16.287c-.026.058-.052.122-.072.172l-.005.014a3 3 0 0 1-.154.336h-.004a8 8 0 0 1-.296-.016l-.04-.003c-.287-.018-.78-.05-1.249.056-.552.125-1.172.469-1.457 1.242zm2.295 11.558Zm3.636-2.22Zm-.008-1.805Zm-5.486-7.364.081.035zm-.031 16.63.09-.037z',
     }),
@@ -13327,7 +13354,7 @@ const SvgEarth = (props) =>
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
       strokeWidth: 2,
-      d: 'M12 21a9 9 0 0 0 9-9m-9 9a9 9 0 0 1-9-9m9 9c1.988 0 3.6-4.03 3.6-9S13.988 3 12 3m0 18c-1.988 0-3.6-4.03-3.6-9s1.612-9 3.6-9m9 9a9 9 0 0 0-9-9m9 9H3m9-9a9 9 0 0 0-9 9m2.636-6.236A8.97 8.97 0 0 0 12 8.4a8.97 8.97 0 0 0 6.364-2.636m0 12.472A8.97 8.97 0 0 0 12 15.6a8.97 8.97 0 0 0-6.364 2.636',
+      d: 'M3.6 9h16.8M3.6 15h16.8M11.5 3a17 17 0 0 0 0 18m1-18a17 17 0 0 1 0 18M3 12a9 9 0 1 0 18.001 0A9 9 0 0 0 3 12',
     }),
   )
 
@@ -23871,33 +23898,6 @@ const SvgSquare = (props) =>
     }),
   )
 
-const SvgSquares = (props) =>
-  /*#__PURE__*/ React.createElement(
-    'svg',
-    _extends(
-      {
-        xmlns: 'http://www.w3.org/2000/svg',
-        width: 24,
-        height: 24,
-        fill: 'none',
-        viewBox: '0 0 24 24',
-      },
-      props,
-      {
-        className: `cleon-icons ${props.className ? props.className : 'size-4'}`,
-        'data-slot': 'icon',
-        'aria-hidden': 'true',
-      },
-    ),
-    /*#__PURE__*/ React.createElement('path', {
-      stroke: 'currentColor',
-      strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      strokeWidth: 2,
-      d: 'M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z',
-    }),
-  )
-
 const SvgSsd = (props) =>
   /*#__PURE__*/ React.createElement(
     'svg',
@@ -27316,33 +27316,6 @@ const SvgWood = (props) =>
     }),
   )
 
-const SvgWorld = (props) =>
-  /*#__PURE__*/ React.createElement(
-    'svg',
-    _extends(
-      {
-        xmlns: 'http://www.w3.org/2000/svg',
-        width: 24,
-        height: 24,
-        fill: 'none',
-        viewBox: '0 0 24 24',
-      },
-      props,
-      {
-        className: `cleon-icons ${props.className ? props.className : 'size-4'}`,
-        'data-slot': 'icon',
-        'aria-hidden': 'true',
-      },
-    ),
-    /*#__PURE__*/ React.createElement('path', {
-      stroke: 'currentColor',
-      strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      strokeWidth: 2,
-      d: 'M3.6 9h16.8M3.6 15h16.8M11.5 3a17 17 0 0 0 0 18m1-18a17 17 0 0 1 0 18M3 12a9 9 0 1 0 18.001 0A9 9 0 0 0 3 12',
-    }),
-  )
-
 const SvgWreckingBall = (props) =>
   /*#__PURE__*/ React.createElement(
     'svg',
@@ -28303,6 +28276,7 @@ export {
   SvgEar as Ear,
   SvgEarth as Earth,
   SvgEarth2 as Earth2,
+  SvgEarth3 as Earth3,
   SvgEdit as Edit,
   SvgEditCircle as EditCircle,
   SvgEgg as Egg,
@@ -28915,6 +28889,7 @@ export {
   SvgEar as IconEar,
   SvgEarth as IconEarth,
   SvgEarth2 as IconEarth2,
+  SvgEarth3 as IconEarth3,
   SvgEdit as IconEdit,
   SvgEditCircle as IconEditCircle,
   SvgEgg as IconEgg,
@@ -29301,7 +29276,6 @@ export {
   SvgSquareRoundedPlus as IconSquareRoundedPlus,
   SvgSquareRoundedX as IconSquareRoundedX,
   SvgSquareX as IconSquareX,
-  SvgSquares as IconSquares,
   SvgSsd as IconSsd,
   SvgStack as IconStack,
   SvgStack2 as IconStack2,
@@ -29427,7 +29401,6 @@ export {
   SvgWindow as IconWindow,
   SvgWoman as IconWoman,
   SvgWood as IconWood,
-  SvgWorld as IconWorld,
   SvgWreckingBall as IconWreckingBall,
   SvgWriting as IconWriting,
   SvgX as IconX,
@@ -29719,7 +29692,6 @@ export {
   SvgSquareRoundedPlus as SquareRoundedPlus,
   SvgSquareRoundedX as SquareRoundedX,
   SvgSquareX as SquareX,
-  SvgSquares as Squares,
   SvgSsd as Ssd,
   SvgStack as Stack,
   SvgStack2 as Stack2,
@@ -29845,7 +29817,6 @@ export {
   SvgWindow as Window,
   SvgWoman as Woman,
   SvgWood as Wood,
-  SvgWorld as World,
   SvgWreckingBall as WreckingBall,
   SvgWriting as Writing,
   SvgX as X,

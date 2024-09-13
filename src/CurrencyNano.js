@@ -11,13 +11,7 @@ const SvgCurrencyNano = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 20 17 4M7 12h10M7 16h10m0 4L7 4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20 17 4M7 12h10M7 16h10m0 4L7 4" />
   </svg>
 )
 export default SvgCurrencyNano

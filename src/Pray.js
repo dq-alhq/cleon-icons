@@ -11,13 +11,7 @@ const SvgPray = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 20h8l-4-4V9l4 3 2-2m-6-5a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20h8l-4-4V9l4 3 2-2m-6-5a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
   </svg>
 )
 export default SvgPray

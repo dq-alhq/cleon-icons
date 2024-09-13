@@ -11,13 +11,7 @@ const SvgBrandUnsplash = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 11h5v4h6v-4h5v9H4zm5-7h6v4H9z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 11h5v4h6v-4h5v9H4zm5-7h6v4H9z" />
   </svg>
 )
 export default SvgBrandUnsplash

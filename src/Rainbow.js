@@ -11,13 +11,7 @@ const SvgRainbow = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M22 17c0-5.523-4.477-10-10-10S2 11.477 2 17m16 0a6 6 0 1 0-12 0m8 0a2 2 0 0 0-4 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M22 17c0-5.523-4.477-10-10-10S2 11.477 2 17m16 0a6 6 0 1 0-12 0m8 0a2 2 0 0 0-4 0" />
   </svg>
 )
 export default SvgRainbow

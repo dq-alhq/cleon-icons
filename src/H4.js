@@ -11,13 +11,7 @@ const SvgH4 = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 12h8m-8 6V6m8 12V6m5 4v4h4m0-4v8"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12h8m-8 6V6m8 12V6m5 4v4h4m0-4v8" />
   </svg>
 )
 export default SvgH4

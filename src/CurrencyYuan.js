@@ -11,13 +11,7 @@ const SvgCurrencyYuan = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 19v-7m0 0L7 5m5 7 5-7m-9 8h8"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19v-7m0 0L7 5m5 7 5-7m-9 8h8" />
   </svg>
 )
 export default SvgCurrencyYuan

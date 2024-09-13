@@ -11,20 +11,8 @@ const SvgDisc = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 12a9 9 0 1 0 18.001 0A9 9 0 0 0 3 12"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M11 12a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12a9 9 0 1 0 18.001 0A9 9 0 0 0 3 12" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 12a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
   </svg>
 )
 export default SvgDisc

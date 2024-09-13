@@ -11,13 +11,7 @@ const SvgTool = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 10h3V7L6.5 3.5a6 6 0 0 1 8 8l6 6a2.121 2.121 0 0 1-3 3l-6-6a6 6 0 0 1-8-8z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 10h3V7L6.5 3.5a6 6 0 0 1 8 8l6 6a2.121 2.121 0 0 1-3 3l-6-6a6 6 0 0 1-8-8z" />
   </svg>
 )
 export default SvgTool

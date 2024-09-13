@@ -11,13 +11,7 @@ const SvgZodiacPisces = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5 3a21 21 0 0 1 0 18M19 3a21 21 0 0 0 0 18M5 12h14"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3a21 21 0 0 1 0 18M19 3a21 21 0 0 0 0 18M5 12h14" />
   </svg>
 )
 export default SvgZodiacPisces

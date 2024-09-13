@@ -11,13 +11,7 @@ const SvgRipple = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 7q4.5-3 9 0t9 0M3 17q4.5-3 9 0t9 0M3 12q4.5-3 9 0t9 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7q4.5-3 9 0t9 0M3 17q4.5-3 9 0t9 0M3 12q4.5-3 9 0t9 0" />
   </svg>
 )
 export default SvgRipple

@@ -11,13 +11,7 @@ const SvgZodiacSagittarius = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 20 20 4m0 0h-7m7 0v7M6.5 12.5l5 5"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 20 20 4m0 0h-7m7 0v7M6.5 12.5l5 5" />
   </svg>
 )
 export default SvgZodiacSagittarius

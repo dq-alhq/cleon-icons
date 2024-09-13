@@ -11,13 +11,7 @@ const SvgChartArcs = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M16.924 11.132a5 5 0 1 0-4.056 5.792M3 12a9 9 0 1 0 9-9m-1 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16.924 11.132a5 5 0 1 0-4.056 5.792M3 12a9 9 0 1 0 9-9m-1 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
   </svg>
 )
 export default SvgChartArcs

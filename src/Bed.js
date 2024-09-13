@@ -11,13 +11,7 @@ const SvgBed = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 7v11m0-4h18m0 4v-8a2 2 0 0 0-2-2h-8v6m-5-4a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v11m0-4h18m0 4v-8a2 2 0 0 0-2-2h-8v6m-5-4a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
   </svg>
 )
 export default SvgBed

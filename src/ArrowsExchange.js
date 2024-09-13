@@ -11,13 +11,7 @@ const SvgArrowsExchange = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 10h14l-4-4m0 8H3l4 4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 10h14l-4-4m0 8H3l4 4" />
   </svg>
 )
 export default SvgArrowsExchange

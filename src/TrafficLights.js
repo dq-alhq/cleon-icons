@@ -11,13 +11,7 @@ const SvgTrafficLights = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 7a5 5 0 1 1 10 0v10a5 5 0 1 1-10 0z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7a5 5 0 1 1 10 0v10a5 5 0 1 1-10 0z" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

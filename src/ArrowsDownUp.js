@@ -11,13 +11,7 @@ const SvgArrowsDownUp = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M17 3v18m0-18 3 3m-3-3-3 3m-4 12-3 3m0 0-3-3m3 3V3"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 3v18m0-18 3 3m-3-3-3 3m-4 12-3 3m0 0-3-3m3 3V3" />
   </svg>
 )
 export default SvgArrowsDownUp

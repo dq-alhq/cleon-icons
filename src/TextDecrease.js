@@ -11,13 +11,7 @@ const SvgTextDecrease = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3.5 13h6M2 16l4.5-9 4.5 9m7-9v9m0 0-4-4m4 4 4-4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.5 13h6M2 16l4.5-9 4.5 9m7-9v9m0 0-4-4m4 4 4-4" />
   </svg>
 )
 export default SvgTextDecrease

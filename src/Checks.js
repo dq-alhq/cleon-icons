@@ -11,13 +11,7 @@ const SvgChecks = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m7 12 5 5L22 7M2 12l5 5m5-5 5-5"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7 12 5 5L22 7M2 12l5 5m5-5 5-5" />
   </svg>
 )
 export default SvgChecks

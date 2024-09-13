@@ -11,13 +11,7 @@ const SvgPlayerSkipBack = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 5v14M20 5v14L8 12z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5v14M20 5v14L8 12z" />
   </svg>
 )
 export default SvgPlayerSkipBack

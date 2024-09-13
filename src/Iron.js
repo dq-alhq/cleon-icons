@@ -11,13 +11,7 @@ const SvgIron = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9 6h7.459a3 3 0 0 1 2.959 2.507l1.387 8.329A1 1 0 0 1 19.82 18H3a7 7 0 0 1 7-7h9.8M12 15h.01"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 6h7.459a3 3 0 0 1 2.959 2.507l1.387 8.329A1 1 0 0 1 19.82 18H3a7 7 0 0 1 7-7h9.8M12 15h.01" />
   </svg>
 )
 export default SvgIron

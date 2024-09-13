@@ -11,13 +11,7 @@ const SvgCrown = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m12 6 4 6 5-4-2 10H5L3 8l5 4z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m12 6 4 6 5-4-2 10H5L3 8l5 4z" />
   </svg>
 )
 export default SvgCrown

@@ -11,13 +11,7 @@ const SvgCurrencyDong = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6 19h12m-2-3V4m1 1h-4m-5 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 19h12m-2-3V4m1 1h-4m-5 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0" />
   </svg>
 )
 export default SvgCurrencyDong

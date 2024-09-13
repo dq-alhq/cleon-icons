@@ -11,13 +11,7 @@ const SvgCurrencyMonero = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 18h3V7l6 7 6-7v11h3"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 18h3V7l6 7 6-7v11h3" />
   </svg>
 )
 export default SvgCurrencyMonero

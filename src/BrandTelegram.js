@@ -11,13 +11,7 @@ const SvgBrandTelegram = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m15 10-4 4 6 6 4-16-18 7 4 2 2 6 3-4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m15 10-4 4 6 6 4-16-18 7 4 2 2 6 3-4" />
   </svg>
 )
 export default SvgBrandTelegram

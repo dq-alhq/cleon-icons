@@ -11,13 +11,7 @@ const SvgDashboard = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M13.45 11.55 15.5 9.5M10 13a2 2 0 1 0 4 0 2 2 0 0 0-4 0m-3.6 7a9 9 0 1 1 11.2 0z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.45 11.55 15.5 9.5M10 13a2 2 0 1 0 4 0 2 2 0 0 0-4 0m-3.6 7a9 9 0 1 1 11.2 0z" />
   </svg>
 )
 export default SvgDashboard

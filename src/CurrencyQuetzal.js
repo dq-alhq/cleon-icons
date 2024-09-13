@@ -11,13 +11,7 @@ const SvgCurrencyQuetzal = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m13 13 5 5M6 12a6 6 0 1 0 12 0 6 6 0 0 0-12 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m13 13 5 5M6 12a6 6 0 1 0 12 0 6 6 0 0 0-12 0" />
   </svg>
 )
 export default SvgCurrencyQuetzal

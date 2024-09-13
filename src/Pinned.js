@@ -11,13 +11,7 @@ const SvgPinned = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9 4v6l-2 4v2h10v-2l-2-4V4m-3 12v5M8 4h8"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 4v6l-2 4v2h10v-2l-2-4V4m-3 12v5M8 4h8" />
   </svg>
 )
 export default SvgPinned

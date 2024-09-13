@@ -11,13 +11,7 @@ const SvgTrendingUp = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m3 17 6-6 4 4 8-8m0 0h-7m7 0v7"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m3 17 6-6 4 4 8-8m0 0h-7m7 0v7" />
   </svg>
 )
 export default SvgTrendingUp

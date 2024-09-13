@@ -11,13 +11,7 @@ const SvgPencil = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m13.5 6.5 4 4M4 20h4L18.5 9.5a2.829 2.829 0 0 0-4-4L4 16z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m13.5 6.5 4 4M4 20h4L18.5 9.5a2.829 2.829 0 0 0-4-4L4 16z" />
   </svg>
 )
 export default SvgPencil

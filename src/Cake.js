@@ -11,13 +11,7 @@ const SvgCake = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8m-2 0h20M7 8v3m5-3v3m5-3v3M7 4h.01M12 4h.01M17 4h.01"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8m-2 0h20M7 8v3m5-3v3m5-3v3M7 4h.01M12 4h.01M17 4h.01" />
   </svg>
 )
 export default SvgCake

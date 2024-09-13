@@ -11,13 +11,7 @@ const SvgArrowsDiff = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M11 16h10m-10 0 4 4m-4-4 4-4m-2-4H3m10 0-4 4m4-4L9 4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16h10m-10 0 4 4m-4-4 4-4m-2-4H3m10 0-4 4m4-4L9 4" />
   </svg>
 )
 export default SvgArrowsDiff

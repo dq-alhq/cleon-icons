@@ -11,13 +11,7 @@ const SvgCurrencyRufiyaa = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M20 16h.01M4 16c9.5-4 11.5-8 14-9m-6 1 5 3"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 16h.01M4 16c9.5-4 11.5-8 14-9m-6 1 5 3" />
   </svg>
 )
 export default SvgCurrencyRufiyaa

@@ -11,13 +11,7 @@ const SvgH6 = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 12h8m-8 6V6m8 12V6m5 10a2 2 0 1 0 4 0 2 2 0 0 0-4 0m0 0c0-2.5 1-4 3-6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12h8m-8 6V6m8 12V6m5 10a2 2 0 1 0 4 0 2 2 0 0 0-4 0m0 0c0-2.5 1-4 3-6" />
   </svg>
 )
 export default SvgH6

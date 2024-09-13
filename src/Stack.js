@@ -11,13 +11,7 @@ const SvgStack = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m4 14 8 4 8-4m-8-8-8 4 8 4 8-4z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m4 14 8 4 8-4m-8-8-8 4 8 4 8-4z" />
   </svg>
 )
 export default SvgStack

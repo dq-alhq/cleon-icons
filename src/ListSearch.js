@@ -11,13 +11,7 @@ const SvgListSearch = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M18.5 18.5 21 21M4 6h16M4 12h4m-4 6h4m3-3a4 4 0 1 0 8 0 4 4 0 0 0-8 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.5 18.5 21 21M4 6h16M4 12h4m-4 6h4m3-3a4 4 0 1 0 8 0 4 4 0 0 0-8 0" />
   </svg>
 )
 export default SvgListSearch

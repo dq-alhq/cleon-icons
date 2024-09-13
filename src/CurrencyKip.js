@@ -11,13 +11,7 @@ const SvgCurrencyKip = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6 12h12M9 5v14m7 0a7 7 0 0 0-7-7 7 7 0 0 0 7-7"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 12h12M9 5v14m7 0a7 7 0 0 0-7-7 7 7 0 0 0 7-7" />
   </svg>
 )
 export default SvgCurrencyKip

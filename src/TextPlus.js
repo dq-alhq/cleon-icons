@@ -11,13 +11,7 @@ const SvgTextPlus = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M19 10H5m0-4h14m-5 8H5m0 4h6m7-3v6m-3-3h6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 10H5m0-4h14m-5 8H5m0 4h6m7-3v6m-3-3h6" />
   </svg>
 )
 export default SvgTextPlus

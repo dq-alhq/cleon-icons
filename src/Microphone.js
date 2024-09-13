@@ -11,13 +11,7 @@ const SvgMicrophone = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5 10a7 7 0 0 0 7 7m0 0a7 7 0 0 0 7-7m-7 7v4m-4 0h8M9 5a3 3 0 1 1 6 0v5a3 3 0 0 1-6 0z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10a7 7 0 0 0 7 7m0 0a7 7 0 0 0 7-7m-7 7v4m-4 0h8M9 5a3 3 0 1 1 6 0v5a3 3 0 0 1-6 0z" />
   </svg>
 )
 export default SvgMicrophone

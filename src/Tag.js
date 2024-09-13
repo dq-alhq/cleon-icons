@@ -12,13 +12,7 @@ const SvgTag = (props) => (
     aria-hidden="true"
   >
     <path fill="currentColor" d="M8.5 9.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M8.5 9.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.5 9.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

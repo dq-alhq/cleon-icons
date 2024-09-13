@@ -11,13 +11,7 @@ const SvgHash = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5 9h14M5 15h14M11 4 7 20M17 4l-4 16"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 9h14M5 15h14M11 4 7 20M17 4l-4 16" />
   </svg>
 )
 export default SvgHash

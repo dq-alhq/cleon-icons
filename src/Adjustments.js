@@ -11,13 +11,7 @@ const SvgAdjustments = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6 4v4m0 4v8m6-16v10m0 4v2m6-16v1m0 4v11M4 8h4v4H4zm6 6h4v4h-4zm6-9h4v4h-4z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 4v4m0 4v8m6-16v10m0 4v2m6-16v1m0 4v11M4 8h4v4H4zm6 6h4v4h-4zm6-9h4v4h-4z" />
   </svg>
 )
 export default SvgAdjustments

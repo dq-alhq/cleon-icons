@@ -11,13 +11,7 @@ const SvgBookOpen = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 19a9 9 0 0 0-9 0V6a9 9 0 0 1 9 0m0 13a9 9 0 0 1 9 0V6a9 9 0 0 0-9 0m0 13V6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19a9 9 0 0 0-9 0V6a9 9 0 0 1 9 0m0 13a9 9 0 0 1 9 0V6a9 9 0 0 0-9 0m0 13V6" />
   </svg>
 )
 export default SvgBookOpen

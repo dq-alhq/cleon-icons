@@ -11,13 +11,7 @@ const SvgUnderline = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 5v5a5 5 0 1 0 10 0V5M5 19h14"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 5v5a5 5 0 1 0 10 0V5M5 19h14" />
   </svg>
 )
 export default SvgUnderline

@@ -11,13 +11,7 @@ const SvgTextWrapDisabled = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 6h10M4 18h10M4 12h17m0 0-3-3m3 3-3 3"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h10M4 18h10M4 12h17m0 0-3-3m3 3-3 3" />
   </svg>
 )
 export default SvgTextWrapDisabled

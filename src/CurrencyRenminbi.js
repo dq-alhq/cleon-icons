@@ -11,13 +11,7 @@ const SvgCurrencyRenminbi = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M15 9v8a2 2 0 0 0 4 0m0-8H5m14-4H5m4 4v4c0 2.5-.667 4-2 6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 9v8a2 2 0 0 0 4 0m0-8H5m14-4H5m4 4v4c0 2.5-.667 4-2 6" />
   </svg>
 )
 export default SvgCurrencyRenminbi

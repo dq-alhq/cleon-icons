@@ -11,13 +11,7 @@ const SvgCurrencySom = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M10 18V6H5v10a2 2 0 0 1-2 2m15-6a3 3 0 0 1 0 6h-4V6h4a3 3 0 0 1 0 6m0 0h-4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 18V6H5v10a2 2 0 0 1-2 2m15-6a3 3 0 0 1 0 6h-4V6h4a3 3 0 0 1 0 6m0 0h-4" />
   </svg>
 )
 export default SvgCurrencySom

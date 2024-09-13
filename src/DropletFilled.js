@@ -11,10 +11,7 @@ const SvgDropletFilled = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      fill="currentColor"
-      d="M6.801 11.003A6 6 0 1 0 17.197 11L12 3zM12 3v17ZM12 12l3.544-3.544ZM12 17.3l5.558-5.558Z"
-    />
+    <path fill="currentColor" d="M6.801 11.003A6 6 0 1 0 17.197 11L12 3zM12 3v17ZM12 12l3.544-3.544ZM12 17.3l5.558-5.558Z" />
   </svg>
 )
 export default SvgDropletFilled

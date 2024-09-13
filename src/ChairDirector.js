@@ -11,13 +11,7 @@ const SvgChairDirector = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m6 21 12-9V3m0 18L6 12V3m-1 9h14M6 8h12M6 5h12"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m6 21 12-9V3m0 18L6 12V3m-1 9h14M6 8h12M6 5h12" />
   </svg>
 )
 export default SvgChairDirector

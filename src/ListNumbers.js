@@ -11,13 +11,7 @@ const SvgListNumbers = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M11 6h9m-9 6h9m-8 6h8M4 16a2 2 0 0 1 4 0c0 .591-.5 1-1 1.5L4 20h4M6 10V4L4 6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 6h9m-9 6h9m-8 6h8M4 16a2 2 0 0 1 4 0c0 .591-.5 1-1 1.5L4 20h4M6 10V4L4 6" />
   </svg>
 )
 export default SvgListNumbers

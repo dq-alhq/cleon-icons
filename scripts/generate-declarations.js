@@ -24,12 +24,7 @@ fs.readdir(iconsDir, (err, files) => {
           .replace(/([a-zA-Z])(\d)/g, '$1-$2') // Insert hyphen between letters and numbers
           .toLowerCase() + '.svg'
 
-      const fileContent = fs
-        .readFileSync(path.join(svgIconsDir, svgName), 'utf8')
-        .replace(
-          /<svg/,
-          `<svg style="background-color: #fff; border-radius: 2px;"`,
-        )
+      const fileContent = fs.readFileSync(path.join(svgIconsDir, svgName), 'utf8').replace(/<svg/, `<svg style="background-color: #fff; border-radius: 2px;"`)
 
       return `
             /**
@@ -46,11 +41,7 @@ fs.readdir(iconsDir, (err, files) => {
     fs.mkdirSync(outputDir, { recursive: true })
   }
 
-  const content = [
-    "import React from 'react';",
-    ...exports,
-    'export declare const index: React.FC<React.SVGProps<SVGSVGElement>>;',
-  ].join('\n')
+  const content = ["import React from 'react';", ...exports, 'export declare const index: React.FC<React.SVGProps<SVGSVGElement>>;'].join('\n')
 
   fs.writeFileSync(outputFile, content, 'utf8')
   console.log(`Generated TypeScript declarations in ${outputFile}`)

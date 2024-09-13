@@ -11,13 +11,7 @@ const SvgIndentIncrease = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M20 6H9m11 6h-7m7 6H9M4 8l4 4-4 4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 6H9m11 6h-7m7 6H9M4 8l4 4-4 4" />
   </svg>
 )
 export default SvgIndentIncrease

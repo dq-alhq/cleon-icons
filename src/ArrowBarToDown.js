@@ -11,13 +11,7 @@ const SvgArrowBarToDown = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 20h16m-8-6V4m0 10 4-4m-4 4-4-4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 20h16m-8-6V4m0 10 4-4m-4 4-4-4" />
   </svg>
 )
 export default SvgArrowBarToDown

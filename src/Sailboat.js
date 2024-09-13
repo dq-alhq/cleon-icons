@@ -11,13 +11,7 @@ const SvgSailboat = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m10 2 11 12H3zm0 0v16m12 0H2a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m10 2 11 12H3zm0 0v16m12 0H2a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4" />
   </svg>
 )
 export default SvgSailboat

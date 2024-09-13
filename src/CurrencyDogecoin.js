@@ -11,13 +11,7 @@ const SvgCurrencyDogecoin = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6 12h6M9 6v12m-3 0h6a6 6 0 1 0 0-12H6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 12h6M9 6v12m-3 0h6a6 6 0 1 0 0-12H6" />
   </svg>
 )
 export default SvgCurrencyDogecoin

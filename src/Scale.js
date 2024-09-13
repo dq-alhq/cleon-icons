@@ -11,13 +11,7 @@ const SvgScale = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 20h10M6 6l6-1 6 1M6 6l3 6a3 3 0 0 1-6 0zm12 0 3 6a3 3 0 0 1-6 0zm-6-3v17"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20h10M6 6l6-1 6 1M6 6l3 6a3 3 0 0 1-6 0zm12 0 3 6a3 3 0 0 1-6 0zm-6-3v17" />
   </svg>
 )
 export default SvgScale

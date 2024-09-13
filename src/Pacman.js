@@ -12,20 +12,8 @@ const SvgPacman = (props) => (
     aria-hidden="true"
   >
     <path fill="currentColor" d="M11.5 8.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5.636 5.636a9 9 0 0 1 13.397.747L13.414 12l5.619 5.617A9 9 0 1 1 5.636 5.637"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M11.5 8.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5.636 5.636a9 9 0 0 1 13.397.747L13.414 12l5.619 5.617A9 9 0 1 1 5.636 5.637" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.5 8.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
   </svg>
 )
 export default SvgPacman

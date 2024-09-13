@@ -11,13 +11,7 @@ const SvgCurrencyFrank = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M17 5h-6a2 2 0 0 0-2 2v12m-2-4h4m-2-4h7"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 5h-6a2 2 0 0 0-2 2v12m-2-4h4m-2-4h7" />
   </svg>
 )
 export default SvgCurrencyFrank

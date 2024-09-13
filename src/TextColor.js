@@ -11,13 +11,7 @@ const SvgTextColor = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 20h16M6 16l6-12 6 12M8 12h8"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 20h16M6 16l6-12 6 12M8 12h8" />
   </svg>
 )
 export default SvgTextColor

@@ -11,13 +11,7 @@ const SvgChartLine = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 19h16M4 15l4-6 4 2 4-5 4 4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 19h16M4 15l4-6 4 2 4-5 4 4" />
   </svg>
 )
 export default SvgChartLine

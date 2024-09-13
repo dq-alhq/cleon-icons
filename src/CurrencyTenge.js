@@ -11,13 +11,7 @@ const SvgCurrencyTenge = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6 5h12M6 9h12m-6 0v10"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 5h12M6 9h12m-6 0v10" />
   </svg>
 )
 export default SvgCurrencyTenge

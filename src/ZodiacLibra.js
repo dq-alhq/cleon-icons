@@ -11,13 +11,7 @@ const SvgZodiacLibra = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5 20h14M5 17h5v-.3a7 7 0 1 1 4 0v.3h5"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 20h14M5 17h5v-.3a7 7 0 1 1 4 0v.3h5" />
   </svg>
 )
 export default SvgZodiacLibra

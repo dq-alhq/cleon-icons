@@ -11,13 +11,7 @@ const SvgZodiacAries = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 5a5 5 0 1 0-4 8m4-8a5 5 0 1 1 4 8m-4-8v16"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 5a5 5 0 1 0-4 8m4-8a5 5 0 1 1 4 8m-4-8v16" />
   </svg>
 )
 export default SvgZodiacAries

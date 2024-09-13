@@ -11,13 +11,7 @@ const SvgHeading = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6 12h12M6 20V4m12 16V4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 12h12M6 20V4m12 16V4" />
   </svg>
 )
 export default SvgHeading

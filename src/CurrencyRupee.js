@@ -11,13 +11,7 @@ const SvgCurrencyRupee = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M18 5H7h3a4 4 0 1 1 0 8H7l6 6M7 9h11"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 5H7h3a4 4 0 1 1 0 8H7l6 6M7 9h11" />
   </svg>
 )
 export default SvgCurrencyRupee

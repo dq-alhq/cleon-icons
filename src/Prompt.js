@@ -11,13 +11,7 @@ const SvgPrompt = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m5 7 5 5-5 5m7 2h7"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m5 7 5 5-5 5m7 2h7" />
   </svg>
 )
 export default SvgPrompt

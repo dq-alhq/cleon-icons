@@ -11,13 +11,7 @@ const SvgArrowBadgeDown = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M17 13V7l-5 4-5-4v6l5 4z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 13V7l-5 4-5-4v6l5 4z" />
   </svg>
 )
 export default SvgArrowBadgeDown

@@ -11,13 +11,7 @@ const SvgTextSpellcheck = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m4 15 6-12 6 12M6 11h8m0 8 2 2 4-4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m4 15 6-12 6 12M6 11h8m0 8 2 2 4-4" />
   </svg>
 )
 export default SvgTextSpellcheck

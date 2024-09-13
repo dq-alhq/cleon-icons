@@ -11,13 +11,7 @@ const SvgTrident = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m3 6 2-2v3a7 7 0 1 0 14 0V4l2 2m-9 15V3m0 0-2 2m2-2 2 2"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m3 6 2-2v3a7 7 0 1 0 14 0V4l2 2m-9 15V3m0 0-2 2m2-2 2 2" />
   </svg>
 )
 export default SvgTrident

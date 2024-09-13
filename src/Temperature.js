@@ -11,13 +11,7 @@ const SvgTemperature = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M10 9h4m-4 4.5a4 4 0 1 0 4 0V5a2 2 0 1 0-4 0z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9h4m-4 4.5a4 4 0 1 0 4 0V5a2 2 0 1 0-4 0z" />
   </svg>
 )
 export default SvgTemperature

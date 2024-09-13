@@ -11,13 +11,7 @@ const SvgIceCream = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 21.5V17m-4 0h8V7a4 4 0 1 0-8 0z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 21.5V17m-4 0h8V7a4 4 0 1 0-8 0z" />
   </svg>
 )
 export default SvgIceCream

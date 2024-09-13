@@ -11,13 +11,7 @@ const SvgLetterCapitalize = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m3 16 4-8 4 8m-7-2h6m11-4v6m0-3a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m3 16 4-8 4 8m-7-2h6m11-4v6m0-3a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
   </svg>
 )
 export default SvgLetterCapitalize

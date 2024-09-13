@@ -11,13 +11,7 @@ const SvgChurch = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 21h18m-11 0v-4a2 2 0 0 1 4 0v4M10 5h4m-2-2v5m0 0-8 8m8-8 8 8M6 21v-7m12 0v7"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21h18m-11 0v-4a2 2 0 0 1 4 0v4M10 5h4m-2-2v5m0 0-8 8m8-8 8 8M6 21v-7m12 0v7" />
   </svg>
 )
 export default SvgChurch

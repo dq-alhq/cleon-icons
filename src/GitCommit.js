@@ -11,13 +11,7 @@ const SvgGitCommit = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 15a3 3 0 0 1 0-6m0 6a3 3 0 0 0 0-6m0 6v6m0-12V3"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15a3 3 0 0 1 0-6m0 6a3 3 0 0 0 0-6m0 6v6m0-12V3" />
   </svg>
 )
 export default SvgGitCommit

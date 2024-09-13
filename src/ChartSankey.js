@@ -11,13 +11,7 @@ const SvgChartSankey = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 3v18h18M3 6h18M3 8c10 0 8 9 18 9"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3v18h18M3 6h18M3 8c10 0 8 9 18 9" />
   </svg>
 )
 export default SvgChartSankey

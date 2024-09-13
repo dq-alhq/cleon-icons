@@ -11,13 +11,7 @@ const SvgZzz = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 12h6l-6 8h6m4-16h6l-6 8h6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 12h6l-6 8h6m4-16h6l-6 8h6" />
   </svg>
 )
 export default SvgZzz

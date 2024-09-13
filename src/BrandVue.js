@@ -11,10 +11,7 @@ const SvgBrandVue = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      fill="currentColor"
-      d="M23 3h-9.112L12 6.075 10.112 3H1l11 18zM12 13.802 5.73 3.537h4.06L12 7.157l2.21-3.62h4.06z"
-    />
+    <path fill="currentColor" d="M23 3h-9.112L12 6.075 10.112 3H1l11 18zM12 13.802 5.73 3.537h4.06L12 7.157l2.21-3.62h4.06z" />
   </svg>
 )
 export default SvgBrandVue

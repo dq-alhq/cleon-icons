@@ -11,13 +11,7 @@ const SvgTex = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9 8V7H3v1m3 7V7m15 8-5-8m0 8 5-8m-7 4h-4v8h4m-4-4h3"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 8V7H3v1m3 7V7m15 8-5-8m0 8 5-8m-7 4h-4v8h4m-4-4h3" />
   </svg>
 )
 export default SvgTex

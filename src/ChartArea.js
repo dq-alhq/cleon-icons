@@ -11,13 +11,7 @@ const SvgChartArea = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 19h16M4 15l4-6 4 2 4-5 4 4v5z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 19h16M4 15l4-6 4 2 4-5 4 4v5z" />
   </svg>
 )
 export default SvgChartArea

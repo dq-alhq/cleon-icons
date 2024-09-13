@@ -11,13 +11,7 @@ const SvgCurrencyLeu = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M17 18h-7a3 3 0 0 1-3-3V5"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 18h-7a3 3 0 0 1-3-3V5" />
   </svg>
 )
 export default SvgCurrencyLeu

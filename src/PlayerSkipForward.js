@@ -11,13 +11,7 @@ const SvgPlayerSkipForward = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M20 5v14M4 5v14l12-7z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 5v14M4 5v14l12-7z" />
   </svg>
 )
 export default SvgPlayerSkipForward

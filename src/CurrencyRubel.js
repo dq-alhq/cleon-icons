@@ -11,13 +11,7 @@ const SvgCurrencyRubel = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M8 19V5h6a3 3 0 0 1 0 6H6m8 4H6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 19V5h6a3 3 0 0 1 0 6H6m8 4H6" />
   </svg>
 )
 export default SvgCurrencyRubel

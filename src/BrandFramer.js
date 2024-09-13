@@ -11,10 +11,7 @@ const SvgBrandFramer = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      fill="currentColor"
-      d="M18.334 2v6.667h-6.667L5 2zM5 8.667h6.667l6.667 6.666h-6.667V22L5 15.333z"
-    />
+    <path fill="currentColor" d="M18.334 2v6.667h-6.667L5 2zM5 8.667h6.667l6.667 6.666h-6.667V22L5 15.333z" />
   </svg>
 )
 export default SvgBrandFramer

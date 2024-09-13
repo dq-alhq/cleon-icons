@@ -11,13 +11,7 @@ const SvgMountain = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m7.5 11 2 2.5L12 11l2 3 2.5-2M3 20h18L14.079 5.388a2.3 2.3 0 0 0-4.158 0z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7.5 11 2 2.5L12 11l2 3 2.5-2M3 20h18L14.079 5.388a2.3 2.3 0 0 0-4.158 0z" />
   </svg>
 )
 export default SvgMountain

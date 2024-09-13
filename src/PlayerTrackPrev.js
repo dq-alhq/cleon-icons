@@ -11,13 +11,7 @@ const SvgPlayerTrackPrev = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M21 5v14l-8-7zM10 5v14l-8-7z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 5v14l-8-7zM10 5v14l-8-7z" />
   </svg>
 )
 export default SvgPlayerTrackPrev

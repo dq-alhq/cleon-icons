@@ -11,13 +11,7 @@ const SvgFence = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6 16v4h4v-4m0-4V6L8 4 6 6v6m8 4v4h4v-4m0-4V6l-2-2-2 2v6M4 12v4h16v-4z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 16v4h4v-4m0-4V6L8 4 6 6v6m8 4v4h4v-4m0-4V6l-2-2-2 2v6M4 12v4h16v-4z" />
   </svg>
 )
 export default SvgFence

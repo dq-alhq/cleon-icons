@@ -11,20 +11,8 @@ const SvgChartCircles = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 9.5a5.5 5.5 0 1 0 11 0 5.5 5.5 0 0 0-11 0"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9 14.5a5.5 5.5 0 1 0 11 0 5.5 5.5 0 0 0-11 0"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 9.5a5.5 5.5 0 1 0 11 0 5.5 5.5 0 0 0-11 0" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 14.5a5.5 5.5 0 1 0 11 0 5.5 5.5 0 0 0-11 0" />
   </svg>
 )
 export default SvgChartCircles

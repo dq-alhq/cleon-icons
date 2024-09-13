@@ -11,13 +11,7 @@ const SvgCurrencyTugrik = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 6h10m-5 0v13m-4-2 8-3m0-4-8 3"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 6h10m-5 0v13m-4-2 8-3m0-4-8 3" />
   </svg>
 )
 export default SvgCurrencyTugrik

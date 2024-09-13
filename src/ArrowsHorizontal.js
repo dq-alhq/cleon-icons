@@ -11,13 +11,7 @@ const SvgArrowsHorizontal = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m7 8-4 4m0 0 4 4m-4-4h18m-4-4 4 4m0 0-4 4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7 8-4 4m0 0 4 4m-4-4h18m-4-4 4 4m0 0-4 4" />
   </svg>
 )
 export default SvgArrowsHorizontal

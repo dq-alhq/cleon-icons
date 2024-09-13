@@ -11,13 +11,7 @@ const SvgBible = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5 18a2 2 0 0 0 2 2h12V4H7a2 2 0 0 0-2 2zm0 0a2 2 0 0 1 2-2h12m-7-9v6m-2-4h4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 18a2 2 0 0 0 2 2h12V4H7a2 2 0 0 0-2 2zm0 0a2 2 0 0 1 2-2h12m-7-9v6m-2-4h4" />
   </svg>
 )
 export default SvgBible

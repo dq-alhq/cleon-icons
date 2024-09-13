@@ -11,13 +11,7 @@ const SvgGlass = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M8 21h8m-4-6v6m0-6c3.314 0 6-1.988 6-5l-1-7H7l-1 7c0 3.012 2.686 5 6 5"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 21h8m-4-6v6m0-6c3.314 0 6-1.988 6-5l-1-7H7l-1 7c0 3.012 2.686 5 6 5" />
   </svg>
 )
 export default SvgGlass

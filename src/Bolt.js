@@ -11,13 +11,7 @@ const SvgBolt = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M13 3v7h6l-8 11v-7H5z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 3v7h6l-8 11v-7H5z" />
   </svg>
 )
 export default SvgBolt

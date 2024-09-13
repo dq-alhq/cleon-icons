@@ -11,10 +11,7 @@ const SvgAudioTape = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      fill="currentColor"
-      d="M7.5 10a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M16.5 10a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"
-    />
+    <path fill="currentColor" d="M7.5 10a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M16.5 10a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

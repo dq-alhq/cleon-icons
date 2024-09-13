@@ -11,13 +11,7 @@ const SvgCoffin = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M13 21H7L5 9l2-6h6m0 18 2-12-2-6m0 18h4l2-12-2-6h-4m-3 4v5M8 9h4"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 21H7L5 9l2-6h6m0 18 2-12-2-6m0 18h4l2-12-2-6h-4m-3 4v5M8 9h4" />
   </svg>
 )
 export default SvgCoffin

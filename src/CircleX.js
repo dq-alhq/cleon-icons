@@ -11,13 +11,7 @@ const SvgCircleX = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m10 10 4 4m0-4-4 4m-7-2a9 9 0 1 0 18.001 0A9 9 0 0 0 3 12"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m10 10 4 4m0-4-4 4m-7-2a9 9 0 1 0 18.001 0A9 9 0 0 0 3 12" />
   </svg>
 )
 export default SvgCircleX

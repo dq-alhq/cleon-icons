@@ -11,13 +11,7 @@ const SvgCurrencyLari = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M18 13a6 6 0 1 0-6 6m-6 0h12M10 5v7m4 0V5"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 13a6 6 0 1 0-6 6m-6 0h12M10 5v7m4 0V5" />
   </svg>
 )
 export default SvgCurrencyLari

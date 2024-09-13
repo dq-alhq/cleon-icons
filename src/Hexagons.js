@@ -11,13 +11,7 @@ const SvgHexagons = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m8 11-4 2v5l4 2 4-2m-4-7 4 2m-4-2V6l4-2 4 2v5m-4 2v5m0-5 4-2m-4 7 4 2 4-2v-5l-4-2"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m8 11-4 2v5l4 2 4-2m-4-7 4 2m-4-2V6l4-2 4 2v5m-4 2v5m0-5 4-2m-4 7 4 2 4-2v-5l-4-2" />
   </svg>
 )
 export default SvgHexagons

@@ -11,13 +11,7 @@ const SvgUser = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10m0 0a8 8 0 0 1 8 8H4a8 8 0 0 1 8-8"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10m0 0a8 8 0 0 1 8 8H4a8 8 0 0 1 8-8" />
   </svg>
 )
 export default SvgUser
