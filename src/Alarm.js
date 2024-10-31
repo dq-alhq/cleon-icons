@@ -11,7 +11,7 @@ const SvgAlarm = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v3h2M7 4 4.25 6M17 4l2.75 2M5 13a7 7 0 1 0 14 0 7 7 0 0 0-14 0" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v4l2 2M5 3 2 6m20 0-3-3M6.38 18.7 4 21m13.64-2.33L20 21m0-8a8 8 0 1 1-16 0 8 8 0 0 1 16 0" />
   </svg>
 )
 export default SvgAlarm

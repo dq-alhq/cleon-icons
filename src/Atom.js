@@ -11,12 +11,20 @@ const SvgAtom = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 12v.01m7.071-7.08c-1.562-1.563-6 .336-9.9 4.242-3.905 3.905-5.804 8.337-4.242 9.9 1.562 1.561 6-.338 9.9-4.244 3.905-3.905 5.804-8.336 4.242-9.899m-14.142 0c-1.562 1.561.337 6 4.243 9.9 3.905 3.904 8.337 5.803 9.9 4.241 1.561-1.562-.338-6-4.244-9.9-3.905-3.905-8.336-5.804-9.899-4.242"
+      d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5"
+    />
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5"
     />
   </svg>
 )

@@ -11,7 +11,13 @@ const SvgShoppingCart = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 17a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 0h11M6 17V3H4m13 14a2 2 0 1 1 0 4 2 2 0 0 1 0-4M6 5l14 1-1 7H6" />
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12M9 21a1 1 0 1 1-2 0 1 1 0 0 1 2 0m11 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+    />
   </svg>
 )
 export default SvgShoppingCart

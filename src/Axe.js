@@ -11,13 +11,7 @@ const SvgAxe = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m13 9 7.383 7.418c.823.82.823 2.148 0 2.967a2.11 2.11 0 0 1-2.976 0L10 12m0 0 6-6-3-3-6 6-3.24 1.296a1.25 1.25 0 0 0-.42 2.044l3.32 3.32a1.25 1.25 0 0 0 2.044-.42z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m14 12-8.5 8.5a2.121 2.121 0 0 1-3-3L11 9m4 4L9 7l4-4 6 6h3a8 8 0 0 1-7 7z" />
   </svg>
 )
 export default SvgAxe

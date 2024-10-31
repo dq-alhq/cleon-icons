@@ -11,7 +11,7 @@ const SvgChevronUp = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m6 15 6-6 6 6" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m18 15-6-6-6 6" />
   </svg>
 )
 export default SvgChevronUp

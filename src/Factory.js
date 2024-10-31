@@ -16,7 +16,7 @@ const SvgFactory = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M3 21h18M5 21V9l5 4V9l5 4h4m0 0v8m0-8-1.436-9.574A.5.5 0 0 0 17.069 3h-1.145a.5.5 0 0 0-.494.418L14 12m-5 5h1m4 0h1"
+      d="M17 18h1m-6 0h1m-6 0h1m-6 2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
     />
   </svg>
 )

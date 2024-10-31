@@ -16,9 +16,8 @@ const SvgMicrowave = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M15 6v12m3-6h.01M18 15h.01M18 9h.01M3 7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"
+      d="M18 8v7M6 19v2m12-2v2M4 4h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m3 4h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"
     />
-    <path stroke="currentColor" strokeWidth={2} d="M6 12h6" />
   </svg>
 )
 export default SvgMicrowave

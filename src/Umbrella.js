@@ -11,7 +11,7 @@ const SvgUmbrella = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 12v6a2 2 0 0 0 4 0M4 12a8 8 0 1 1 16 0z" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 12v8a2 2 0 0 0 4 0M12 2v1m10 9a10.06 10.06 0 0 0-20 0z" />
   </svg>
 )
 export default SvgUmbrella

@@ -11,7 +11,7 @@ const SvgBrandVercel = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path fill="currentColor" d="m12 3 10 17.32H2z" />
+    <path fill="currentColor" d="m12 3 10 18H2z" />
   </svg>
 )
 export default SvgBrandVercel

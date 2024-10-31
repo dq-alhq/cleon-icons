@@ -16,7 +16,7 @@ const SvgBike = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 19v-4l-3-3 5-4 2 3h3M2 18a3 3 0 1 0 6 0 3 3 0 0 0-6 0m14 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0m0-13a1 1 0 1 0 2 0 1 1 0 0 0-2 0"
+      d="M12 17.5V14l-3-3 4-3 2 3h2m5 6.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-13 0a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0M16 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
     />
   </svg>
 )

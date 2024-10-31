@@ -11,7 +11,7 @@ const SvgPill = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m8.5 8.5 7 7m-11-3 8-8a4.95 4.95 0 0 1 7 7l-8 8a4.95 4.95 0 1 1-7-7" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m8.5 8.5 7 7m-5 5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7" />
   </svg>
 )
 export default SvgPill

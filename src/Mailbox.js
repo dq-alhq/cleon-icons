@@ -16,7 +16,7 @@ const SvgMailbox = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M10 21v-6.5A3.5 3.5 0 0 0 6.5 11m0 0A3.5 3.5 0 0 0 3 14.5V21h18v-6a4 4 0 0 0-4-4zm5.5 0V3h4l2 2-2 2h-4m-6 8h1"
+      d="M6.5 5C4 5 2 7 2 9.5V17a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9c0-2.2-1.8-4-4-4zm0 0C9 5 11 7 11 9.5V17a2 2 0 0 1-2 2m6-10h3v2M6 10h1"
     />
   </svg>
 )

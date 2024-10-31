@@ -11,7 +11,7 @@ const SvgLamp = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20h6m-3 0v-8m-7 0h14l-4-8H9z" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 12v6M8 2h8l4 10H4zm0 20v-2c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v2z" />
   </svg>
 )
 export default SvgLamp

@@ -11,7 +11,7 @@ const SvgAlignCenter = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M8 12h8M6 18h12" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 6H3m14 6H7m12 6H5" />
   </svg>
 )
 export default SvgAlignCenter

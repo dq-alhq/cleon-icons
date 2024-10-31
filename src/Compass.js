@@ -11,13 +11,8 @@ const SvgCompass = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M3 12a9 9 0 0 0 9 9m-9-9a9 9 0 0 1 9-9m-9 9h2m7 9a9 9 0 0 0 9-9m-9 9v-2m9-7a9 9 0 0 0-9-9m9 9h-2m-7-9v2M8 16l2-6 6-2-2 6z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" />
   </svg>
 )
 export default SvgCompass

@@ -16,7 +16,7 @@ const SvgWashingMachine = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m18 5.01.01-.011M12 16a3 3 0 0 1-3-3m12-9v16a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2m-9 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12"
+      d="M3 6h3m11 0h.01M12 18a5 5 0 0 0 0-10m0 10a5 5 0 0 1 0-10m0 10a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5M5 2h14a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2"
     />
   </svg>
 )

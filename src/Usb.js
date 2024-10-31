@@ -16,7 +16,7 @@ const SvgUsb = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 17a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 0V5.5M7 10v3l5 3m-5-6a1 1 0 1 1 0-2 1 1 0 0 1 0 2m5 4.5 5-2V10m-1 0h2V8h-2zm-6-4.5h4L12 3z"
+      d="M4.7 19.3 19 5M9.26 7.68 5 12l2 5m3-3 5 2 3.5-3.5M11 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0M5 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0M21 3l-3 1 2 2zm-3 9 1-1 1 1-1 1z"
     />
   </svg>
 )

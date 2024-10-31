@@ -16,7 +16,7 @@ const SvgCastle = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M3 11h18m-6 8v-2a3 3 0 0 0-6 0v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5h4v3h3V5h4v3h3V5h4v14a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1"
+      d="M22 11v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9m20 0H2m20 0V9M2 11V9m16 2V4m0 0H6m12 0V2M6 4v7m0-7V2m9 20v-4a3 3 0 0 0-6 0v4m1-18V2m4 2V2"
     />
   </svg>
 )

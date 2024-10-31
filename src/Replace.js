@@ -16,7 +16,7 @@ const SvgReplace = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M21 11V8a2 2 0 0 0-2-2h-6m0 0 3 3m-3-3 3-3M3 13v3a2 2 0 0 0 2 2h6m0 0-3-3m3 3-3 3M3 4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm12 12a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"
+      d="M14 4a2 2 0 0 1 2-2m0 8a2 2 0 0 1-2-2m6-6a2 2 0 0 1 2 2m0 4a2 2 0 0 1-2 2M3 7l3 3m0 0 3-3m-3 3V5a3 3 0 0 1 3-3h1M4 14h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2"
     />
   </svg>
 )

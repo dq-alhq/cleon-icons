@@ -11,7 +11,13 @@ const SvgArchive = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 8a2 2 0 0 0 0-4H5a2 2 0 1 0 0 4m14 0H5m14 0v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8m5 4h4" />
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8m-10 4h4M3 3h18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1"
+    />
   </svg>
 )
 export default SvgArchive

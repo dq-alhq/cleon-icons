@@ -11,7 +11,7 @@ const SvgCrop = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5v10a1 1 0 0 0 1 1h10M5 8h10a1 1 0 0 1 1 1v10" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 2v14a2 2 0 0 0 2 2h14m-4 4V8a2 2 0 0 0-2-2H2" />
   </svg>
 )
 export default SvgCrop

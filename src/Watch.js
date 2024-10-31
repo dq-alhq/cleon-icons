@@ -16,7 +16,7 @@ const SvgWatch = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M9 6a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3M9 6h6M9 6V3h6v3m0 0a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3m0 0H9m6 0v3H9v-3"
+      d="M12 10v2l1 1m3.13-5.34-.81-4.05a2 2 0 0 0-2-1.61h-2.68a2 2 0 0 0-2 1.61l-.78 4.05m.02 8.7.8 4a2 2 0 0 0 2 1.61h2.72a2 2 0 0 0 2-1.61l.81-4.05M18 12a6 6 0 1 1-12 0 6 6 0 0 1 12 0"
     />
   </svg>
 )

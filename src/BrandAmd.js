@@ -11,7 +11,7 @@ const SvgBrandAmd = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path fill="currentColor" d="m22 22-5.561-5.557V7.557H7.55L2 2h20zM7.55 16.443V8.445L2 14.001V22h7.994l5.556-5.557z" />
+    <path fill="currentColor" d="m21 21-5.005-5.001V8h-8L3 3h18zM7.995 15.999V8.8L3 13.8V21h7.195l5-5.001z" />
   </svg>
 )
 export default SvgBrandAmd

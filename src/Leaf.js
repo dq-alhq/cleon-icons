@@ -11,7 +11,13 @@ const SvgLeaf = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 21c.5-4.5 2.5-8 7-10m-3 7c6.218 0 10.5-3.288 11-12V4h-4.014c-9 0-11.986 4-12 9 0 1 0 3 2 5z" />
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12m-2 8A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10"
+    />
   </svg>
 )
 export default SvgLeaf

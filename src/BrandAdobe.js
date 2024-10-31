@@ -11,7 +11,7 @@ const SvgBrandAdobe = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path fill="currentColor" d="M14.667 3H22v17.333zM9.4 3H2v17.334zM12 9.4l4.733 10.933h-3.066l-1.4-3.466H8.8z" />
+    <path fill="currentColor" d="M14.4 3H21v17.999zM9.66 3H3v18zM12 9.646l4.26 11.353H13.5l-1.26-3.6H9.12z" />
   </svg>
 )
 export default SvgBrandAdobe

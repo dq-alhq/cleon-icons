@@ -11,15 +11,15 @@ const SvgTag = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path fill="currentColor" d="M8.5 9.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.5 9.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+    <path fill="currentColor" d="M7.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M4 7v3.859c0 .537.213 1.052.593 1.432l8.116 8.116a2.023 2.023 0 0 0 2.864 0l4.834-4.834a2.023 2.023 0 0 0 0-2.864L12.29 4.593A2.03 2.03 0 0 0 10.859 4H7a3 3 0 0 0-3 3"
+      d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"
     />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
   </svg>
 )
 export default SvgTag

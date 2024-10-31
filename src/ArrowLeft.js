@@ -11,7 +11,7 @@ const SvgArrowLeft = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12l6 6m-6-6 6-6" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m12 19-7-7m0 0 7-7m-7 7h14" />
   </svg>
 )
 export default SvgArrowLeft

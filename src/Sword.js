@@ -11,7 +11,7 @@ const SvgSword = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m6.5 11.5 6 6M20 4v5l-9 7-4 4-3-3 4-4 7-9z" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.5 17.5 3 6V3h3l11.5 11.5M13 19l6-6m-3 3 4 4m-1 1 2-2" />
   </svg>
 )
 export default SvgSword

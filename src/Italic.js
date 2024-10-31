@@ -11,7 +11,7 @@ const SvgItalic = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5h6M7 19h6m1-14-4 14" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 4h-9m4 16H5M15 4 9 20" />
   </svg>
 )
 export default SvgItalic

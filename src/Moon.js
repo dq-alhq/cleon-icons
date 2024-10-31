@@ -11,7 +11,7 @@ const SvgMoon = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3a6.364 6.364 0 1 0 9 9 9 9 0 1 1-9-9" />
   </svg>
 )
 export default SvgMoon

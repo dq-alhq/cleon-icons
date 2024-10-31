@@ -16,7 +16,7 @@ const SvgFileMusic = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M14 3v4a1 1 0 0 0 1 1h4m-5-5H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8m-5-5 5 5m-7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m0 0v-5l2 1"
+      d="M16 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0m0 0V9l-8 1.3V18m0 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-4-5.6V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-7.5"
     />
   </svg>
 )

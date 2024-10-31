@@ -11,7 +11,7 @@ const SvgBrandAngular = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path fill="currentColor" d="M16.864 17.235H8.136l-1.115 2.673L12.5 23l5.479-3.092zM14.993 1l7.253 15.45L23 4.666zm-4.986 0L2 4.666l.754 11.784zm-.375 12.77h5.74L12.5 6.862z" />
+    <path fill="currentColor" d="M15.869 16.76H8.313l-.966 2.43L12.091 22l4.743-2.81zM14.249 2l6.28 14.046.653-10.713zM9.932 2 3 5.332l.653 10.714zm-.324 11.608h4.97L12.09 7.33z" />
   </svg>
 )
 export default SvgBrandAngular

@@ -11,7 +11,7 @@ const SvgAlignLeft = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h10M4 18h14" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 6H3m12 6H3m14 6H3" />
   </svg>
 )
 export default SvgAlignLeft

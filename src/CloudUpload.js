@@ -11,13 +11,7 @@ const SvgCloudUpload = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 18a4.82 4.82 0 0 1-3.327-1.318A4.4 4.4 0 0 1 2.295 13.5c0-1.194.496-2.338 1.378-3.182A4.82 4.82 0 0 1 7 9c.295-1.313 1.157-2.467 2.397-3.207a6 6 0 0 1 2.025-.749 6.2 6.2 0 0 1 2.19.006c.721.131 1.408.39 2.02.76.61.37 1.135.844 1.543 1.397.407.552.69 1.172.831 1.823.142.65.14 1.32-.006 1.97h1a3.5 3.5 0 1 1 0 7h-1m-9-3 3-3m0 0 3 3m-3-3v9"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 13v8m0-8-4 4m4-4 4 4M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
   </svg>
 )
 export default SvgCloudUpload

@@ -11,7 +11,7 @@ const SvgArrowDown = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 5v14m0 0 6-6m-6 6-6-6" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 5v14m0 0 7-7m-7 7-7-7" />
   </svg>
 )
 export default SvgArrowDown

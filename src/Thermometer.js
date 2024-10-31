@@ -11,7 +11,7 @@ const SvgThermometer = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2 12h10M9 4v16M3 9l3 3-3 3m9-9L9 9 6 6m0 12 3-3 1.5 1.5M20 4v10.54a4 4 0 1 1-4 0V4a2 2 0 1 1 4 0" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 1 1 4 0" />
   </svg>
 )
 export default SvgThermometer

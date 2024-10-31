@@ -16,7 +16,7 @@ const SvgAirpods = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M6 4a4 4 0 0 1 4 3.8v10.7a1.5 1.5 0 0 1-3 0V12H6a4 4 0 0 1-4-3.8V8a4 4 0 0 1 4-4M18 4a4 4 0 0 0-4 3.8v10.7a1.5 1.5 0 1 0 3 0V12h1a4 4 0 0 0 4-3.8V8a4 4 0 0 0-4-4"
+      d="M6 5a4 4 0 0 1 4 3.8v10.7a1.5 1.5 0 0 1-3 0V13H6a4 4 0 0 1-4-3.8V9a4 4 0 0 1 4-4M18 3a4 4 0 0 0-4 3.8v10.7a1.5 1.5 0 1 0 3 0V11h1a4 4 0 0 0 4-3.8V7a4 4 0 0 0-4-4"
     />
   </svg>
 )

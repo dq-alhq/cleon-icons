@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const svgIconsDir = path.join(__dirname, '../cleon-svg')
+const svgIconsDir = path.join(__dirname, '../svgs')
 const iconsDir = path.join(__dirname, '../src')
 const outputDir = path.join(__dirname, '../dist')
 const outputFile = path.join(outputDir, 'index.d.ts')

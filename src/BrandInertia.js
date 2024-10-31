@@ -11,8 +11,8 @@ const SvgBrandInertia = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path fill="currentColor" d="M8.101 6.743H2.35L7.907 12.3 2.35 17.857H8.1l5.557-5.557z" />
-    <path fill="currentColor" d="M16.793 6.743H11.04L16.6 12.3l-5.558 5.557h5.752L22.35 12.3z" />
+    <path fill="currentColor" d="M8.176 6H3l5.001 6L3 18h5.175l5.001-6z" />
+    <path fill="currentColor" d="M15.999 6H10.82l5.004 6-5.002 6H16l5-6z" />
   </svg>
 )
 export default SvgBrandInertia

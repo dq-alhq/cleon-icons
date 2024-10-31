@@ -16,7 +16,7 @@ const SvgSofa = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M4 11a2 2 0 0 1 2 2v1h12v-1a2 2 0 0 1 2-2M4 11a2 2 0 0 0-2 2v5a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-5a2 2 0 0 0-2-2M4 11V8a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v3m-8-6v9"
+      d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3m16 0a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2m0-9a2 2 0 0 0-2 2v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-2-2m0 0a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2m0 0h16M4 18v2m16-2v2M12 4v9"
     />
   </svg>
 )

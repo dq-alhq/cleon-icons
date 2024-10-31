@@ -16,7 +16,7 @@ const SvgLuggage = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M9 6V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1m-9 4h12M6 16h12m-9 4v1m6-1v1M6 8a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"
+      d="M6 20a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2M6 20a2 2 0 1 0 4 0m-4 0a2 2 0 0 1 2-2m10 2a2 2 0 1 1-4 0m4 0a2 2 0 0 0-2-2m-8 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v14m-8 0a2 2 0 0 1 2 2m6-2a2 2 0 0 0-2 2m-4 0h4"
     />
   </svg>
 )

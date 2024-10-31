@@ -11,13 +11,7 @@ const SvgLollipop = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M7 10a7 7 0 0 0 7 7m-7-7a7 7 0 0 1 7-7m-7 7a3.5 3.5 0 1 0 7 0m0 7a7 7 0 0 0 7-7m-7 7a3.5 3.5 0 1 0 0-7m7 0a7 7 0 0 0-7-7m7 7a3.5 3.5 0 1 0-7 0m0-7a3.5 3.5 0 1 0 0 7M3 21l6-6"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0m0 0a6 6 0 1 1-12 0 4 4 0 0 1 8 0 2 2 0 0 1-4 0m10 10-4.3-4.3" />
   </svg>
 )
 export default SvgLollipop

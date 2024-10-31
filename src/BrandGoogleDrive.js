@@ -11,7 +11,7 @@ const SvgBrandGoogleDrive = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path fill="currentColor" d="m7.94 5.001 3.482 6.03-5.94 10.293L2 15.295zm2.176 10.294H22l-3.482 6.029H6.635zm4.343-1L8.518 4h6.964l5.94 10.295z" />
+    <path fill="currentColor" d="m7.94 4.04 3.482 6.265L5.482 21 2 14.736zm2.176 10.696H22L18.518 21H6.635zm4.343-1.04L8.518 3h6.964l5.94 10.697z" />
   </svg>
 )
 export default SvgBrandGoogleDrive

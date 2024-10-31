@@ -16,7 +16,7 @@ const SvgBrandCpp = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M18 12h4m-2-2v4m-9-2h4m-2-2v4M9 9a3 3 0 0 0-3-3h-.5A3.5 3.5 0 0 0 2 9.5v5A3.5 3.5 0 0 0 5.5 18H6a3 3 0 0 0 3-3"
+      d="M17.4 12.4H21m-1.8-1.8v3.6m-8.1-1.8h3.6m-1.8-1.8v3.6M9.3 9.7A2.7 2.7 0 0 0 6.6 7h-.45A3.15 3.15 0 0 0 3 10.15v4.5a3.15 3.15 0 0 0 3.15 3.15h.45a2.7 2.7 0 0 0 2.7-2.7"
     />
   </svg>
 )

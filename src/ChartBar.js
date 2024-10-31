@@ -11,13 +11,7 @@ const SvgChartBar = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9 19v-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1m5-1a1 1 0 0 1-1 1H4m5-1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1m-6 0V9a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v10M4 20h14m-3-1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1z"
-    />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3v16a2 2 0 0 0 2 2h16M7 16h8m-8-5h12M7 6h3" />
   </svg>
 )
 export default SvgChartBar

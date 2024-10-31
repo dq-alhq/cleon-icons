@@ -11,7 +11,7 @@ const SvgAntenna = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 4v8m-4-7.5v7M12 5v16M8 5.5v5M4 6v4m16-2H4" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2 12 7 2m0 10 5-10m0 10 5-10m0 10 5-10M4.5 7h15M12 16v6" />
   </svg>
 )
 export default SvgAntenna

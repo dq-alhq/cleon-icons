@@ -11,7 +11,13 @@ const SvgMicroscope = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 21h14M6 18h2m-1 0v3m3.5-8.5L9 14m8-11 3 3m-8 15a6 6 0 0 0 3.715-10.712M9 11l3 3 6-6-3-3z" />
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m1-8V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3m1 6a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2z"
+    />
   </svg>
 )
 export default SvgMicroscope

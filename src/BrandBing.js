@@ -11,7 +11,7 @@ const SvgBrandBing = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path fill="currentColor" d="M5 3v16l3.72 2L18 15.82v-4.09L9.77 8.95l1.61 3.89L13.94 14 8.7 16.92V4.27z" />
+    <path fill="currentColor" d="M5 3v16l4.006 2L19 15.82v-4.09l-8.863-2.78 1.734 3.89L14.628 14l-5.643 2.92V4.27z" />
   </svg>
 )
 export default SvgBrandBing

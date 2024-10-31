@@ -16,7 +16,7 @@ const SvgEraser = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M19 20H8.5l-4.21-4.3a1 1 0 0 1 0-1.41l10-10a1 1 0 0 1 1.41 0l5 5a1 1 0 0 1 0 1.41L11.5 20m6.5-6.7L11.7 7"
+      d="m13 21 8.3-8.3c1-.9 1-2.4 0-3.4l-5.6-5.6c-.9-1-2.4-1-3.4 0l-9.6 9.6c-1 .9-1 2.4 0 3.4L7 21h15M5 11l9 9"
     />
   </svg>
 )

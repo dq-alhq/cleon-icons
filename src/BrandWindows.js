@@ -11,10 +11,7 @@ const SvgBrandWindows = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path
-      fill="currentColor"
-      d="m2 4.719 7.822-1.066.004 7.546-7.82.044zm7.818 7.349.007 7.552-7.82-1.075v-6.528zm.949-8.554L21.139 2v9.103l-10.372.081zm10.375 8.624-.002 9.061-10.372-1.464-.015-7.615z"
-    />
+    <path fill="currentColor" d="m3 5.549 7.355-1 .004 7.075-7.353.042zm7.352 6.89.006 7.08-7.353-1.008v-6.12zm.891-8.02L20.996 3v8.534l-9.752.077zM21 12.505 20.997 21l-9.753-1.373-.013-7.139z" />
   </svg>
 )
 export default SvgBrandWindows

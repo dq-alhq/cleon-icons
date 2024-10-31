@@ -11,7 +11,7 @@ const SvgSlice = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 19 18 4l3 3-6 6 2 2a14 14 0 0 1-14 4" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m8 14-6 6h9v-3m-3-3L18.37 3.63a2.121 2.121 0 1 1 3 3L11 17m-3-3 3 3" />
   </svg>
 )
 export default SvgSlice

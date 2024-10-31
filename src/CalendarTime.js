@@ -16,7 +16,7 @@ const SvgCalendarTime = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M11.795 21H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4H3m12-8v2M7 3v2m11 11.496V18l1 1m-5-1a4 4 0 1 0 8 0 4 4 0 0 0-8 0"
+      d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5M16 2v4M8 2v4m-5 4h5m9.5 7.5L16 16.3V14m6 2a6 6 0 1 1-12 0 6 6 0 0 1 12 0"
     />
   </svg>
 )

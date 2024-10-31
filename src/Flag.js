@@ -11,7 +11,7 @@ const SvgFlag = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 14a5 5 0 0 1 7 0 5 5 0 0 0 7 0V5a5 5 0 0 1-7 0 5 5 0 0 0-7 0zm0 0v7" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zm0 0v7" />
   </svg>
 )
 export default SvgFlag

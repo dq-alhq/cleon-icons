@@ -11,7 +11,7 @@ const SvgBluetooth = (props) => (
     data-slot="icon"
     aria-hidden="true"
   >
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7 8 10 8-5 4V4l5 4-10 8" />
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7 7 10 10-5 5V2l5 5L7 17" />
   </svg>
 )
 export default SvgBluetooth
